@@ -44,12 +44,15 @@ Notes:
   Point it at the workspace (or a subfolder containing your compiler XREF
   output); `${workspaceFolder}` resolves to the workspace using this config.
   Alternatively set it via an `env` entry: `"env": { "OPENEDGE_XREF_ROOT": "..." }`.
+- The server watches this directory by default. When the OpenEdge tooling writes
+  or updates a `.xref` file after a save, the server detects it and incrementally
+  refreshes the index automatically. Add `"--no-watch"` to `args` (or set
+  `OPENEDGE_XREF_WATCH=false`) to disable this behavior.
 - After adding the file, open the Command Palette and run **MCP: List Servers**
   to start/inspect `openedge-xref` (or use the "Start" code lens shown above
   the server entry in `mcp.json`).
-- If `.xref` files change after the server started, use the `refresh_index`
-  tool (or `set_xref_root` to point at a different directory) instead of
-  restarting.
+- Use the `refresh_index` tool to force an incremental rescan, or `set_xref_root`
+  to point at a different directory.
 - For local development against an unpublished checkout, use `uv run
   --directory /path/to/openedge-xref-mcp/openedge-xref-mcp openedge-xref-mcp`
   as the `command`/`args` instead.
