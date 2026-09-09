@@ -1,0 +1,8 @@
+./src/fwebh/pas/data/IEntityWriter.cls ./src/fwebh/pas/data/IEntityWriter.cls 1 COMPILE fwebh/pas/data/IEntityWriter.cls
+./src/fwebh/pas/data/IEntityWriter.cls ./src/fwebh/pas/data/IEntityWriter.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/IEntityWriter.cls ./src/fwebh/pas/data/IEntityWriter.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/IEntityWriter.cls ./src/fwebh/pas/data/IEntityWriter.cls 14 INTERFACE fwebh.pas.data.IEntityWriter,,,,
+./src/fwebh/pas/data/IEntityWriter.cls ./src/fwebh/pas/data/IEntityWriter.cls 14 STRING "fwebh.pas.data.IEntityWriter" 28 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IEntityWriter.cls ./src/fwebh/pas/data/IEntityWriter.cls 16 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IEntityWriter.cls ./src/fwebh/pas/data/IEntityWriter.cls 16 METHOD PUBLIC,,,,,Write,Progress.Lang.Object,INPUT responseData FWEBH.PAS.DATA.IRESPONSEDATA
+./src/fwebh/pas/data/IEntityWriter.cls ./src/fwebh/pas/data/IEntityWriter.cls 16 STRING "WRITE" 5 NONE UNTRANSLATABLE 

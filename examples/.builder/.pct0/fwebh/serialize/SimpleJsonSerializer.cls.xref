@@ -1,0 +1,218 @@
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 1 COMPILE fwebh/serialize/SimpleJsonSerializer.cls
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 1 CPINTERNAL utf-8
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 1 CPSTREAM UTF-8
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 34 CLASS fwebh.serialize.SimpleJsonSerializer,,IMPLEMENTS fwebh.serialize.ISerializable,,,,
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 34 STRING "fwebh.serialize.SimpleJsonSerializer" 36 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 34 STRING "fwebh.serialize.ISerializable" 29 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 36 STRING "serializeThese" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 37 STRING "skipThese" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 40 STRING "character,date,datetime,datetimetz,decimal,integer,int64,logical,longchar,memptr" 80 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 41 STRING "handle" 6 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 42 CONSTRUCTOR PUBLIC,,,,SimpleJsonSerializer,void,
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 42 STRING "SIMPLEJSONSERIALIZER" 20 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 45 STRING "objectToSerialize" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 47 METHOD PUBLIC,,,,,Serialize,Progress.Json.ObjectModel.JsonObject,INPUT objectToSerialize PROGRESS.LANG.OBJECT
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 47 STRING "SERIALIZE" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 50 STRING "objectToSerialize" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 50 STRING "includeClassName" 16 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 52 STRING "cls" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 53 STRING "props" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 54 STRING "prop" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 55 STRING "jsonOut" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 55 STRING "jsonSerialized" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 56 STRING "jc" 2 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 57 STRING "valueObject" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 57 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 58 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 66 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 74 ACCESS PUBLIC-PROPERTY Progress.Reflect.Property:CanRead
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 74 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 74 STRING "next-sibling" 12 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 74 STRING "prev-sibling" 12 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 77 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataType
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 80 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataType
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 82 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Extent
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 83 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 85 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 90 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 90 STRING "OpenEdge.Core.Collections.List" 30 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 91 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 93 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 93 STRING "OpenEdge.Core.Collections.StringStringMap" 41 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 94 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 96 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 96 STRING "Progress." 9 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 96 STRING "OpenEdge." 9 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 100 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 100 STRING "Progress.Json.ObjectModel.Json" 30 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 101 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 103 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 106 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 106 STRING "Progress.Collections.List" 25 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 107 STRING "listObj" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 108 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 109 STRING "Progress.Collections.List<Progress.Lang.Object>" 47 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 110 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 121 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 123 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 128 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 129 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 129 STRING "error serializing '&1': &2" 26 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 134 STRING "fwebh.serialize.ISerializableDataStructure" 42 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 135 CAST FROM Progress.Lang.Object TO fwebh.serialize.ISerializableDataStructure
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 139 METHOD PUBLIC,,,,,Serialize,Progress.Json.ObjectModel.JsonObject,INPUT objectToSerialize PROGRESS.LANG.OBJECT,INPUT includeClassName LOGICAL
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 139 STRING "SERIALIZE" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 142 STRING "objectToSerialize" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 144 METHOD PUBLIC,,,,,SerializeToLongchar,longchar,INPUT objectToSerialize PROGRESS.LANG.OBJECT
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 144 STRING "SERIALIZETOLONGCHAR" 19 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 147 STRING "objectToSerialize" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 147 STRING "formatted" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 149 STRING "json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 150 STRING "resultString" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 157 METHOD PUBLIC,,,,,SerializeToLongchar,longchar,INPUT objectToSerialize PROGRESS.LANG.OBJECT,INPUT formatted LOGICAL
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 157 STRING "SERIALIZETOLONGCHAR" 19 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 160 STRING "objectToSerialize" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 160 STRING "jsonOut" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 162 STRING "dataStructs" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 163 STRING "dataStruct" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 164 STRING "keyset" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 165 STRING "iterator" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 166 STRING "keyname" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 167 STRING "dataHandle" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 168 STRING "keyObject" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 168 STRING "valueObject" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 169 STRING "dataObject" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 170 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 173 ACCESS PUBLIC-PROPERTY OpenEdge.Core.Collections.IMap:KeySet
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 178 ACCESS PUBLIC-PROPERTY OpenEdge.Core.String:Value
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 178 CAST FROM Progress.Lang.Object TO OpenEdge.Core.String
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 178 STRING "?" 1 LEFT TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 180 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 180 STRING "OpenEdge.Core.WidgetHandle" 26 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 182 CAST FROM Progress.Lang.Object TO OpenEdge.Core.WidgetHandle
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 183 ACCESS PUBLIC-PROPERTY OpenEdge.Core.WidgetHandle:Value
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 187 STRING "ADDDATASTRUCTURES" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 190 STRING "propertyName" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 190 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 190 STRING "jsonOut" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 192 STRING "temp-table" 10 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 193 STRING "<data struct &1 not serializable>" 33 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 199 STRING "SERIALIZEDATAOBJECT" 19 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 202 STRING "dataArray" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 204 STRING "iter" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 205 STRING "array" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 209 ACCESS PUBLIC-PROPERTY Progress.Collections.IIterator<Progress.Lang.Object>:Current
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 214 METHOD PUBLIC,,,,,SerializeGenericList,Progress.Json.ObjectModel.JsonArray,INPUT dataArray PROGRESS.COLLECTIONS.LIST<PROGRESS.LANG.OBJECT>
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 214 STRING "SERIALIZEGENERICLIST" 20 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 216 STRING "dataArray" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 218 STRING "iterator" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 219 STRING "arrayItem" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 220 STRING "array" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 221 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 229 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 229 STRING "OpenEdge.Core" 13 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 230 STRING "Value" 5 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 237 METHOD PUBLIC,,,,,SerializeList,Progress.Json.ObjectModel.JsonArray,INPUT dataArray OPENEDGE.CORE.COLLECTIONS.LIST
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 237 STRING "SERIALIZELIST" 13 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 240 STRING "dataMap" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 242 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 243 STRING "iterator" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 244 STRING "keyName" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 244 STRING "keyValue" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 249 ACCESS PUBLIC-PROPERTY OpenEdge.Core.Collections.StringStringMap:KeySet
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 251 ACCESS PUBLIC-PROPERTY OpenEdge.Core.String:Value
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 251 CAST FROM OpenEdge.Core.Collections.IIterator TO OpenEdge.Core.String
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 258 METHOD PUBLIC,,,,,SerializeStringStringMap,Progress.Json.ObjectModel.JsonObject,INPUT dataMap OPENEDGE.CORE.COLLECTIONS.STRINGSTRINGMAP
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 258 STRING "SERIALIZESTRINGSTRINGMAP" 24 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 261 STRING "propertyName" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 261 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 261 STRING "jsonOut" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 263 STRING "queryHandle" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 263 STRING "bufferHandle" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 263 STRING "fieldHandle" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 264 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 265 STRING "array" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 266 STRING "record" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 267 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 273 STRING "for each " 9 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 284 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 300 STRING "SERIALIZETEMPTABLE" 18 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 303 STRING "bufferHandle" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 305 STRING "json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 306 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 307 STRING "fieldHandle" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 316 METHOD PUBLIC,,,,,SerializeBuffer,Progress.Json.ObjectModel.JsonObject,INPUT bufferHandle HANDLE
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 316 STRING "SERIALIZEBUFFER" 15 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 318 STRING "objectToSerialize" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 318 STRING "prop" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 320 STRING "serializedExtent" 16 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 321 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 324 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Extent
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 325 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 330 STRING "SERIALIZEEXTENT" 15 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 46 INVOKE fwebh.serialize.SimpleJsonSerializer:Serialize,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 61 INVOKE Progress.Lang.Object:GetClass
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 62 INVOKE Progress.Lang.Class:GetProperties
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 63 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 65 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 66 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 77 INVOKE Progress.Lang.Enum:ToString
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 80 INVOKE Progress.Lang.Enum:ToString
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 83 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT RUNTYPE
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 85 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 85 INVOKE fwebh.serialize.SimpleJsonSerializer:serializeExtent,INPUT Progress.Lang.Object,INPUT Progress.Reflect.Property
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 91 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 91 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeList,INPUT OpenEdge.Core.Collections.List
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 94 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 94 INVOKE fwebh.serialize.SimpleJsonSerializer:serializeStringStringMap,INPUT OpenEdge.Core.Collections.StringStringMap
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 103 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT RUNTYPE
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 110 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 110 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeGenericList,INPUT Progress.Collections.List<Progress.Lang.Object>
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 123 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 123 INVOKE fwebh.serialize.SimpleJsonSerializer:Serialize,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 129 INVOKE Progress.Lang.Error:GetMessage,INPUT integer
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 134 INVOKE Progress.Lang.Object:GetClass
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 134 INVOKE Progress.Lang.Class:IsA,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 135 INVOKE fwebh.serialize.SimpleJsonSerializer:addDatastructures,INPUT fwebh.serialize.ISerializableDataStructure,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 143 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 152 INVOKE fwebh.serialize.SimpleJsonSerializer:Serialize,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 153 INVOKE Progress.Json.ObjectModel.JsonObject:Write,INPUT-OUTPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 172 INVOKE fwebh.serialize.ISerializableDataStructure:GetDataStructures
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 174 INVOKE OpenEdge.Core.Collections.IIterable:Iterator
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 176 INVOKE OpenEdge.Core.Collections.IIterator:HasNext
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 177 INVOKE OpenEdge.Core.Collections.IIterator:Next
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 179 INVOKE OpenEdge.Core.Collections.IMap:Get,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 184 INVOKE fwebh.serialize.SimpleJsonSerializer:serializeDataObject,INPUT character,INPUT widget-handle,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 193 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 197 INVOKE fwebh.serialize.SimpleJsonSerializer:serializeTempTable,INPUT character,INPUT widget-handle,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 205 NEW Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 207 INVOKE Progress.Collections.List<Progress.Lang.Object>:GetIterator
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 208 INVOKE Progress.Collections.IIterator<Progress.Lang.Object>:MoveNext
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 209 INVOKE Progress.Json.ObjectModel.JsonArray:Add,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 209 INVOKE fwebh.serialize.SimpleJsonSerializer:Serialize,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 220 NEW Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 224 NEW OpenEdge.Core.Collections.List
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 226 INVOKE OpenEdge.Core.Collections.List:Iterator
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 227 INVOKE OpenEdge.Core.Collections.IIterator:HasNext
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 228 INVOKE OpenEdge.Core.Collections.IIterator:Next
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 230 INVOKE Progress.Json.ObjectModel.JsonArray:Add,INPUT RUNTYPE
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 232 INVOKE Progress.Json.ObjectModel.JsonArray:Add,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 232 INVOKE fwebh.serialize.SimpleJsonSerializer:Serialize,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 242 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 247 NEW OpenEdge.Core.Collections.StringStringMap
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 249 INVOKE OpenEdge.Core.Collections.IIterable:Iterator
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 250 INVOKE OpenEdge.Core.Collections.IIterator:HasNext
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 252 INVOKE OpenEdge.Core.Collections.StringStringMap:Get,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 253 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 265 NEW Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 279 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 283 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT RUNTYPE
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 286 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 286 INVOKE fwebh.serialize.SimpleJsonSerializer:Serialize,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 290 INVOKE Progress.Json.ObjectModel.JsonArray:Add,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 294 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 305 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 311 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT RUNTYPE
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 320 NEW Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonSerializer.cls ./src/fwebh/serialize/SimpleJsonSerializer.cls 325 INVOKE Progress.Json.ObjectModel.JsonArray:Add,INPUT RUNTYPE

@@ -1,0 +1,26 @@
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 1 COMPILE test/serialize/ListTest.cls
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 1 CPINTERNAL utf-8
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 1 CPSTREAM UTF-8
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 19 CLASS test.serialize.ListTest,,IMPLEMENTS fwebh.serialize.IListInfo,,,,
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 19 STRING "test.serialize.ListTest" 23 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 19 STRING "fwebh.serialize.IListInfo" 25 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 21 STRING "entries" 7 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 21 PROPERTY PUBLIC,,,,,entries
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 24 ACCESS INHERITED-PROPERTY test.serialize.ListTest:entries
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 24 UPDATE PUBLIC-PROPERTY test.serialize.ListTest:entries 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 25 CONSTRUCTOR PUBLIC,,,,ListTest,void,
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 25 STRING "LISTTEST" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 27 STRING "testvalue" 9 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 28 ACCESS INHERITED-PROPERTY test.serialize.ListTest:entries
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 29 METHOD PUBLIC,,,,,AddEntry,void,INPUT testvalue CHARACTER
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 29 STRING "ADDENTRY" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 32 STRING "listName" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 33 STRING "listType" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 36 STRING "entries" 7 NONE TRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 36 STRING "OpenEdge.Core.String" 20 NONE TRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 41 METHOD PUBLIC,,,,,GetListType,character,INPUT listName CHARACTER
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 41 STRING "GETLISTTYPE" 11 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 24 NEW OpenEdge.Core.Collections.List
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 28 INVOKE OpenEdge.Core.Collections.List:Add,INPUT Progress.Lang.Object
+./src/test/serialize/ListTest.cls ./src/test/serialize/ListTest.cls 28 NEW OpenEdge.Core.String,INPUT character

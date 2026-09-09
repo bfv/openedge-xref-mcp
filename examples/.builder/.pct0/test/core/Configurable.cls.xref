@@ -1,0 +1,20 @@
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 1 COMPILE test/core/Configurable.cls
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 1 CPINTERNAL utf-8
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 1 CPSTREAM UTF-8
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 16 CLASS test.core.Configurable,,IMPLEMENTS fwebh.core.IConfigurable,,,,
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 16 STRING "test.core.Configurable" 22 NONE UNTRANSLATABLE 
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 16 STRING "fwebh.core.IConfigurable" 24 NONE UNTRANSLATABLE 
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 18 STRING "Test" 4 NONE UNTRANSLATABLE 
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 18 PROPERTY PUBLIC,,,,,Test
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 20 STRING "config" 6 NONE UNTRANSLATABLE 
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 21 STRING "test" 4 NONE TRANSLATABLE 
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 22 ACCESS PUBLIC-PROPERTY test.core.Configurable:Test
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 22 STRING "test" 4 NONE TRANSLATABLE 
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 22 UPDATE PUBLIC-PROPERTY test.core.Configurable:Test 
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 24 METHOD PUBLIC,,,,,Configure,void,INPUT config PROGRESS.JSON.OBJECTMODEL.JSONOBJECT
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 24 STRING "CONFIGURE" 9 NONE UNTRANSLATABLE 
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 26 CONSTRUCTOR PUBLIC,,,,Configurable,void,
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 26 STRING "CONFIGURABLE" 12 NONE UNTRANSLATABLE 
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 21 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/test/core/Configurable.cls ./src/test/core/Configurable.cls 22 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character

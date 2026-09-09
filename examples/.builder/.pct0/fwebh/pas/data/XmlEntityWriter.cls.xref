@@ -1,0 +1,47 @@
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 1 COMPILE fwebh/pas/data/XmlEntityWriter.cls
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 21 CLASS fwebh.pas.data.XmlEntityWriter,,IMPLEMENTS fwebh.pas.data.IEntityWriter,,,,
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 21 STRING "fwebh.pas.data.XmlEntityWriter" 30 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 21 STRING "fwebh.pas.data.IEntityWriter" 28 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 23 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 25 STRING "entityData" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 27 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 27 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 28 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:DATASET
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 28 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 28 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:TEMP-TABLE
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 30 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:BUFFER
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 30 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 30 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 31 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 31 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 31 STRING "XmlEntityWriter cannot process EntityDataType '&1'" 50 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 36 METHOD PUBLIC,,,,,Write,Progress.Lang.Object,INPUT responseData FWEBH.PAS.DATA.IRESPONSEDATA
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 36 STRING "WRITE" 5 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 38 STRING "bufferHandle" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 40 STRING "bufferData" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 42 STRING "XML" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 42 STRING "longchar" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 52 STRING "WRITEBUFFER" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 54 STRING "datasetHandle" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 56 STRING "datasetData" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 58 STRING "longchar" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 66 STRING "WRITEDATASET" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 68 STRING "temptableHandle" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 70 STRING "temptableData" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 72 STRING "longchar" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 80 STRING "WRITETEMPTABLE" 14 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 82 CONSTRUCTOR PUBLIC,,,,XmlEntityWriter,void,
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 82 STRING "XMLENTITYWRITER" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 28 INVOKE fwebh.pas.data.XmlEntityWriter:writeDataset,INPUT widget-handle
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 29 INVOKE fwebh.pas.data.XmlEntityWriter:writeTemptable,INPUT widget-handle
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 30 INVOKE fwebh.pas.data.XmlEntityWriter:writeBuffer,INPUT widget-handle
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 31 NEW fwebh.lang.error.NotAcceptableException,INPUT character
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 50 NEW OpenEdge.Core.String,INPUT longchar
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 64 NEW OpenEdge.Core.String,INPUT longchar
+./src/fwebh/pas/data/XmlEntityWriter.cls ./src/fwebh/pas/data/XmlEntityWriter.cls 78 NEW OpenEdge.Core.String,INPUT longchar

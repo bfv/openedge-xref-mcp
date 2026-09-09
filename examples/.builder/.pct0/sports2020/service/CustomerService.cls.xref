@@ -1,0 +1,246 @@
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 1 COMPILE sports2020/service/CustomerService.cls
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 1 CPINTERNAL utf-8
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 1 CPSTREAM UTF-8
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 1 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 14 CLASS sports2020.service.CustomerService,,IMPLEMENTS fwebh.pas.service.IGetDataService fwebh.pas.service.IPostDataService,,,,
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 14 STRING "sports2020.service.CustomerService" 34 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 14 STRING "fwebh.pas.service.IGetDataService" 33 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 14 STRING "fwebh.pas.service.IPostDataService" 34 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 16 STRING "b-customer" 10 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 16 STRING "Customer" 8 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 18 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 19 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 20 STRING "customers" 9 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 21 STRING "custNum" 7 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 24 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Resource
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 24 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Id
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 25 ACCESS sports2020.Customer CustNum 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 25 SEARCH sports2020.Customer CustNum WHOLE-INDEX
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 29 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 33 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Resource
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 33 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Id
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 34 ACCESS sports2020.Customer CustNum 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 34 SEARCH sports2020.Customer CustNum
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 35 REFERENCE sports2020.Customer 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 36 STRING "Customer not found" 18 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 38 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 38 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 38 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 41 METHOD PUBLIC,,,,,GetData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 41 STRING "GETDATA" 7 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 43 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 44 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 45 STRING "customerJson" 12 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 48 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Data
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 48 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 48 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:JSON
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 49 STRING "A JSON request body is required" 31 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 51 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Data
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 51 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 51 CAST FROM Progress.Json.ObjectModel.JsonConstruct TO Progress.Json.ObjectModel.JsonObject
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 53 STRING "custNum" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 54 STRING "custNum is required" 19 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 56 STRING "custNum" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 57 STRING "custNum must be greater than zero" 33 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 59 ACCESS sports2020.Customer CustNum 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 59 STRING "custNum" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 59 SEARCH sports2020.Customer CustNum
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 60 REFERENCE sports2020.Customer 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 61 STRING "custNum already exists" 22 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 64 CREATE sports2020.Customer 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 65 ACCESS sports2020.Customer CustNum 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 65 STRING "custNum" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 65 UPDATE sports2020.Customer CustNum
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 70 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 70 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 70 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 72 METHOD PUBLIC,,,,,PostData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 72 STRING "POSTDATA" 8 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 74 STRING "resourceId" 10 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 75 STRING "custNum" 7 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 81 STRING "Customer id must be a positive integer" 38 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 87 STRING "CUSTOMERID" 10 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 89 STRING "customerJson" 12 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 90 STRING "name" 4 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 91 ACCESS sports2020.Customer Name 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 91 STRING "name" 4 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 91 UPDATE sports2020.Customer Name
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 92 STRING "address" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 93 ACCESS sports2020.Customer Address 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 93 STRING "address" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 93 UPDATE sports2020.Customer Address
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 94 STRING "address2" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 95 ACCESS sports2020.Customer Address2 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 95 STRING "address2" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 95 UPDATE sports2020.Customer Address2
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 96 STRING "city" 4 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 97 ACCESS sports2020.Customer City 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 97 STRING "city" 4 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 97 UPDATE sports2020.Customer City
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 98 STRING "state" 5 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 99 ACCESS sports2020.Customer State 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 99 STRING "state" 5 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 99 UPDATE sports2020.Customer State
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 100 STRING "country" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 101 ACCESS sports2020.Customer Country 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 101 STRING "country" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 101 UPDATE sports2020.Customer Country
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 102 STRING "phone" 5 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 103 ACCESS sports2020.Customer Phone 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 103 STRING "phone" 5 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 103 UPDATE sports2020.Customer Phone
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 104 STRING "contact" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 105 ACCESS sports2020.Customer Contact 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 105 STRING "contact" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 105 UPDATE sports2020.Customer Contact
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 106 STRING "salesRep" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 107 ACCESS sports2020.Customer SalesRep 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 107 STRING "salesRep" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 107 UPDATE sports2020.Customer SalesRep
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 108 STRING "comments" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 109 ACCESS sports2020.Customer Comments 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 109 STRING "comments" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 109 UPDATE sports2020.Customer Comments
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 110 STRING "creditLimit" 11 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 111 ACCESS sports2020.Customer CreditLimit 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 111 STRING "creditLimit" 11 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 111 UPDATE sports2020.Customer CreditLimit
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 112 STRING "balance" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 113 ACCESS sports2020.Customer Balance 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 113 STRING "balance" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 113 UPDATE sports2020.Customer Balance
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 114 STRING "terms" 5 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 115 ACCESS sports2020.Customer Terms 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 115 STRING "terms" 5 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 115 UPDATE sports2020.Customer Terms
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 116 STRING "discount" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 117 ACCESS sports2020.Customer Discount 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 117 STRING "discount" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 117 UPDATE sports2020.Customer Discount
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 118 STRING "postalCode" 10 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 119 ACCESS sports2020.Customer PostalCode 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 119 STRING "postalCode" 10 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 119 UPDATE sports2020.Customer PostalCode
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 120 STRING "fax" 3 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 121 ACCESS sports2020.Customer Fax 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 121 STRING "fax" 3 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 121 UPDATE sports2020.Customer Fax
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 122 STRING "emailAddress" 12 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 123 ACCESS sports2020.Customer EmailAddress 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 123 STRING "emailAddress" 12 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 123 UPDATE sports2020.Customer EmailAddress
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 124 STRING "APPLYCUSTOMERJSON" 17 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 127 STRING "customerJson" 12 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 129 ACCESS sports2020.Customer CustNum 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 129 STRING "custNum" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 130 ACCESS sports2020.Customer Name 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 130 STRING "name" 4 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 131 ACCESS sports2020.Customer Address 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 131 STRING "address" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 132 ACCESS sports2020.Customer Address2 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 132 STRING "address2" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 133 ACCESS sports2020.Customer City 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 133 STRING "city" 4 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 134 ACCESS sports2020.Customer State 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 134 STRING "state" 5 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 135 ACCESS sports2020.Customer Country 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 135 STRING "country" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 136 ACCESS sports2020.Customer Phone 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 136 STRING "phone" 5 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 137 ACCESS sports2020.Customer Contact 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 137 STRING "contact" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 138 ACCESS sports2020.Customer SalesRep 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 138 STRING "salesRep" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 139 ACCESS sports2020.Customer Comments 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 139 STRING "comments" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 140 ACCESS sports2020.Customer CreditLimit 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 140 STRING "creditLimit" 11 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 141 ACCESS sports2020.Customer Balance 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 141 STRING "balance" 7 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 142 ACCESS sports2020.Customer Terms 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 142 STRING "terms" 5 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 143 ACCESS sports2020.Customer Discount 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 143 STRING "discount" 8 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 144 ACCESS sports2020.Customer PostalCode 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 144 STRING "postalCode" 10 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 145 ACCESS sports2020.Customer Fax 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 145 STRING "fax" 3 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 146 ACCESS sports2020.Customer EmailAddress 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 146 STRING "emailAddress" 12 NONE TRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 149 STRING "CUSTOMERTOJSON" 14 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 151 CONSTRUCTOR PUBLIC,,,,CustomerService,void,
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 151 STRING "CUSTOMERSERVICE" 15 NONE UNTRANSLATABLE 
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 19 NEW fwebh.pas.data.ResponseData
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 20 NEW Progress.Json.ObjectModel.JsonArray
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 26 INVOKE Progress.Json.ObjectModel.JsonArray:Add,INPUT Progress.Json.ObjectModel.JsonObject
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 26 INVOKE sports2020.service.CustomerService:CustomerToJson
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 33 INVOKE sports2020.service.CustomerService:CustomerId,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 36 NEW fwebh.lang.error.NotFoundException,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 38 INVOKE sports2020.service.CustomerService:CustomerToJson
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 44 NEW fwebh.pas.data.ResponseData
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 49 NEW fwebh.lang.error.BadRequestException,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 53 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 54 NEW fwebh.lang.error.BadRequestException,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 56 INVOKE Progress.Json.ObjectModel.JsonObject:GetInteger,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 57 NEW fwebh.lang.error.BadRequestException,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 59 INVOKE Progress.Json.ObjectModel.JsonObject:GetInteger,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 61 NEW fwebh.lang.error.BadRequestException,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 65 INVOKE Progress.Json.ObjectModel.JsonObject:GetInteger,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 66 INVOKE sports2020.service.CustomerService:ApplyCustomerJson,INPUT Progress.Json.ObjectModel.JsonObject
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 70 INVOKE sports2020.service.CustomerService:CustomerToJson
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 81 NEW fwebh.lang.error.BadRequestException,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 90 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 91 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 92 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 93 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 94 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 95 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 96 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 97 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 98 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 99 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 100 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 101 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 102 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 103 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 104 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 105 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 106 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 107 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 108 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 109 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 110 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 111 INVOKE Progress.Json.ObjectModel.JsonObject:GetDecimal,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 112 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 113 INVOKE Progress.Json.ObjectModel.JsonObject:GetDecimal,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 114 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 115 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 116 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 117 INVOKE Progress.Json.ObjectModel.JsonObject:GetInteger,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 118 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 119 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 120 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 121 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 122 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 123 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 127 NEW Progress.Json.ObjectModel.JsonObject
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 129 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT integer
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 130 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 131 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 132 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 133 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 134 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 135 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 136 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 137 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 138 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 139 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 140 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT decimal
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 141 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT decimal
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 142 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 143 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT integer
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 144 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 145 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/sports2020/service/CustomerService.cls ./src/sports2020/service/CustomerService.cls 146 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character

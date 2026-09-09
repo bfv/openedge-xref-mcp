@@ -1,0 +1,8 @@
+./src/fwebh/pas/service/IPatchDataService.cls ./src/fwebh/pas/service/IPatchDataService.cls 1 COMPILE fwebh/pas/service/IPatchDataService.cls
+./src/fwebh/pas/service/IPatchDataService.cls ./src/fwebh/pas/service/IPatchDataService.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/IPatchDataService.cls ./src/fwebh/pas/service/IPatchDataService.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/IPatchDataService.cls ./src/fwebh/pas/service/IPatchDataService.cls 15 INTERFACE fwebh.pas.service.IPatchDataService,,,,
+./src/fwebh/pas/service/IPatchDataService.cls ./src/fwebh/pas/service/IPatchDataService.cls 15 STRING "fwebh.pas.service.IPatchDataService" 35 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/IPatchDataService.cls ./src/fwebh/pas/service/IPatchDataService.cls 17 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/IPatchDataService.cls ./src/fwebh/pas/service/IPatchDataService.cls 17 METHOD PUBLIC,,,,,PatchData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/IPatchDataService.cls ./src/fwebh/pas/service/IPatchDataService.cls 17 STRING "PATCHDATA" 9 NONE UNTRANSLATABLE 

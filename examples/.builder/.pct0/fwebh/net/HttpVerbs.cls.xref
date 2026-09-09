@@ -1,0 +1,10 @@
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 1 COMPILE fwebh/net/HttpVerbs.cls
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 1 CPINTERNAL utf-8
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 1 CPSTREAM UTF-8
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 12 ENUM fwebh.net.HttpVerbs,
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 12 STRING "fwebh.net.HttpVerbs" 19 NONE UNTRANSLATABLE 
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 14 STRING "GET" 3 NONE UNTRANSLATABLE 
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 14 STRING "POST" 4 NONE UNTRANSLATABLE 
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 14 STRING "PUT" 3 NONE UNTRANSLATABLE 
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 14 STRING "DELETE" 6 NONE UNTRANSLATABLE 
+./src/fwebh/net/HttpVerbs.cls ./src/fwebh/net/HttpVerbs.cls 14 STRING "PATCH" 5 NONE UNTRANSLATABLE 

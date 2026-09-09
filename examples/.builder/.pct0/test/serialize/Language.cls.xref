@@ -1,0 +1,25 @@
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 1 COMPILE test/serialize/Language.cls
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 1 CPINTERNAL utf-8
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 1 CPSTREAM UTF-8
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 13 CLASS test.serialize.Language,,,,,,
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 13 STRING "test.serialize.Language" 23 NONE UNTRANSLATABLE 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 15 STRING "id" 2 NONE UNTRANSLATABLE 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 15 PROPERTY PUBLIC,,,,,id
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 16 STRING "name" 4 NONE UNTRANSLATABLE 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 16 PROPERTY PUBLIC,,,,,name
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 19 CONSTRUCTOR PUBLIC,,,,Language,void,
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 19 STRING "LANGUAGE" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 21 STRING "id" 2 NONE UNTRANSLATABLE 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 21 STRING "name" 4 NONE UNTRANSLATABLE 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 22 ACCESS INHERITED-PROPERTY test.serialize.Language:id
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 22 UPDATE PUBLIC-PROPERTY test.serialize.Language:id 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 23 ACCESS INHERITED-PROPERTY test.serialize.Language:name
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 23 UPDATE PUBLIC-PROPERTY test.serialize.Language:name 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 24 CONSTRUCTOR PUBLIC,,,,Language,void,INPUT id INTEGER,INPUT name CHARACTER
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 24 STRING "LANGUAGE" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 27 ACCESS PUBLIC-PROPERTY test.serialize.Language:id
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 27 ACCESS PUBLIC-PROPERTY test.serialize.Language:name
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 27 STRING "&1: &2" 6 NONE TRANSLATABLE 
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 28 METHOD PUBLIC,,OVERRIDE,,,ToString,character,
+./src/test/serialize/Language.cls ./src/test/serialize/Language.cls 28 STRING "TOSTRING" 8 NONE UNTRANSLATABLE 

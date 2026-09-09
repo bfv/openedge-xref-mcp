@@ -1,0 +1,11 @@
+fwebh.pas.service
+fwebh.pas.service.example	P	86441020d2eb1c22c668a484be4dcdfc
+fwebh.pas.service.system	P	ff3e9b3e740cc3f59718f0db9f9c5368
+fwebh.pas.service.IDeleteDataService	C	613ee4fd37c5e5161169d9033526ccbb
+fwebh.pas.service.IGetDataService	C	d6ed2f7e59b91a4328405b93d46a381d
+fwebh.pas.service.IPatchDataService	C	d102cb5d40ee6c6c8be210dc2eba5851
+fwebh.pas.service.IPostDataService	C	357ff929f0565e0f3b48270317e67803
+fwebh.pas.service.IPutDataService	C	10f31b579c5e32e7f10b93b9989e0a83
+fwebh.pas.service.ServiceDescription	C	48ca45eca5b1c5169c05c9f83386a077
+fwebh.pas.service.ServiceFactory	C	064dd99543bfbfa498cdf46573ae3c98
+fwebh.pas.service.ServiceFactory_UT	C	8c9990cab3c0e920fca7d8c4054b6935

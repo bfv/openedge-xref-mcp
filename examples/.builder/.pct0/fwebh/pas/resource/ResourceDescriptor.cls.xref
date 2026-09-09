@@ -1,0 +1,23 @@
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 1 COMPILE fwebh/pas/resource/ResourceDescriptor.cls
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 14 CLASS fwebh.pas.resource.ResourceDescriptor,,,,,,
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 14 STRING "fwebh.pas.resource.ResourceDescriptor" 37 NONE UNTRANSLATABLE 
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 16 STRING "Name" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 16 PROPERTY PUBLIC,,,,,Name
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 17 STRING "Id" 2 NONE UNTRANSLATABLE 
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 17 PROPERTY PUBLIC,,,,,Id
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 18 STRING "ParentName" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 18 PROPERTY PUBLIC,,,,,ParentName
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 19 STRING "ParentId" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 19 PROPERTY PUBLIC,,,,,ParentId
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 20 STRING "Version" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 20 PROPERTY PUBLIC,,,,,Version
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 21 STRING "TimeToLive" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 21 PROPERTY PUBLIC,,,,,TimeToLive
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 23 STRING "resource" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 24 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Name
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 24 UPDATE PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Name 
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 25 CONSTRUCTOR PUBLIC,,,,ResourceDescriptor,void,INPUT resource CHARACTER
+./src/fwebh/pas/resource/ResourceDescriptor.cls ./src/fwebh/pas/resource/ResourceDescriptor.cls 25 STRING "RESOURCEDESCRIPTOR" 18 NONE UNTRANSLATABLE 

@@ -1,0 +1,172 @@
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 1 COMPILE fwebh/serialize/SimpleJsonSerializer_UT.cls
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 1 CPINTERNAL utf-8
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 1 CPSTREAM UTF-8
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 13 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 25 CLASS fwebh.serialize.SimpleJsonSerializer_UT,,,,,,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 25 STRING "fwebh.serialize.SimpleJsonSerializer_UT" 39 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 27 STRING "serializer" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 29 ANNOTATION BeforeEach
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 32 METHOD PUBLIC,,,,,_BeforeEach,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 32 STRING "_BEFOREEACH" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 34 ANNOTATION AfterEach
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 37 METHOD PUBLIC,,,,,_AfterEach,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 37 STRING "_AFTEREACH" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 39 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 42 METHOD PUBLIC,,,,,instantiate_serializer,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 42 STRING "INSTANTIATE_SERIALIZER" 22 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 44 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 46 STRING "addr" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 47 STRING "addrString" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 47 STRING "originalString" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 49 STRING "src/test/serialize/addr-string1.txt" 35 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 51 METHOD PUBLIC,,,,,serialized_address_equal_to_template,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 51 STRING "SERIALIZED_ADDRESS_EQUAL_TO_TEMPLATE" 36 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 53 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 55 STRING "addr" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 56 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 56 STRING "originalString" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 58 STRING "src/test/serialize/addr-string2.txt" 35 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 60 METHOD PUBLIC,,,,,serialized_address_with_fqcn_equal_to_template,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 60 STRING "SERIALIZED_ADDRESS_WITH_FQCN_EQUAL_TO_TEMPLATE" 46 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 62 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 64 STRING "addr1" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 64 STRING "addr2" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 68 METHOD PUBLIC,,,,,test_address_equals_method,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 68 STRING "TEST_ADDRESS_EQUALS_METHOD" 26 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 70 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 72 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 72 STRING "originalString" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 73 STRING "ao" 2 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 ACCESS PUBLIC-PROPERTY test.serialize.ArrayObject:id
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 ACCESS PUBLIC-PROPERTY test.serialize.ArrayObject:ids
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 ACCESS PUBLIC-PROPERTY test.serialize.ArrayObject:names
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 UPDATE PUBLIC-PROPERTY test.serialize.ArrayObject:id 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 UPDATE PUBLIC-PROPERTY test.serialize.ArrayObject:ids 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 STRING "Luke" 4 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 UPDATE PUBLIC-PROPERTY test.serialize.ArrayObject:names 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 STRING "Leia" 4 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 UPDATE PUBLIC-PROPERTY test.serialize.ArrayObject:names 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 STRING "Han" 3 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 75 UPDATE PUBLIC-PROPERTY test.serialize.ArrayObject:names 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 82 STRING "src/test/serialize/arrayobj-string1.txt" 39 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 86 METHOD PUBLIC,,,,,serialized_arrayobj_equal_to_template,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 86 STRING "SERIALIZED_ARRAYOBJ_EQUAL_TO_TEMPLATE" 37 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 88 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 91 STRING "tst" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 92 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 92 STRING "originalString" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 94 STRING "Isaac" 5 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 94 STRING "Newton" 6 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 95 STRING "Albert" 6 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 95 STRING "Einstein" 8 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 98 STRING "src/test/serialize/tt-string1.txt" 33 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 102 METHOD PUBLIC,,,,,serialize_temptable,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 102 STRING "SERIALIZE_TEMPTABLE" 19 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 105 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 108 STRING "tst" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 109 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 109 STRING "originalString" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 111 STRING "Newton" 6 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 112 STRING "Einstein" 8 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 115 STRING "src/test/serialize/list-string1.txt" 35 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 119 METHOD PUBLIC,,,,,serialize_openedge_string_list,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 119 STRING "SERIALIZE_OPENEDGE_STRING_LIST" 30 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 121 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 124 STRING "tst" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 125 STRING "addr" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 126 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 126 STRING "originalString" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 130 ACCESS PUBLIC-PROPERTY test.serialize.Address:Street
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 130 STRING "Flusso" 6 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 130 UPDATE PUBLIC-PROPERTY test.serialize.Address:Street 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 131 ACCESS PUBLIC-PROPERTY test.serialize.Address:HouseNumber
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 131 UPDATE PUBLIC-PROPERTY test.serialize.Address:HouseNumber 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 135 STRING "src/test/serialize/list-address1.txt" 36 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 139 METHOD PUBLIC,,,,,serialize_openedge_object_list,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 139 STRING "SERIALIZE_OPENEDGE_OBJECT_LIST" 30 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 142 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 145 STRING "lst" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 146 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 146 STRING "originalString" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 148 STRING "euro: €" 9 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 149 STRING "empty collection: Ø" 20 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 150 STRING "αβγδ" 8 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 153 STRING "src/test/serialize/list-utf-chars.txt" 37 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 157 METHOD PUBLIC,,,,,utf_char_serialization,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 157 STRING "UTF_CHAR_SERIALIZATION" 22 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 159 ANNOTATION Test
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 162 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 162 STRING "originalString" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 163 STRING "tst" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 165 ACCESS PUBLIC-PROPERTY test.serialize.StringStringMapTest:pairs
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 165 UPDATE PUBLIC-PROPERTY test.serialize.StringStringMapTest:pairs 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 166 ACCESS PUBLIC-PROPERTY test.serialize.StringStringMapTest:pairs
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 166 STRING "key1" 4 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 166 STRING "value1" 6 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 167 ACCESS PUBLIC-PROPERTY test.serialize.StringStringMapTest:pairs
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 167 STRING "key2" 4 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 167 STRING "value2" 6 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 168 STRING "src/test/serialize/map-string1.txt" 34 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 174 METHOD PUBLIC,,,,,serialize_stringstringmap,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 174 STRING "SERIALIZE_STRINGSTRINGMAP" 25 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 179 STRING "addr" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 181 ACCESS PUBLIC-PROPERTY test.serialize.Address:Street
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 181 STRING "Hamersveldseweg" 15 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 181 UPDATE PUBLIC-PROPERTY test.serialize.Address:Street 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 182 ACCESS PUBLIC-PROPERTY test.serialize.Address:HouseNumber
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 182 UPDATE PUBLIC-PROPERTY test.serialize.Address:HouseNumber 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 183 ACCESS PUBLIC-PROPERTY test.serialize.Address:Postcode
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 183 STRING "3833 GV" 7 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 183 UPDATE PUBLIC-PROPERTY test.serialize.Address:Postcode 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 184 ACCESS PUBLIC-PROPERTY test.serialize.Address:Municipale
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 184 STRING "Leusden" 7 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 184 UPDATE PUBLIC-PROPERTY test.serialize.Address:Municipale 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 188 STRING "GETADDRESS" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 190 CONSTRUCTOR PUBLIC,,,,SimpleJsonSerializer_UT,void,
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 190 STRING "SIMPLEJSONSERIALIZER_UT" 23 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 31 NEW fwebh.serialize.SimpleJsonSerializer
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 36 DELETE-INSTANCE fwebh.serialize.SimpleJsonSerializer
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 41 INVOKE OpenEdge.Core.Assert:NotUnknown,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 46 INVOKE fwebh.serialize.SimpleJsonSerializer_UT:getAddress
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 48 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 50 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 55 INVOKE fwebh.serialize.SimpleJsonSerializer_UT:getAddress
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 57 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 59 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 65 INVOKE fwebh.serialize.SimpleJsonSerializer_UT:getAddress
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 66 INVOKE fwebh.serialize.SimpleJsonSerializer_UT:getAddress
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 67 INVOKE OpenEdge.Core.Assert:Equals,INPUT logical,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 67 INVOKE test.serialize.Address:Equals,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 73 NEW test.serialize.ArrayObject
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 81 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 84 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 91 NEW test.serialize.TempTableTest
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 94 INVOKE test.serialize.TempTableTest:AddEntry,INPUT character,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 95 INVOKE test.serialize.TempTableTest:AddEntry,INPUT character,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 97 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 100 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 108 NEW test.serialize.ListTest
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 111 INVOKE test.serialize.ListTest:AddEntry,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 112 INVOKE test.serialize.ListTest:AddEntry,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 114 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 117 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 124 NEW test.serialize.ListTestAddress
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 128 INVOKE test.serialize.ListTestAddress:Add,INPUT test.serialize.Address
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 128 INVOKE fwebh.serialize.SimpleJsonSerializer_UT:getAddress
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 129 INVOKE fwebh.serialize.SimpleJsonSerializer_UT:getAddress
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 132 INVOKE test.serialize.ListTestAddress:Add,INPUT test.serialize.Address
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 134 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 137 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 145 NEW test.serialize.ListTest
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 148 INVOKE test.serialize.ListTest:AddEntry,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 149 INVOKE test.serialize.ListTest:AddEntry,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 150 INVOKE test.serialize.ListTest:AddEntry,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 152 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 155 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 163 NEW test.serialize.StringStringMapTest
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 165 NEW OpenEdge.Core.Collections.StringStringMap
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 166 INVOKE OpenEdge.Core.Collections.StringStringMap:Put,INPUT character,INPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 167 INVOKE OpenEdge.Core.Collections.StringStringMap:Put,INPUT character,INPUT longchar
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 170 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 172 INVOKE OpenEdge.Core.Assert:Equals,INPUT character,INPUT character
+./src/fwebh/serialize/SimpleJsonSerializer_UT.cls ./src/fwebh/serialize/SimpleJsonSerializer_UT.cls 179 NEW test.serialize.Address

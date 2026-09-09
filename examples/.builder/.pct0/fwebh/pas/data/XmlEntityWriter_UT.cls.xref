@@ -1,0 +1,101 @@
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 1 COMPILE fwebh/pas/data/XmlEntityWriter_UT.cls
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 18 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 20 CLASS fwebh.pas.data.XmlEntityWriter_UT,,,,,,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 20 STRING "fwebh.pas.data.XmlEntityWriter_UT" 33 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 22 STRING "tt" 2 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 22 STRING "f" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 26 STRING "writer" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 27 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 29 ANNOTATION BeforeAll
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 32 STRING "test" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 33 METHOD PUBLIC,,,,,_BeforeAll,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 33 STRING "_BEFOREALL" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 35 ANNOTATION BeforeEach
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 39 METHOD PUBLIC,,,,,_BeforeEach,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 39 STRING "_BEFOREEACH" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 41 ANNOTATION Test(expected=Progress.Lang.AppError)
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 43 STRING "mem" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 46 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 46 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 46 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 52 METHOD PUBLIC,,,,,memptr_fails_write,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 52 STRING "MEMPTR_FAILS_WRITE" 18 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 54 ANNOTATION Test
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 56 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 58 SEARCH DATA-MEMBER fwebh.pas.data.XmlEntityWriter_UT:tt default TEMPTABLE WHOLE-INDEX
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 59 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 59 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 59 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 64 METHOD PUBLIC,,,,,set_buffer_correct_write,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 64 STRING "SET_BUFFER_CORRECT_WRITE" 24 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 66 ANNOTATION Test
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 68 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 69 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 71 SEARCH DATA-MEMBER fwebh.pas.data.XmlEntityWriter_UT:tt default TEMPTABLE WHOLE-INDEX
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 72 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 72 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 72 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 74 STRING "xml" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 74 STRING "longchar" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 81 ACCESS PUBLIC-PROPERTY OpenEdge.Core.String:Value
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 81 CAST FROM Progress.Lang.Object TO OpenEdge.Core.String
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 81 STRING "?" 1 LEFT TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 83 METHOD PUBLIC,,,,,set_buffer_correct_compare,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 83 STRING "SET_BUFFER_CORRECT_COMPARE" 26 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 85 ANNOTATION Test
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 87 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 89 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 89 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 89 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 94 METHOD PUBLIC,,,,,set_dataset_correct_write,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 94 STRING "SET_DATASET_CORRECT_WRITE" 25 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 96 ANNOTATION Test
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 98 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 99 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 101 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 101 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 101 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 103 STRING "longchar" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 108 ACCESS PUBLIC-PROPERTY OpenEdge.Core.String:Value
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 108 CAST FROM Progress.Lang.Object TO OpenEdge.Core.String
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 110 METHOD PUBLIC,,,,,set_dataset_correct_compare,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 110 STRING "SET_DATASET_CORRECT_COMPARE" 27 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 112 ANNOTATION Test
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 114 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 116 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 116 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 116 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 121 METHOD PUBLIC,,,,,set_temp_table_correct_write,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 121 STRING "SET_TEMP_TABLE_CORRECT_WRITE" 28 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 123 ANNOTATION Test
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 125 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 126 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 128 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 128 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 128 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 130 STRING "longchar" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 135 ACCESS PUBLIC-PROPERTY OpenEdge.Core.String:Value
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 135 CAST FROM Progress.Lang.Object TO OpenEdge.Core.String
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 137 METHOD PUBLIC,,,,,set_temp_table_correct_compare,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 137 STRING "SET_TEMP_TABLE_CORRECT_COMPARE" 30 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 139 CONSTRUCTOR PUBLIC,,,,XmlEntityWriter_UT,void,
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 139 STRING "XMLENTITYWRITER_UT" 18 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 139 STRING "default" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 139 STRING "ds" 2 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 37 NEW fwebh.pas.data.XmlEntityWriter
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 38 NEW fwebh.pas.data.ResponseData
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 47 INVOKE fwebh.pas.data.XmlEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 60 INVOKE fwebh.pas.data.XmlEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 62 INVOKE OpenEdge.Core.Assertion.AssertObject:IsType,INPUT Progress.Lang.Object,INPUT Progress.Lang.Class
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 73 INVOKE fwebh.pas.data.XmlEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 81 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 90 INVOKE fwebh.pas.data.XmlEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 92 INVOKE OpenEdge.Core.Assertion.AssertObject:IsType,INPUT Progress.Lang.Object,INPUT Progress.Lang.Class
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 102 INVOKE fwebh.pas.data.XmlEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 108 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 117 INVOKE fwebh.pas.data.XmlEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 119 INVOKE OpenEdge.Core.Assertion.AssertObject:IsType,INPUT Progress.Lang.Object,INPUT Progress.Lang.Class
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 129 INVOKE fwebh.pas.data.XmlEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/XmlEntityWriter_UT.cls ./src/fwebh/pas/data/XmlEntityWriter_UT.cls 135 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar

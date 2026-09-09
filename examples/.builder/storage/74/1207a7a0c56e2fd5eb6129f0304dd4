@@ -1,0 +1,5 @@
+OpenEdge.Core.XML
+OpenEdge.Core.XML.SaxReader	C	abd0a8e8adc71f2eb3f572b74717a939
+OpenEdge.Core.XML.SaxWriteStatusEnum	C	aa0d5e5b1948a1a0a61bb334f2e060c1
+OpenEdge.Core.XML.SaxWriter	C	924dff93c7cdeb15d9d104702309ffb1
+OpenEdge.Core.XML.SaxWriterDataTypeEnum	C	43120a095a2875a1997b8780345e0c4c

@@ -1,0 +1,11 @@
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 1 COMPILE fwebh/pas/data/IResponseData.cls
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 15 INTERFACE fwebh.pas.data.IResponseData,,,,
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 15 STRING "fwebh.pas.data.IResponseData" 28 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 17 STRING "Data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 17 PROPERTY PUBLIC,,,,,Data
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 18 STRING "ContentType" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 18 PROPERTY PUBLIC,,,,,ContentType
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 19 STRING "Error" 5 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IResponseData.cls ./src/fwebh/pas/data/IResponseData.cls 19 PROPERTY PUBLIC,,,,,Error

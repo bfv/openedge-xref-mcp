@@ -1,0 +1,20 @@
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 1 COMPILE fwebh/pas/data/ResponseData.cls
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 18 CLASS fwebh.pas.data.ResponseData,,IMPLEMENTS fwebh.pas.data.IResponseData,,,,
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 18 STRING "fwebh.pas.data.ResponseData" 27 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 18 STRING "fwebh.pas.data.IResponseData" 28 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 21 STRING "Data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 21 PROPERTY PUBLIC,,,,,Data
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 23 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 24 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 24 UPDATE PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data 
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 25 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 29 STRING "ContentType" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 29 PROPERTY PUBLIC,,,,,ContentType
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 30 STRING "Error" 5 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 30 PROPERTY PUBLIC,,,,,Error
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 32 CONSTRUCTOR PUBLIC,,,,ResponseData,void,
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 32 STRING "RESPONSEDATA" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseData.cls ./src/fwebh/pas/data/ResponseData.cls 24 NEW fwebh.pas.data.DataHolder

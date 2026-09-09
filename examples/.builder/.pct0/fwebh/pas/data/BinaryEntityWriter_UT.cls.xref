@@ -1,0 +1,44 @@
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 1 COMPILE fwebh/pas/data/BinaryEntityWriter_UT.cls
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 21 CLASS fwebh.pas.data.BinaryEntityWriter_UT,,,,,,
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 21 STRING "fwebh.pas.data.BinaryEntityWriter_UT" 36 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 23 STRING "writer" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 24 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 26 ANNOTATION BeforeEach
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 30 METHOD PUBLIC,,,,,_BeforeEach,void,
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 30 STRING "_BEFOREEACH" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 32 ANNOTATION Test
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 34 STRING "mem" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 35 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 38 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 38 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 38 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 46 METHOD PUBLIC,,,,,set_memptr_correct_write,void,
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 46 STRING "SET_MEMPTR_CORRECT_WRITE" 24 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 48 ANNOTATION Test
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 50 STRING "mem" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 51 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 54 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 54 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 54 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 57 ACCESS PUBLIC-PROPERTY OpenEdge.Core.Memptr:Size
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 57 CAST FROM Progress.Lang.Object TO OpenEdge.Core.Memptr
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 62 METHOD PUBLIC,,,,,write_memptr_correct_size,void,
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 62 STRING "WRITE_MEMPTR_CORRECT_SIZE" 25 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 64 ANNOTATION Test(expected=Progress.Lang.AppError)
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 67 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 67 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataSetHandle
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 67 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 70 METHOD PUBLIC,,,,,set_datasethandle_fails_write,void,
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 70 STRING "SET_DATASETHANDLE_FAILS_WRITE" 29 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 72 CONSTRUCTOR PUBLIC,,,,BinaryEntityWriter_UT,void,
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 72 STRING "BINARYENTITYWRITER_UT" 21 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 28 NEW fwebh.pas.data.BinaryEntityWriter
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 29 NEW fwebh.pas.data.ResponseData
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 39 INVOKE fwebh.pas.data.IEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 41 INVOKE OpenEdge.Core.Assertion.AssertObject:IsType,INPUT Progress.Lang.Object,INPUT Progress.Lang.Class
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 55 INVOKE fwebh.pas.data.IEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 57 INVOKE OpenEdge.Core.Assert:Equals,INPUT int64,INPUT int64
+./src/fwebh/pas/data/BinaryEntityWriter_UT.cls ./src/fwebh/pas/data/BinaryEntityWriter_UT.cls 68 INVOKE fwebh.pas.data.IEntityWriter:Write,INPUT fwebh.pas.data.IResponseData

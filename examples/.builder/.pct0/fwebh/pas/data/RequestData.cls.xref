@@ -1,0 +1,30 @@
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 1 COMPILE fwebh/pas/data/RequestData.cls
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 20 CLASS fwebh.pas.data.RequestData,,IMPLEMENTS fwebh.pas.data.IRequestData,,,,
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 20 STRING "fwebh.pas.data.RequestData" 26 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 20 STRING "fwebh.pas.data.IRequestData" 27 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 22 STRING "Resource" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 22 PROPERTY PUBLIC,,,,,Resource
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 23 STRING "ContentType" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 23 PROPERTY PUBLIC,,,,,ContentType
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 24 STRING "Accept" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 24 PROPERTY PUBLIC,,,,,Accept
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 25 STRING "Verb" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 25 PROPERTY PUBLIC,,,,,Verb
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 26 STRING "Version" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 26 PROPERTY PUBLIC,,,,,Version
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 27 STRING "Parameters" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 27 PROPERTY PUBLIC,,,,,Parameters
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 28 STRING "Headers" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 28 PROPERTY PUBLIC,,,,,Headers
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 31 STRING "Data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 31 PROPERTY PUBLIC,,,,,Data
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 33 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Data
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 34 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Data
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 34 UPDATE PUBLIC-PROPERTY fwebh.pas.data.RequestData:Data 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 35 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Data
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 39 CONSTRUCTOR PUBLIC,,,,RequestData,void,
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 39 STRING "REQUESTDATA" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestData.cls ./src/fwebh/pas/data/RequestData.cls 34 NEW fwebh.pas.data.DataHolder

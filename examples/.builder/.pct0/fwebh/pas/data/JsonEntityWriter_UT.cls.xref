@@ -1,0 +1,129 @@
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 1 COMPILE fwebh/pas/data/JsonEntityWriter_UT.cls
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 20 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 22 CLASS fwebh.pas.data.JsonEntityWriter_UT,,,,,,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 22 STRING "fwebh.pas.data.JsonEntityWriter_UT" 34 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 24 STRING "tt" 2 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 24 STRING "f" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 28 STRING "writer" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 29 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 31 ANNOTATION BeforeAll
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 34 STRING "test" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 35 METHOD PUBLIC,,,,,_BeforeAll,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 35 STRING "_BEFOREALL" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 37 ANNOTATION BeforeEach
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 41 METHOD PUBLIC,,,,,_BeforeEach,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 41 STRING "_BEFOREEACH" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 43 ANNOTATION Test(expected=Progress.Lang.AppError)
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 45 STRING "mem" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 48 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 48 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 48 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 54 METHOD PUBLIC,,,,,memptr_fails_write,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 54 STRING "MEMPTR_FAILS_WRITE" 18 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 56 ANNOTATION Test
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 58 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 60 SEARCH DATA-MEMBER fwebh.pas.data.JsonEntityWriter_UT:tt default TEMPTABLE WHOLE-INDEX
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 61 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 61 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 61 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 66 METHOD PUBLIC,,,,,set_buffer_correct_write,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 66 STRING "SET_BUFFER_CORRECT_WRITE" 24 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 68 ANNOTATION Test
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 70 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 71 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 73 SEARCH DATA-MEMBER fwebh.pas.data.JsonEntityWriter_UT:tt default TEMPTABLE WHOLE-INDEX
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 74 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 74 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 74 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 76 STRING "json" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 76 STRING "JsonObject" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 84 CAST FROM Progress.Lang.Object TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 86 METHOD PUBLIC,,,,,set_buffer_correct_compare,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 86 STRING "SET_BUFFER_CORRECT_COMPARE" 26 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 88 ANNOTATION Test
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 90 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 92 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 92 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 92 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 97 METHOD PUBLIC,,,,,set_dataset_correct_write,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 97 STRING "SET_DATASET_CORRECT_WRITE" 25 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 99 ANNOTATION Test
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 101 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 102 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 104 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 104 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 104 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 106 STRING "JsonObject" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 114 CAST FROM Progress.Lang.Object TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 116 METHOD PUBLIC,,,,,set_dataset_correct_compare,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 116 STRING "SET_DATASET_CORRECT_COMPARE" 27 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 118 ANNOTATION Test
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 120 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 122 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 122 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 122 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 127 METHOD PUBLIC,,,,,set_json_object_correct_write,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 127 STRING "SET_JSON_OBJECT_CORRECT_WRITE" 29 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 129 ANNOTATION Test
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 131 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 132 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 134 STRING "propertyName" 12 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 134 STRING "value" 5 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 135 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 135 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 135 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 138 CAST FROM Progress.Lang.Object TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 140 METHOD PUBLIC,,,,,set_json_object_correct_compare,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 140 STRING "SET_JSON_OBJECT_CORRECT_COMPARE" 31 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 142 ANNOTATION Test
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 144 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 146 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 146 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 146 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 151 METHOD PUBLIC,,,,,set_temp_table_correct_write,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 151 STRING "SET_TEMP_TABLE_CORRECT_WRITE" 28 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 153 ANNOTATION Test
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 155 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 156 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 158 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 158 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 158 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 160 STRING "JsonArray" 9 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 168 CAST FROM Progress.Lang.Object TO Progress.Json.ObjectModel.JsonArray
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 170 METHOD PUBLIC,,,,,set_temp_table_correct_compare,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 170 STRING "SET_TEMP_TABLE_CORRECT_COMPARE" 30 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 172 CONSTRUCTOR PUBLIC,,,,JsonEntityWriter_UT,void,
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 172 STRING "JSONENTITYWRITER_UT" 19 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 172 STRING "default" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 172 STRING "ds" 2 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 39 NEW fwebh.pas.data.JsonEntityWriter
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 40 NEW fwebh.pas.data.ResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 49 INVOKE fwebh.pas.data.JsonEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 62 INVOKE fwebh.pas.data.JsonEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 64 INVOKE OpenEdge.Core.Assertion.AssertObject:IsType,INPUT Progress.Lang.Object,INPUT Progress.Lang.Class
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 71 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 75 INVOKE fwebh.pas.data.JsonEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 84 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 84 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonText
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 93 INVOKE fwebh.pas.data.JsonEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 95 INVOKE OpenEdge.Core.Assertion.AssertObject:IsType,INPUT Progress.Lang.Object,INPUT Progress.Lang.Class
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 102 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 105 INVOKE fwebh.pas.data.JsonEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 114 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 114 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonText
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 122 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 123 INVOKE fwebh.pas.data.JsonEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 125 INVOKE OpenEdge.Core.Assertion.AssertObject:IsType,INPUT Progress.Lang.Object,INPUT Progress.Lang.Class
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 132 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 134 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 136 INVOKE fwebh.pas.data.JsonEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 138 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 138 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonText
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 147 INVOKE fwebh.pas.data.JsonEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 149 INVOKE OpenEdge.Core.Assertion.AssertObject:IsType,INPUT Progress.Lang.Object,INPUT Progress.Lang.Class
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 156 NEW Progress.Json.ObjectModel.JsonArray
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 159 INVOKE fwebh.pas.data.JsonEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 168 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/pas/data/JsonEntityWriter_UT.cls ./src/fwebh/pas/data/JsonEntityWriter_UT.cls 168 INVOKE Progress.Json.ObjectModel.JsonArray:GetJsonText

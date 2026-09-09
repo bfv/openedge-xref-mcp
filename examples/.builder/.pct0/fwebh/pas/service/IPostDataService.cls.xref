@@ -1,0 +1,8 @@
+./src/fwebh/pas/service/IPostDataService.cls ./src/fwebh/pas/service/IPostDataService.cls 1 COMPILE fwebh/pas/service/IPostDataService.cls
+./src/fwebh/pas/service/IPostDataService.cls ./src/fwebh/pas/service/IPostDataService.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/IPostDataService.cls ./src/fwebh/pas/service/IPostDataService.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/IPostDataService.cls ./src/fwebh/pas/service/IPostDataService.cls 15 INTERFACE fwebh.pas.service.IPostDataService,,,,
+./src/fwebh/pas/service/IPostDataService.cls ./src/fwebh/pas/service/IPostDataService.cls 15 STRING "fwebh.pas.service.IPostDataService" 34 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/IPostDataService.cls ./src/fwebh/pas/service/IPostDataService.cls 17 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/IPostDataService.cls ./src/fwebh/pas/service/IPostDataService.cls 17 METHOD PUBLIC,,,,,PostData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/IPostDataService.cls ./src/fwebh/pas/service/IPostDataService.cls 17 STRING "POSTDATA" 8 NONE UNTRANSLATABLE 

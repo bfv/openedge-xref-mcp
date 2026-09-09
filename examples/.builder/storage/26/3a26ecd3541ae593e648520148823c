@@ -1,0 +1,12 @@
+OpenEdge.Logging.Format
+OpenEdge.Logging.Format.ABLSubstituteFormat	C	778ff49d301b05f9533e6ca8f8b96825
+OpenEdge.Logging.Format.AnonymizedTokenFormat	C	3c8b61138f0b61b72dcaf691720471a5
+OpenEdge.Logging.Format.ErrorFormat	C	07fefe487b4c7afe74d8009668ce9ca5
+OpenEdge.Logging.Format.FullTextFormat	C	76ea9326671bdab2c4881b6a6af12a2c
+OpenEdge.Logging.Format.ISupportFormatting	C	b015bc6e1383778abb91b23d7d44fc3d
+OpenEdge.Logging.Format.LogManagerFormat	C	92028e8037698e0842d5b6c40e294d93
+OpenEdge.Logging.Format.LogMessageTokenResolver	C	d261418f5229136e1bd3c438c5eac20d
+OpenEdge.Logging.Format.MDCTokenFormat	C	6436950fe821f663d3d172f03a6a498a
+OpenEdge.Logging.Format.ResolvedTokenFormat	C	19f39714b7e9cc0fbb00f7314a1b4a63
+OpenEdge.Logging.Format.StackWriterFormat	C	123deabf8ff29d3c7572da368c258e8d
+OpenEdge.Logging.Format.TokenContextFormat	C	1e7d717237c7abfad9f22933627df21b

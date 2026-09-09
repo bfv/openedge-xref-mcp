@@ -1,0 +1,9 @@
+OpenEdge.Logging.Writer
+OpenEdge.Logging.Writer.FileLogWriterBuilder	C	8fd052da940cab8ad631facda74c7b80
+OpenEdge.Logging.Writer.IFileWriter	C	bf00219d41d5aaa0af9f45b464726cce
+OpenEdge.Logging.Writer.JsonLogWriter	C	008d061edeb716bfa750a5cd1538dea7
+OpenEdge.Logging.Writer.JsonLogWriterBuilder	C	fd8e25bcd99f09dcf5774e7c1ccc5e44
+OpenEdge.Logging.Writer.LogManagerWriter	C	8eaddc965f7f00c71fe402ed4729a45c
+OpenEdge.Logging.Writer.MessageStatementWriter	C	510f189ef56ad8255e9fff5b4b86e447
+OpenEdge.Logging.Writer.NamedFileWriter	C	53b0f4a29543687a3cc91d9eb03d8fa0
+OpenEdge.Logging.Writer.VoidWriter	C	c6cf3c9edd0c7825d3c66fb3736cc9b1

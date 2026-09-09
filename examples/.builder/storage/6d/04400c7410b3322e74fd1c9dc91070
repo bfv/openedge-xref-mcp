@@ -1,0 +1,9 @@
+Ccs.Common
+Ccs.Common.Support	P	d9502de5aced271b95af427a578563e3
+Ccs.Common.Application	C	374713d4157e239f6f5157917f6290fa
+Ccs.Common.IClientContext	C	f2103dadcdf7120c18885b92ef5426ce
+Ccs.Common.IManager	C	a7e1dad18b7f47333866a6758806f14a
+Ccs.Common.IService	C	ce4aeb48656dd5874414129527c67b08
+Ccs.Common.IServiceManager	C	3908daa88ab54f5e748e40891cd95113
+Ccs.Common.ISessionManager	C	ed48962d2094f28008d0b80f8a437532
+Ccs.Common.IStartupManager	C	a002adc2726817ef40e95e1ae682c415

@@ -1,0 +1,34 @@
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 1 COMPILE fwebh/pas/data/PlainTextEntityWriter_UT.cls
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 19 CLASS fwebh.pas.data.PlainTextEntityWriter_UT,,,,,,
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 19 STRING "fwebh.pas.data.PlainTextEntityWriter_UT" 39 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 21 STRING "writer" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 22 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 24 ANNOTATION BeforeEach
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 28 METHOD PUBLIC,,,,,_BeforeEach,void,
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 28 STRING "_BEFOREEACH" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 31 ANNOTATION Test
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 34 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 36 STRING "src/test/pas/data/utf8_plain-text.txt" 37 NONE TRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 38 STRING "äëïöü" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 40 METHOD PUBLIC,,,,,utf8_chars_loaded_correctly_to_longchar,void,
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 40 STRING "UTF8_CHARS_LOADED_CORRECTLY_TO_LONGCHAR" 39 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 42 ANNOTATION Test
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 45 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 47 STRING "1252" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 47 STRING "src/test/pas/data/1252_plain-text.txt" 37 NONE TRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 49 STRING "äëïöü" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 51 METHOD PUBLIC,,,,,win1252_chars_loaded_correctly_to_longchar,void,
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 51 STRING "WIN1252_CHARS_LOADED_CORRECTLY_TO_LONGCHAR" 42 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 53 ANNOTATION Test
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 56 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 57 STRING "src/test/pas/data/utf8_plain-text.txt" 37 NONE TRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 59 STRING "WRITER_CORRECTLY_HANDLES_UTF8_INPUT" 35 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 61 CONSTRUCTOR PUBLIC,,,,PlainTextEntityWriter_UT,void,
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 61 STRING "PLAINTEXTENTITYWRITER_UT" 24 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 26 NEW fwebh.pas.data.PlainTextEntityWriter
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 27 NEW fwebh.pas.data.ResponseData
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 38 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar
+./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls ./src/fwebh/pas/data/PlainTextEntityWriter_UT.cls 49 INVOKE OpenEdge.Core.Assert:Equals,INPUT longchar,INPUT longchar

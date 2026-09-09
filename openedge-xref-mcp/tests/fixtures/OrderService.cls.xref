@@ -1,0 +1,9 @@
+./src/app/service/OrderService.cls ./src/app/service/OrderService.cls 1 COMPILE app/service/OrderService.cls
+./src/app/service/OrderService.cls ./src/app/service/OrderService.cls 4 INCLUDE app/service/common.i
+./src/app/service/OrderService.cls ./src/app/service/OrderService.cls 25 ACCESS sports2020.Order OrderNum 
+./src/app/service/OrderService.cls ./src/app/service/OrderService.cls 25 SEARCH sports2020.Order OrderNum WHOLE-INDEX
+./src/app/service/OrderService.cls ./src/app/service/OrderService.cls 80 ACCESS sports2020.Order CustNum 
+./src/app/service/OrderService.cls ./src/app/service/OrderService.cls 24 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Resource
+./src/app/service/OrderService.cls ./src/app/service/OrderService.cls 41 METHOD PUBLIC,,,,,GetData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/app/service/OrderService.cls ./src/app/service/OrderService.cls 19 NEW fwebh.pas.data.ResponseData
+./src/app/service/OrderService.cls ./src/app/service/OrderService.cls 26 INVOKE app.service.OrderService:OrderToJson

@@ -1,0 +1,50 @@
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 1 COMPILE fwebh/pas/data/JsonEntityWriter.cls
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 23 CLASS fwebh.pas.data.JsonEntityWriter,,IMPLEMENTS fwebh.pas.data.IEntityWriter,,,,
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 23 STRING "fwebh.pas.data.JsonEntityWriter" 31 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 23 STRING "fwebh.pas.data.IEntityWriter" 28 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 25 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 27 STRING "entityData" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 30 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:DATASET
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 30 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 30 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DatasetHandle
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 31 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:TEMP-TABLE
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 31 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 31 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 32 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:BUFFER
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 32 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 32 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:BufferHandle
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 33 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:JSON
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 33 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 33 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 34 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 34 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 34 STRING "JsonEntityWriter cannot process EntityDataType '&1'" 51 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 39 METHOD PUBLIC,,,,,Write,Progress.Lang.Object,INPUT responseData FWEBH.PAS.DATA.IRESPONSEDATA
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 39 STRING "WRITE" 5 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 41 STRING "bufferHandle" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 43 STRING "bufferData" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 45 STRING "JSON" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 45 STRING "JsonObject" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 57 STRING "WRITEBUFFER" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 59 STRING "datasetHandle" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 61 STRING "datasetData" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 63 STRING "JsonObject" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 75 STRING "WRITEDATASET" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 77 STRING "temptableHandle" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 79 STRING "temptableData" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 81 STRING "JsonArray" 9 NONE TRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 93 STRING "WRITETEMPTABLE" 14 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 95 CONSTRUCTOR PUBLIC,,,,JsonEntityWriter,void,
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 95 STRING "JSONENTITYWRITER" 16 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 30 INVOKE fwebh.pas.data.JsonEntityWriter:writeDataset,INPUT widget-handle
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 31 INVOKE fwebh.pas.data.JsonEntityWriter:writeTemptable,INPUT widget-handle
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 32 INVOKE fwebh.pas.data.JsonEntityWriter:writeBuffer,INPUT widget-handle
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 34 NEW fwebh.lang.error.NotAcceptableException,INPUT character
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 43 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 61 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/JsonEntityWriter.cls ./src/fwebh/pas/data/JsonEntityWriter.cls 79 NEW Progress.Json.ObjectModel.JsonArray

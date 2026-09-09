@@ -1,0 +1,11 @@
+Progress.BPM.Filter
+Progress.BPM.Filter.ITaskFilter	C	319ad57aa4d604e61e51eaad54f110fc
+Progress.BPM.Filter.TaskActivityFilter	C	bba955f9fc482c20307d4b5206e96185
+Progress.BPM.Filter.TaskCreatorFilter	C	e4c6b4065be2f0cde1c0ed4f8ebd47ed
+Progress.BPM.Filter.TaskDueDateFilter	C	db803a078e5adbe3b7fcedbf8e068e44
+Progress.BPM.Filter.TaskNameFilter	C	2a5da36f0f6e23c1798513fdf532b345
+Progress.BPM.Filter.TaskPerformerFilter	C	1451a36a3afdac9e2b81c22a2fe359dc
+Progress.BPM.Filter.TaskPriorityFilter	C	21b84084752983861f0ff1550530aa64
+Progress.BPM.Filter.TaskProcessFilter	C	a7fb22017b12796844dfbb79e4ea6c36
+Progress.BPM.Filter.TaskProcessTemplateFilter	C	63cfa59397c10f38bbc6ed2ba688cf7a
+Progress.BPM.Filter.TaskTimeStartedFilter	C	7ef4a47eb14019eee22ca771c566b6da

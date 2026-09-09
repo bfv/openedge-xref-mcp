@@ -1,0 +1,153 @@
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 1 COMPILE fwebh/pas/data/RequestDataProcessor.cls
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 27 CLASS fwebh.pas.data.RequestDataProcessor,,,,,,
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 27 STRING "fwebh.pas.data.RequestDataProcessor" 35 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 29 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 35 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 37 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Resource
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 37 UPDATE PUBLIC-PROPERTY fwebh.pas.data.RequestData:Resource 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 38 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Verb
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 38 STRING "REQUEST_METHOD" 14 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 38 UPDATE PUBLIC-PROPERTY fwebh.pas.data.RequestData:Verb 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 39 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:ContentType
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 39 STRING "CONTENT_TYPE" 12 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 39 UPDATE PUBLIC-PROPERTY fwebh.pas.data.RequestData:ContentType 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 40 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Accept
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 40 STRING "HTTP_ACCEPT" 11 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 40 UPDATE PUBLIC-PROPERTY fwebh.pas.data.RequestData:Accept 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 41 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Version
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 41 STRING "version" 7 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 41 UPDATE PUBLIC-PROPERTY fwebh.pas.data.RequestData:Version 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 42 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Parameters
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 42 UPDATE PUBLIC-PROPERTY fwebh.pas.data.RequestData:Parameters 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 43 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Headers
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 43 UPDATE PUBLIC-PROPERTY fwebh.pas.data.RequestData:Headers 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 45 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 50 METHOD PUBLIC,,,,,ProcessRequestInfo,fwebh.pas.data.IRequestData,INPUT request OPENEDGE.WEB.IWEBREQUEST
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 50 STRING "PROCESSREQUESTINFO" 18 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 53 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 53 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 55 STRING "type" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 56 STRING "h" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 58 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 58 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 62 STRING "Progress.Json.ObjectModel.JsonObject" 36 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 62 STRING "Progress.Json.ObjectModel.JsonArray" 35 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 62 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Data
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 62 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 62 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 62 CAST FROM Progress.Lang.Object TO Progress.Json.ObjectModel.JsonConstruct
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 62 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 65 STRING "OpenEdge.Core.Memptr" 20 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 65 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 65 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:ContentType
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 65 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Data
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 65 CAST FROM Progress.Lang.Object TO OpenEdge.Core.Memptr
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 70 STRING "OpenEdge.Core.WidgetHandle" 26 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 71 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 71 ACCESS PUBLIC-PROPERTY OpenEdge.Core.WidgetHandle:Value
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 71 CAST FROM Progress.Lang.Object TO OpenEdge.Core.WidgetHandle
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 72 ACCESS PUBLIC-PROPERTY fwebh.pas.data.RequestData:Data
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 72 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:GenericHandle
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 72 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:GenericHandle 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 77 STRING "PROCESSBODY" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 83 STRING "entity" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 83 STRING "contentType" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 83 STRING "data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 85 STRING "mimeType" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 85 STRING "charset" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 85 STRING "utf-8" 5 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 87 STRING ";" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 91 STRING "text/plain" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 93 STRING ";" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 93 STRING "charset=" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 94 STRING ";" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 94 STRING "=" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 97 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:PlainText
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 97 STRING "?" 1 LEFT TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 97 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:PlainText 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 98 ACCESS PUBLIC-PROPERTY OpenEdge.Core.Memptr:Value
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 98 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:PlainText
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 102 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 102 ACCESS PUBLIC-PROPERTY OpenEdge.Core.Memptr:Value
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 102 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 107 STRING "PROCESSMEMPTR" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 110 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 112 STRING "resource" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 112 STRING "resource" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 114 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Id
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 114 STRING "id" 2 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 114 UPDATE PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Id 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 115 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:ParentName
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 115 STRING "parentResource" 14 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 115 UPDATE PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:ParentName 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 116 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:ParentId
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 116 STRING "parentId" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 116 UPDATE PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:ParentId 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 117 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Version
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 117 STRING "version" 7 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 117 UPDATE PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Version 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 121 STRING "GETRESOURCEINFO" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 123 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 123 STRING "name" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 124 ACCESS PUBLIC-PROPERTY OpenEdge.Web.IWebRequest:PathParameterNames
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 125 STRING "HASPATHPARAMETER" 16 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 127 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 127 STRING "pathParameter" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 129 STRING "parameterValue" 14 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 136 STRING "GETPATHPARAMETER" 16 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 138 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 138 STRING "name" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 139 STRING "contentType" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 143 STRING "GETCONTEXTVALUE" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 145 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 147 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpRequest:URI
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 149 STRING "EXTRACTQUERYPARAMETERS" 22 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 151 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 153 STRING "headers" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 154 STRING "httpHeaders" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 155 STRING "currentHeader" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 156 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 156 STRING "headerCount" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 163 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.HttpHeader:Name
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 163 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.HttpHeader:Value
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 168 STRING "EXTRACTHEADERS" 14 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 177 STRING "headerName" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 179 STRING "nextCharUpper" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 180 STRING "resultString" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 180 STRING "currentChar" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 181 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 181 STRING "headerNameLength" 16 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 195 STRING "_" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 196 STRING "-" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 198 STRING "-" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 207 STRING "NORMALIZEHEADERNAME" 19 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 209 CONSTRUCTOR PUBLIC,,,,RequestDataProcessor,void,
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 209 STRING "REQUESTDATAPROCESSOR" 20 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 35 NEW fwebh.pas.data.RequestData
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 37 INVOKE fwebh.pas.data.RequestDataProcessor:getResourceInfo,INPUT OpenEdge.Web.IWebRequest
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 38 INVOKE fwebh.pas.data.RequestDataProcessor:getContextValue,INPUT OpenEdge.Web.IWebRequest,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 39 INVOKE fwebh.pas.data.RequestDataProcessor:getContextValue,INPUT OpenEdge.Web.IWebRequest,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 40 INVOKE fwebh.pas.data.RequestDataProcessor:getContextValue,INPUT OpenEdge.Web.IWebRequest,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 41 INVOKE OpenEdge.Web.IWebRequest:GetPathParameter,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 42 INVOKE fwebh.pas.data.RequestDataProcessor:extractQueryParameters,INPUT OpenEdge.Web.IWebRequest
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 43 INVOKE fwebh.pas.data.RequestDataProcessor:extractHeaders,INPUT OpenEdge.Web.IWebRequest
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 46 INVOKE fwebh.pas.data.RequestDataProcessor:processBody,INPUT OpenEdge.Web.IWebRequest,INPUT fwebh.pas.data.RequestData
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 58 INVOKE Progress.Lang.Object:GetClass
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 65 INVOKE fwebh.pas.data.RequestDataProcessor:processMemptr,INPUT OpenEdge.Core.Memptr,INPUT character,INPUT fwebh.pas.data.IDataHolder
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 112 INVOKE OpenEdge.Web.IWebRequest:GetPathParameter,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 112 NEW fwebh.pas.resource.ResourceDescriptor,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 114 INVOKE fwebh.pas.data.RequestDataProcessor:getPathParameter,INPUT OpenEdge.Web.IWebRequest,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 115 INVOKE fwebh.pas.data.RequestDataProcessor:getPathParameter,INPUT OpenEdge.Web.IWebRequest,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 116 INVOKE fwebh.pas.data.RequestDataProcessor:getPathParameter,INPUT OpenEdge.Web.IWebRequest,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 117 INVOKE fwebh.pas.data.RequestDataProcessor:getPathParameter,INPUT OpenEdge.Web.IWebRequest,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 131 INVOKE fwebh.pas.data.RequestDataProcessor:hasPathParameter,INPUT OpenEdge.Web.IWebRequest,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 132 INVOKE OpenEdge.Web.IWebRequest:GetPathParameter,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 139 INVOKE OpenEdge.Web.IWebRequest:GetContextValue,INPUT character
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 147 INVOKE OpenEdge.Net.URI:GetQueryMap
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 158 NEW OpenEdge.Core.Collections.StringStringMap
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 160 INVOKE OpenEdge.Net.HTTP.IHttpMessage:GetHeaders,OUTPUT OpenEdge.Net.HTTP.HttpHeader EXTENT
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 163 INVOKE OpenEdge.Core.Collections.StringStringMap:Put,INPUT character,INPUT longchar
+./src/fwebh/pas/data/RequestDataProcessor.cls ./src/fwebh/pas/data/RequestDataProcessor.cls 163 INVOKE fwebh.pas.data.RequestDataProcessor:normalizeHeaderName,INPUT character

@@ -1,0 +1,21 @@
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 1 COMPILE fwebh/pas/data/IDataHolder.cls
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 16 INTERFACE fwebh.pas.data.IDataHolder,,,,
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 16 STRING "fwebh.pas.data.IDataHolder" 26 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 18 STRING "DatasetHandle" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 18 PROPERTY PUBLIC,,,,,DatasetHandle
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 19 STRING "TempTableHandle" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 19 PROPERTY PUBLIC,,,,,TempTableHandle
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 20 STRING "BufferHandle" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 20 PROPERTY PUBLIC,,,,,BufferHandle
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 21 STRING "GenericHandle" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 21 PROPERTY PUBLIC,,,,,GenericHandle
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 22 STRING "Json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 22 PROPERTY PUBLIC,,,,,Json
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 23 STRING "Memptr" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 23 PROPERTY PUBLIC,,,,,Memptr
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 24 STRING "PlainText" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 24 PROPERTY PUBLIC,,,,,PlainText
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 25 STRING "DataType" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDataHolder.cls ./src/fwebh/pas/data/IDataHolder.cls 25 PROPERTY PUBLIC,,,,,DataType

@@ -1,0 +1,15 @@
+Progress.Data
+Progress.Data.BindingSource	C	44ebd73ab0f843fee8edd61c28372071
+Progress.Data.CancelCreateRowEventArgs	C	0998431e1562d191abc2b6523939361a
+Progress.Data.ChildrenAllowEdit	C	378e9919a85c7079c91960beca76c173
+Progress.Data.ChildrenAllowNew	C	eb485399742e1737490d9cd987d8e3a4
+Progress.Data.ChildrenAllowRemove	C	cf60cfe0f4487a5e55a23bd49daa726b
+Progress.Data.ChildrenInputValue	C	c8d19edcd41d5ae7ec0921e9d104d3bc
+Progress.Data.ColumnPropDesc	C	d79e3de8a950a25b791478ed022ccd16
+Progress.Data.CreateRowEventArgs	C	5823451318b8499f456e1737055aee0d
+Progress.Data.DataType	C	7b27c73781f2c4f15edf9f93d1d0d587
+Progress.Data.DummyRow	C	bedb6c821227d41376e86d1bfcbe0b07
+Progress.Data.InputValue	C	de47cbe814fe8799aeeed36697e4e129
+Progress.Data.OffEndEventArgs	C	69a7d1158d7276678d3e3816d7ecadc5
+Progress.Data.SortRequestEventArgs	C	364f9f2336312438a7c3f7b2b087942e
+Progress.Data.TableDesc	C	32d154229ac15f32e8ada8c01c78a371

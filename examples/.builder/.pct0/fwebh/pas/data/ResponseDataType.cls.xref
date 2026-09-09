@@ -1,0 +1,13 @@
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 1 COMPILE fwebh/pas/data/ResponseDataType.cls
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 11 ENUM fwebh.pas.data.ResponseDataType,
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 11 STRING "fwebh.pas.data.ResponseDataType" 31 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 13 STRING "DATASET" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 13 STRING "TEMP-TABLE" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 13 STRING "BUFFER" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 13 STRING "JSON" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 13 STRING "MEMPTR" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 13 STRING "WIDGET-HANDLE" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 13 STRING "LONGCHAR" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/ResponseDataType.cls ./src/fwebh/pas/data/ResponseDataType.cls 13 STRING "NONE" 4 NONE UNTRANSLATABLE 

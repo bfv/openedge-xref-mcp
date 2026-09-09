@@ -1,0 +1,35 @@
+[project]
+name = "openedge-xref-mcp"
+version = "0.1.0"
+description = "MCP server exposing OpenEdge ABL XREF cross-reference information"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "mcp[cli]>=1.6.0,<2",
+]
+
+[project.scripts]
+openedge-xref-mcp = "openedge_xref_mcp.server:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.6.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/openedge_xref_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

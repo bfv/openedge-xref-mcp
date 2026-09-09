@@ -1,0 +1,20 @@
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 1 COMPILE test/serialize/test-address.p
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 1 CPINTERNAL utf-8
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 1 CPSTREAM UTF-8
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 5 STRING "addrString" 10 NONE UNTRANSLATABLE 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 6 STRING "addr" 4 NONE UNTRANSLATABLE 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 7 ACCESS PUBLIC-PROPERTY test.serialize.Address:Street
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 7 STRING "Hamersveldseweg" 15 NONE TRANSLATABLE 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 7 UPDATE PUBLIC-PROPERTY test.serialize.Address:Street 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 8 ACCESS PUBLIC-PROPERTY test.serialize.Address:HouseNumber
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 8 UPDATE PUBLIC-PROPERTY test.serialize.Address:HouseNumber 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 9 ACCESS PUBLIC-PROPERTY test.serialize.Address:Postcode
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 9 STRING "3833 GV" 7 NONE TRANSLATABLE 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 9 UPDATE PUBLIC-PROPERTY test.serialize.Address:Postcode 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 10 ACCESS PUBLIC-PROPERTY test.serialize.Address:Municipale
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 10 STRING "Leusden" 7 NONE TRANSLATABLE 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 10 UPDATE PUBLIC-PROPERTY test.serialize.Address:Municipale 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 13 STRING "src/test/serialize/addr-string2.txt" 35 NONE TRANSLATABLE 
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 6 NEW test.serialize.Address
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 12 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/test/serialize/test-address.p ./src/test/serialize/test-address.p 12 NEW fwebh.serialize.SimpleJsonSerializer

@@ -1,0 +1,19 @@
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 1 COMPILE test/serialize/test-tt-with-object.p
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 1 CPINTERNAL utf-8
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 1 CPSTREAM UTF-8
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 5 STRING "jsonString" 10 NONE UNTRANSLATABLE 
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 5 STRING "jsonString2" 11 NONE UNTRANSLATABLE 
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 6 STRING "pl" 2 NONE UNTRANSLATABLE 
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 17 STRING "src/test/serialize/tt-with-obj2.json" 36 NONE TRANSLATABLE 
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 19 STRING "test.serialize.PersonList" 25 NONE TRANSLATABLE 
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 19 CAST TO test.serialize.PersonList
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 20 STRING "deserialized: " 14 NONE TRANSLATABLE 
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 21 STRING "done" 4 NONE TRANSLATABLE 
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 8 NEW test.serialize.PersonList
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 9 INVOKE test.serialize.PersonList:Fill
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 11 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 11 NEW fwebh.serialize.SimpleJsonSerializer
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 13 DELETE-INSTANCE test.serialize.PersonList
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 19 INVOKE fwebh.serialize.SimpleJsonDeserializer:DeserializeString,INPUT longchar,INPUT character
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 19 NEW fwebh.serialize.SimpleJsonDeserializer
+./src/test/serialize/test-tt-with-object.p ./src/test/serialize/test-tt-with-object.p 20 INVOKE test.serialize.PersonList:ToString

@@ -1,0 +1,8 @@
+./src/fwebh/core/IConfigurable.cls ./src/fwebh/core/IConfigurable.cls 1 COMPILE fwebh/core/IConfigurable.cls
+./src/fwebh/core/IConfigurable.cls ./src/fwebh/core/IConfigurable.cls 1 CPINTERNAL utf-8
+./src/fwebh/core/IConfigurable.cls ./src/fwebh/core/IConfigurable.cls 1 CPSTREAM UTF-8
+./src/fwebh/core/IConfigurable.cls ./src/fwebh/core/IConfigurable.cls 13 INTERFACE fwebh.core.IConfigurable,,,,
+./src/fwebh/core/IConfigurable.cls ./src/fwebh/core/IConfigurable.cls 13 STRING "fwebh.core.IConfigurable" 24 NONE UNTRANSLATABLE 
+./src/fwebh/core/IConfigurable.cls ./src/fwebh/core/IConfigurable.cls 15 STRING "config" 6 NONE UNTRANSLATABLE 
+./src/fwebh/core/IConfigurable.cls ./src/fwebh/core/IConfigurable.cls 15 METHOD PUBLIC,,,,,Configure,void,INPUT config PROGRESS.JSON.OBJECTMODEL.JSONOBJECT
+./src/fwebh/core/IConfigurable.cls ./src/fwebh/core/IConfigurable.cls 15 STRING "CONFIGURE" 9 NONE UNTRANSLATABLE 

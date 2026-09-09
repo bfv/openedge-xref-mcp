@@ -1,0 +1,109 @@
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 1 COMPILE fwebh/core/Factory_UT.cls
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 1 CPINTERNAL utf-8
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 1 CPSTREAM UTF-8
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 20 CLASS fwebh.core.Factory_UT,,,,,,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 20 STRING "fwebh.core.Factory_UT" 21 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 22 STRING "factory" 7 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 24 INCLUDE fwebh/core/ttfactorydef.i
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "ttdefintion" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "indentifier" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "classname" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "singleton" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "config" 6 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 26 ANNOTATION BeforeEach
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 29 METHOD PUBLIC,,,,,_BeforeEach,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 29 STRING "_BEFOREEACH" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 31 ANNOTATION AfterEach
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 35 METHOD PUBLIC,,,,,_AfterEach,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 35 STRING "_AFTEREACH" 10 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 38 ANNOTATION Test
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 41 STRING "test/core/test-factory.json" 27 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 43 METHOD PUBLIC,,,,,load_correct_factory_definitions,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 43 STRING "LOAD_CORRECT_FACTORY_DEFINITIONS" 32 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 45 ANNOTATION Test(expected=fwebh.lang.error.InvalidDataException)
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 48 STRING "test/core/test-factory-errorneous.json" 38 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 50 METHOD PUBLIC,,,,,load_errorneous_factory_definitions,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 50 STRING "LOAD_ERRORNEOUS_FACTORY_DEFINITIONS" 35 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 52 ANNOTATION Test(expected=Progress.Lang.AppError)
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 55 STRING "inst1" 5 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 57 STRING "test/core/test-factory.json" 27 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 58 INCLUDE "getinstance.i janedoe as Progress.Lang.Object from factory"
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 58 STRING "janedoe" 7 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 58 CAST TO Progress.Lang.Object
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 60 METHOD PUBLIC,,,,,non_defined_returns_error,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 60 STRING "NON_DEFINED_RETURNS_ERROR" 25 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 62 ANNOTATION Test
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 65 STRING "inst1" 5 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 66 STRING "inst2" 5 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 68 STRING "test/core/test-factory.json" 27 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 70 INCLUDE "getinstance.i johndoe as Progress.Lang.Object from factory"
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 70 STRING "johndoe" 7 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 70 CAST TO Progress.Lang.Object
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 71 INCLUDE "getinstance.i johndoe as Progress.Lang.Object from factory"
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 71 STRING "johndoe" 7 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 71 CAST TO Progress.Lang.Object
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 75 METHOD PUBLIC,,,,,non_singleton_returns_new_instance,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 75 STRING "NON_SINGLETON_RETURNS_NEW_INSTANCE" 34 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 77 ANNOTATION Test
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 80 STRING "inst1" 5 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 81 STRING "inst2" 5 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 83 STRING "test/core/test-factory.json" 27 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 85 INCLUDE "getinstance.i single as Factory from factory"
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 85 STRING "single" 6 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 85 CAST TO fwebh.core.Factory
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 86 INCLUDE "getinstance.i single as Factory from factory"
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 86 STRING "single" 6 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 86 CAST TO fwebh.core.Factory
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 90 METHOD PUBLIC,,,,,singleton_returns_same_instance,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 90 STRING "SINGLETON_RETURNS_SAME_INSTANCE" 31 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 92 ANNOTATION Test(expected=Progress.Lang.AppError)
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 95 STRING "inst1" 5 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 97 STRING "test/core/test-factory.json" 27 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 99 INCLUDE "getinstance.i classnotfound as Progress.Lang.Object from factory"
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 99 STRING "classnotfound" 13 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 99 CAST TO Progress.Lang.Object
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 101 METHOD PUBLIC,,,,,class_not_found_returns_error,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 101 STRING "CLASS_NOT_FOUND_RETURNS_ERROR" 29 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 103 ANNOTATION Test(expected=fwebh.lang.error.NotFoundException)
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 106 STRING "inst1" 5 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 108 STRING "test/core/test-factory.json" 27 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 110 INCLUDE "getinstance.i notdefined as Progress.Lang.Object from factory"
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 110 STRING "notdefined" 10 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 110 CAST TO Progress.Lang.Object
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 112 METHOD PUBLIC,,,,,defintions_not_found_returns_error,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 112 STRING "DEFINTIONS_NOT_FOUND_RETURNS_ERROR" 34 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 114 ANNOTATION Test
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 117 STRING "cfg" 3 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 119 STRING "test/core/test-factory.json" 27 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 120 INCLUDE "getinstance.i testconfig as Configurable from factory"
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 120 STRING "testconfig" 10 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 120 CAST TO test.core.Configurable
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 122 ACCESS PUBLIC-PROPERTY test.core.Configurable:Test
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 122 STRING "ok" 2 NONE TRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 124 METHOD PUBLIC,,,,,configuration_passed_to_object,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 124 STRING "CONFIGURATION_PASSED_TO_OBJECT" 30 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 126 CONSTRUCTOR PUBLIC,,,,Factory_UT,void,
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 126 STRING "FACTORY_UT" 10 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 126 STRING "default" 7 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 28 NEW fwebh.core.Factory
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 34 DELETE-INSTANCE fwebh.core.IFactory
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 41 INVOKE fwebh.core.IFactory:LoadDefinitions,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 48 INVOKE fwebh.core.IFactory:LoadDefinitions,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 57 INVOKE fwebh.core.IFactory:LoadDefinitions,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 58 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 68 INVOKE fwebh.core.IFactory:LoadDefinitions,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 70 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 71 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 73 INVOKE OpenEdge.Core.Assert:NotEqual,INPUT Progress.Lang.Object,INPUT Progress.Lang.Object
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 83 INVOKE fwebh.core.IFactory:LoadDefinitions,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 85 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 86 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 88 INVOKE OpenEdge.Core.Assert:Equals,INPUT Progress.Lang.Object,INPUT Progress.Lang.Object
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 97 INVOKE fwebh.core.IFactory:LoadDefinitions,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 99 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 108 INVOKE fwebh.core.IFactory:LoadDefinitions,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 110 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 119 INVOKE fwebh.core.IFactory:LoadDefinitions,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 120 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/core/Factory_UT.cls ./src/fwebh/core/Factory_UT.cls 122 INVOKE OpenEdge.Core.Assert:Equals,INPUT character,INPUT character

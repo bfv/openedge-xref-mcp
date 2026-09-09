@@ -1,0 +1,14 @@
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 1 COMPILE fwebh/pas/service/system/EchoPostData.cls
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 14 CLASS fwebh.pas.service.system.EchoPostData,,,,,,
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 14 STRING "fwebh.pas.service.system.EchoPostData" 37 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 18 STRING "id" 2 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 18 PROPERTY PUBLIC,,,,,id
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 19 STRING "client" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 19 PROPERTY PUBLIC,,,,,client
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 20 STRING "version" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 20 PROPERTY PUBLIC,,,,,version
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 22 CONSTRUCTOR PUBLIC,,,,EchoPostData,void,
+./src/fwebh/pas/service/system/EchoPostData.cls ./src/fwebh/pas/service/system/EchoPostData.cls 22 STRING "ECHOPOSTDATA" 12 NONE UNTRANSLATABLE 

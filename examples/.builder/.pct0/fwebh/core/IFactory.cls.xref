@@ -1,0 +1,23 @@
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 1 COMPILE fwebh/core/IFactory.cls
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 1 CPINTERNAL utf-8
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 1 CPSTREAM UTF-8
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 14 INTERFACE fwebh.core.IFactory,,,,
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 14 STRING "fwebh.core.IFactory" 19 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 16 STRING "instanceName" 12 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 16 METHOD PUBLIC,,,,,GetInstance,Progress.Lang.Object,INPUT instanceName CHARACTER
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 16 STRING "GETINSTANCE" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 17 STRING "instanceName" 12 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 17 METHOD PUBLIC,,,,,DeleteInstance,Progress.Lang.Object,INPUT instanceName CHARACTER
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 17 STRING "DELETEINSTANCE" 14 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 18 STRING "instanceName" 12 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 18 METHOD PUBLIC,,,,,Has,logical,INPUT instanceName CHARACTER
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 18 STRING "HAS" 3 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 19 STRING "jsonDefinitionFile" 18 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 19 METHOD PUBLIC,,,,,LoadDefinitions,void,INPUT jsonDefinitionFile CHARACTER
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 19 STRING "LOADDEFINITIONS" 15 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 20 STRING "instanceName" 12 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 20 STRING "className" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 20 STRING "singleton" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 20 STRING "config" 6 NONE UNTRANSLATABLE 
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 20 METHOD PUBLIC,,,,,AddDefinition,void,INPUT instanceName CHARACTER,INPUT className CHARACTER,INPUT singleton LOGICAL,INPUT config PROGRESS.JSON.OBJECTMODEL.JSONOBJECT
+./src/fwebh/core/IFactory.cls ./src/fwebh/core/IFactory.cls 20 STRING "ADDDEFINITION" 13 NONE UNTRANSLATABLE 

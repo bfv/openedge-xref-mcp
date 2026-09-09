@@ -1,0 +1,12 @@
+OpenEdge.Core.Util
+OpenEdge.Core.Util.AnnotationWriter	C	521531c51bbfe3d2cd9909f59093c023
+OpenEdge.Core.Util.BuilderRegistry	C	8c97b36dfe3c1d0f8aecf21edd99bfd2
+OpenEdge.Core.Util.ConfigBuilder	C	c7442c551f98b15ecfe9a7fd51e12635
+OpenEdge.Core.Util.LeakCheck	C	5d97302f3b84cb9da8ca999e62699995
+OpenEdge.Core.Util.LeakReportFilterTypeEnum	C	a65310c99ca55daf607b2b9be421d9e0
+OpenEdge.Core.Util.LeakReportParameters	C	2b01125c9630b0adff9cf51d7ad14143
+OpenEdge.Core.Util.MathUtil	C	2785b41f65012fdc804434885f6b0079
+OpenEdge.Core.Util.Token	C	ea7fed0cdb2f252dfc77cf40ec6b6fc8
+OpenEdge.Core.Util.TokenResolver	C	4426bd41590490db90128b128fe48483
+OpenEdge.Core.Util.TokenResolverEventArgs	C	c8d72d360f991c3a848e830d28927679
+OpenEdge.Core.Util.UTF8Encoder	C	4f9b4fdd98a9fbdd9f74cd942e9fea0d

@@ -1,0 +1,10 @@
+Progress.IO
+Progress.IO.BinarySerializer	C	ed333376227f599e6d4616fa0646e3c8
+Progress.IO.ByteOrder	C	67f46ccc10a38d8987505ee7157464b7
+Progress.IO.FileInputStream	C	6e77e2543f26b13fee4e052f0a41391c
+Progress.IO.FileOutputStream	C	947c478d1b446b79f34937adf9761a88
+Progress.IO.InputStream	C	0495374679d79546f141bb0075b3d68c
+Progress.IO.JsonSerializer	C	15ed863d7b10bb31f0afef57bfa3afd8
+Progress.IO.MemoryInputStream	C	a0c432163fb51adcea8fc8ae15de2d85
+Progress.IO.MemoryOutputStream	C	2c17fc42eb0df087e5aef97760c0a7ee
+Progress.IO.OutputStream	C	778d104d4d516138659812d8c8ecce84

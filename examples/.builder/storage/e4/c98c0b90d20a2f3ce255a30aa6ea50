@@ -1,0 +1,12 @@
+OpenEdge.Net.HTTP.Filter.Writer
+OpenEdge.Net.HTTP.Filter.Writer.AuthenticationRequestWriterBuilder	C	e3c3cc054f7999d20b0376c024a67198
+OpenEdge.Net.HTTP.Filter.Writer.BodyWriterBuilder	C	84e4337452accb8656f8cb89ef56f93f
+OpenEdge.Net.HTTP.Filter.Writer.BodyWriterRegistry	C	7c38046448fc22f2732f94dc2be1d50e
+OpenEdge.Net.HTTP.Filter.Writer.DefaultMessageWriterBuilder	C	84c9abf227ecefeee0ca792583d39da8
+OpenEdge.Net.HTTP.Filter.Writer.EntityWriterBuilder	C	d33b2aae8cab7a3655ebe602b9dc4b04
+OpenEdge.Net.HTTP.Filter.Writer.EntityWriterRegistry	C	d28cc3dcedf33bb66886e399564a4221
+OpenEdge.Net.HTTP.Filter.Writer.MessageWriterBuilder	C	ceaa2b498ff9c74320ef96cc9bd630e4
+OpenEdge.Net.HTTP.Filter.Writer.RequestWriterBuilder	C	f0ab83d2a46527f5f2e8ddb492dff394
+OpenEdge.Net.HTTP.Filter.Writer.SetHeaderMessageWriterBuilder	C	cbe6223d23ade1a91120152c9f87b52a
+OpenEdge.Net.HTTP.Filter.Writer.StatusCodeWriterBuilder	C	02e0e3f15c43b4c87f79e7e68583b5f3
+OpenEdge.Net.HTTP.Filter.Writer.VoidMessageWriterBuilder	C	45540a9b4a449554bd7793913c16c7d6

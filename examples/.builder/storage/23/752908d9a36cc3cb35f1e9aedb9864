@@ -1,0 +1,9 @@
+test.serialize
+test.serialize.Address	C	8d08670a83cd43a3779a7bdd8701867e
+test.serialize.ArrayObject	C	0defd6f6dc2f314859a319c37776c6bc
+test.serialize.Language	C	9f8df91a9885781d27e9969e254b2495
+test.serialize.ListTest	C	ef881ffd833500916801fec672172a3f
+test.serialize.ListTestAddress	C	d810201f90fe9b135f83bb0503588729
+test.serialize.PersonList	C	36c849e9f884f90ce4e2a1390ac39310
+test.serialize.StringStringMapTest	C	a64afb95c911edb57a648df0f25e5e5b
+test.serialize.TempTableTest	C	6db5e3728165985dc9f6cda3c47068cd

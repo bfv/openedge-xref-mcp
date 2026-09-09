@@ -1,0 +1,12 @@
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 1 COMPILE fwebh/pas/service/ServiceDescription.cls
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 14 CLASS fwebh.pas.service.ServiceDescription,,,,,,
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 14 STRING "fwebh.pas.service.ServiceDescription" 36 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 16 STRING "classname" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 16 PROPERTY PUBLIC,,,,,classname
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 17 STRING "singleton" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 17 PROPERTY PUBLIC,,,,,singleton
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 19 CONSTRUCTOR PUBLIC,,,,ServiceDescription,void,
+./src/fwebh/pas/service/ServiceDescription.cls ./src/fwebh/pas/service/ServiceDescription.cls 19 STRING "SERVICEDESCRIPTION" 18 NONE UNTRANSLATABLE 

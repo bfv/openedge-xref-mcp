@@ -1,0 +1,6 @@
+OpenEdge.Core.Assertion
+OpenEdge.Core.Assertion.AssertArray	C	3b61696b907d3b7d731a2186ad6cbf13
+OpenEdge.Core.Assertion.AssertError	C	9852bc7a9e681bbaa6624f19c3e0d24b
+OpenEdge.Core.Assertion.AssertFile	C	597b73057a9d1a8c7c30c29b823f9aee
+OpenEdge.Core.Assertion.AssertJson	C	0f939d3be55636158eee19cc9e165140
+OpenEdge.Core.Assertion.AssertObject	C	949a2ee02eb2e5ba3b248874eadfa484

@@ -1,0 +1,17 @@
+OpenEdge.Net
+OpenEdge.Net.HTTP	P	1df6adde18f336b2310fd94c3601183b
+OpenEdge.Net.ServerConnection	P	cc788e4df7c756eda2db1f7063720da7
+OpenEdge.Net.FileTypeRegistry	C	a74607f669ef003ed1192427b86c9a3e
+OpenEdge.Net.FormEncoder	C	5a1eb54e975d01229fc7ed93f5f1c886
+OpenEdge.Net.ISupportEncoding	C	ee0dc30f929961cf1a4ba19664f4bb6d
+OpenEdge.Net.ISupportMultipartEntity	C	e7486a9ff4d1b7c9c1f15297c9b8bf7e
+OpenEdge.Net.ISupportTransferEncoding	C	a1cbe53f338475f0baac6d8cf0e0d298
+OpenEdge.Net.MediaLinkEntity	C	898509cd2249f3d8ecbbff404387e2ca
+OpenEdge.Net.MessagePart	C	0e6342c15db26bd8ca232841f69351c4
+OpenEdge.Net.MimeTypeHelper	C	b4b6ccd7d75a2fc3ae7f7d997b9f9b30
+OpenEdge.Net.MultipartEntity	C	05e688a917eae0f78bc98406dab763ce
+OpenEdge.Net.PercentEncoder	C	54029eb10c6e2b489a187449e26588d5
+OpenEdge.Net.URI	C	89d53346d28b10609388eeca5f73f5af
+OpenEdge.Net.UriEncoder	C	b4f8fea10930e63fc997f197ddbce570
+OpenEdge.Net.UriEncodingTypeEnum	C	51c43617584318cf6bcd1e653bf28da7
+OpenEdge.Net.UriSchemeEnum	C	33b251b213ec6a8a6ac3860966c60ac9

@@ -1,0 +1,27 @@
+Ccs.Common.Support
+Ccs.Common.Support.ICharacterArrayHolder	C	46c422f270fa82e710d0aa7e9d9820e4
+Ccs.Common.Support.ICharacterHolder	C	5668bdaca4aa6f81b07b03df5ca6294e
+Ccs.Common.Support.IDateArrayHolder	C	631f6dc75264868f4f75b73c11358c06
+Ccs.Common.Support.IDateHolder	C	9e1a8262b48f069240c710c45e3822db
+Ccs.Common.Support.IDateTimeArrayHolder	C	1c7940ae8bdea5f503abaa262fcf8872
+Ccs.Common.Support.IDateTimeHolder	C	e91fe4e3dc35b4d6ad17ec5054620cbb
+Ccs.Common.Support.IDateTimeTzArrayHolder	C	509547fa25c3469d0352f23dce520ad1
+Ccs.Common.Support.IDateTimeTzHolder	C	297c73a71e7e623ba390d8c5455bce43
+Ccs.Common.Support.IDecimalArrayHolder	C	54101ad7a257bcba04ff2cdbfda83000
+Ccs.Common.Support.IDecimalHolder	C	73aef00eeca9b3adcc5cf41d763676f6
+Ccs.Common.Support.IHandleArrayHolder	C	7aa5b981a4dbd67d87fc6527ad346e88
+Ccs.Common.Support.IHandleHolder	C	971862ac39cc0ad219da14b5ddaf7f89
+Ccs.Common.Support.IInt64ArrayHolder	C	f2c8d07a8e8ff4ba3734fcb382e3199d
+Ccs.Common.Support.IInt64Holder	C	62dbdc10c060e1f364497be9bcb6f8b3
+Ccs.Common.Support.IIntegerArrayHolder	C	b58e4310f6d1fe94474a1217d8cf217b
+Ccs.Common.Support.IIntegerHolder	C	da2663f56085f3deff8403d0be715c4e
+Ccs.Common.Support.ILogicalArrayHolder	C	01141ff997a7a33b7213eb45b6dd7f89
+Ccs.Common.Support.ILogicalHolder	C	ade50b7ee326a269b3ee3f53ac36e3ef
+Ccs.Common.Support.ILongcharArrayHolder	C	45fd0f32ab1c9b08e4ac85770b667619
+Ccs.Common.Support.ILongcharHolder	C	bf43e2f3e80b4f64bd3cfd5754f7439d
+Ccs.Common.Support.IMemptrArrayHolder	C	3e506de04abd95631212ff3ab43bb87d
+Ccs.Common.Support.IMemptrHolder	C	6c27d278c3f11657919dd38b94e0d457
+Ccs.Common.Support.IPrimitiveArrayHolder	C	285d5c3f7382f79b48baa2f03a14770a
+Ccs.Common.Support.IPrimitiveHolder	C	325b44a9c8e6b4d019ab92d2739b5d09
+Ccs.Common.Support.IRowidArrayHolder	C	cc42ba80e82dae6033ee786741e7fa7d
+Ccs.Common.Support.IRowidHolder	C	b5c13572ab80bd9a08955433f84d6c3d

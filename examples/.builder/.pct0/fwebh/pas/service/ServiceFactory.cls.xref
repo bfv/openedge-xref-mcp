@@ -1,0 +1,103 @@
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 1 COMPILE fwebh/pas/service/ServiceFactory.cls
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 28 CLASS fwebh.pas.service.ServiceFactory,,,,,,
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 28 STRING "fwebh.pas.service.ServiceFactory" 32 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 30 STRING "Services" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 30 PROPERTY PUBLIC,,,,,Services
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 32 STRING "factory" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 36 ACCESS PUBLIC-PROPERTY fwebh.pas.service.ServiceFactory:Services
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 36 UPDATE PUBLIC-PROPERTY fwebh.pas.service.ServiceFactory:Services 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 38 CONSTRUCTOR PUBLIC,,,,ServiceFactory,void,
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 38 STRING "SERVICEFACTORY" 14 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 40 STRING "identifier" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 41 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 41 STRING "fwebh.pas.service.IGetDataService" 33 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 42 CAST FROM Progress.Lang.Object TO fwebh.pas.service.IGetDataService
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 43 METHOD PUBLIC,,,,,GetGetDataService,fwebh.pas.service.IGetDataService,INPUT identifier CHARACTER
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 43 STRING "GETGETDATASERVICE" 17 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 45 STRING "identifier" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 46 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 46 STRING "fwebh.pas.service.IPatchDataService" 35 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 47 CAST FROM Progress.Lang.Object TO fwebh.pas.service.IPatchDataService
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 48 METHOD PUBLIC,,,,,GetPatchDataService,fwebh.pas.service.IPatchDataService,INPUT identifier CHARACTER
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 48 STRING "GETPATCHDATASERVICE" 19 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 50 STRING "identifier" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 51 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 51 STRING "fwebh.pas.service.IPostDataService" 34 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 52 CAST FROM Progress.Lang.Object TO fwebh.pas.service.IPostDataService
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 53 METHOD PUBLIC,,,,,GetPostDataService,fwebh.pas.service.IPostDataService,INPUT identifier CHARACTER
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 53 STRING "GETPOSTDATASERVICE" 18 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 55 STRING "identifier" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 56 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 56 STRING "fwebh.pas.service.IPutDataService" 33 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 57 CAST FROM Progress.Lang.Object TO fwebh.pas.service.IPutDataService
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 58 METHOD PUBLIC,,,,,GetPutDataService,fwebh.pas.service.IPutDataService,INPUT identifier CHARACTER
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 58 STRING "GETPUTDATASERVICE" 17 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 60 STRING "identifier" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 61 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 61 STRING "fwebh.pas.service.IDeleteDataService" 36 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 62 CAST FROM Progress.Lang.Object TO fwebh.pas.service.IDeleteDataService
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 63 METHOD PUBLIC,,,,,GetDeleteDataService,fwebh.pas.service.IDeleteDataService,INPUT identifier CHARACTER
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 63 STRING "GETDELETEDATASERVICE" 20 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 65 STRING "identifier" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 65 STRING "expectedInterface" 17 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 66 STRING "methodName" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 67 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 70 STRING "DataService" 11 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 70 STRING "fwebh.pas.service.I" 19 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 71 STRING "&1 for '&2'" 11 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 76 STRING "GETFROMFACTORY" 14 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 80 STRING "deserializer" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 81 STRING "defs" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 82 STRING "svcDef" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 83 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 84 STRING "names" 5 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 85 STRING "errorMessage" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 88 STRING "services.json" 13 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 91 STRING "Loading &1 services" 19 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 94 STRING "fwebh.pas.service.ServiceDescription" 36 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 94 CAST TO fwebh.pas.service.ServiceDescription
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 95 ACCESS PUBLIC-PROPERTY fwebh.pas.service.ServiceDescription:classname
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 96 ACCESS PUBLIC-PROPERTY fwebh.pas.service.ServiceDescription:classname
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 96 ACCESS PUBLIC-PROPERTY fwebh.pas.service.ServiceDescription:singleton
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 97 ACCESS PUBLIC-PROPERTY fwebh.pas.service.ServiceFactory:Services
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 100 ACCESS PUBLIC-PROPERTY fwebh.pas.service.ServiceDescription:classname
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 100 STRING "Service &1, class &2 not found" 30 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 101 ACCESS PUBLIC-PROPERTY fwebh.pas.service.ServiceDescription:classname
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 101 STRING "service: &1, class not found: &2" 32 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 106 STRING "LOADDEFINITIONS" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 108 STRING "FQClassName" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 110 STRING "classSourceFile" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 110 STRING "/" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 110 STRING "." 1 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 110 STRING ".cls" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 111 STRING "classRcodeFile" 14 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 111 STRING "/" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 111 STRING "." 1 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 111 STRING ".r" 2 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 113 STRING "found" 5 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 117 STRING "CLASSEXISTS" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 35 NEW fwebh.core.Factory
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 36 NEW Progress.Collections.HashMap<OpenEdge.Core.String,fwebh.pas.service.ServiceDescription>
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 37 INVOKE fwebh.pas.service.ServiceFactory:loadDefinitions
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 41 INVOKE fwebh.pas.service.ServiceFactory:getFromFactory,INPUT character,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 46 INVOKE fwebh.pas.service.ServiceFactory:getFromFactory,INPUT character,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 51 INVOKE fwebh.pas.service.ServiceFactory:getFromFactory,INPUT character,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 56 INVOKE fwebh.pas.service.ServiceFactory:getFromFactory,INPUT character,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 61 INVOKE fwebh.pas.service.ServiceFactory:getFromFactory,INPUT character,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 67 INVOKE fwebh.core.Factory:GetInstance,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 69 INVOKE Progress.Lang.Object:GetClass
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 69 INVOKE Progress.Lang.Class:IsA,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 71 NEW fwebh.lang.error.NotAllowedException,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 87 NEW fwebh.serialize.SimpleJsonDeserializer
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 88 INVOKE fwebh.core.JSON:ParseFileToObject,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 90 INVOKE Progress.Json.ObjectModel.JsonObject:GetNames
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 94 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 94 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonObject,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 95 INVOKE fwebh.pas.service.ServiceFactory:classExists,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 96 INVOKE fwebh.core.Factory:AddDefinition,INPUT character,INPUT character,INPUT logical,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 97 INVOKE Progress.Collections.HashMap<OpenEdge.Core.String,fwebh.pas.service.ServiceDescription>:Add,INPUT OpenEdge.Core.String,INPUT fwebh.pas.service.ServiceDescription
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 97 NEW OpenEdge.Core.String,INPUT character
+./src/fwebh/pas/service/ServiceFactory.cls ./src/fwebh/pas/service/ServiceFactory.cls 101 NEW fwebh.lang.error.NotFoundException,INPUT character

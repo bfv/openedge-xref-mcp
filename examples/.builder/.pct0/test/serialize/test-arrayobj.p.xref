@@ -1,0 +1,9 @@
+./src/test/serialize/test-arrayobj.p ./src/test/serialize/test-arrayobj.p 1 COMPILE test/serialize/test-arrayobj.p
+./src/test/serialize/test-arrayobj.p ./src/test/serialize/test-arrayobj.p 1 CPINTERNAL utf-8
+./src/test/serialize/test-arrayobj.p ./src/test/serialize/test-arrayobj.p 1 CPSTREAM UTF-8
+./src/test/serialize/test-arrayobj.p ./src/test/serialize/test-arrayobj.p 4 STRING "str" 3 NONE UNTRANSLATABLE 
+./src/test/serialize/test-arrayobj.p ./src/test/serialize/test-arrayobj.p 5 STRING "ao" 2 NONE UNTRANSLATABLE 
+./src/test/serialize/test-arrayobj.p ./src/test/serialize/test-arrayobj.p 9 STRING "src/test/serialize/arrayobj-string1.txt" 39 NONE TRANSLATABLE 
+./src/test/serialize/test-arrayobj.p ./src/test/serialize/test-arrayobj.p 5 NEW test.serialize.ArrayObject
+./src/test/serialize/test-arrayobj.p ./src/test/serialize/test-arrayobj.p 7 INVOKE fwebh.serialize.SimpleJsonSerializer:SerializeToLongchar,INPUT Progress.Lang.Object,INPUT logical
+./src/test/serialize/test-arrayobj.p ./src/test/serialize/test-arrayobj.p 7 NEW fwebh.serialize.SimpleJsonSerializer

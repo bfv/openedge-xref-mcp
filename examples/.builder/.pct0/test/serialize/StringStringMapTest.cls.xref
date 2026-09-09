@@ -1,0 +1,10 @@
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 1 COMPILE test/serialize/StringStringMapTest.cls
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 1 CPINTERNAL utf-8
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 1 CPSTREAM UTF-8
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 16 CLASS test.serialize.StringStringMapTest,,,,,,
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 16 STRING "test.serialize.StringStringMapTest" 34 NONE UNTRANSLATABLE 
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 18 STRING "pairs" 5 NONE UNTRANSLATABLE 
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 18 PROPERTY PUBLIC,,,,,pairs
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 20 CONSTRUCTOR PUBLIC,,,,StringStringMapTest,void,
+./src/test/serialize/StringStringMapTest.cls ./src/test/serialize/StringStringMapTest.cls 20 STRING "STRINGSTRINGMAPTEST" 19 NONE UNTRANSLATABLE 

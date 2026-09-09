@@ -1,0 +1,42 @@
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 1 COMPILE fwebh/pas/service/example/TempTableService.cls
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 19 CLASS fwebh.pas.service.example.TempTableService,,IMPLEMENTS fwebh.pas.service.IGetDataService fwebh.pas.data.IDefaultContentType,,,,
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 19 STRING "fwebh.pas.service.example.TempTableService" 42 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 19 STRING "fwebh.pas.service.IGetDataService" 33 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 19 STRING "fwebh.pas.data.IDefaultContentType" 34 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 21 STRING "tt" 2 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 21 STRING "id" 2 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 21 STRING "testvalue" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 21 STRING "test" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 21 DATA-MEMBER PROTECTED,,TEMPTABLE,tt
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 29 CONSTRUCTOR PUBLIC,,,,TempTableService,void,
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 29 STRING "TEMPTABLESERVICE" 16 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 31 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 33 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 35 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 35 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 35 ACCESS DATA-MEMBER fwebh.pas.service.example.TempTableService:tt TEMPTABLE
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 35 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:TempTableHandle 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 39 METHOD PUBLIC,,,,,GetData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 39 STRING "GETDATA" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 43 CREATE DATA-MEMBER fwebh.pas.service.example.TempTableService:tt TEMPTABLE
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 44 ACCESS DATA-MEMBER fwebh.pas.service.example.TempTableService:tt id TEMPTABLE
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 44 UPDATE DATA-MEMBER fwebh.pas.service.example.TempTableService:tt id TEMPTABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 44 ACCESS DATA-MEMBER fwebh.pas.service.example.TempTableService:tt testvalue TEMPTABLE
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 44 STRING "c1" 2 NONE TRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 44 UPDATE DATA-MEMBER fwebh.pas.service.example.TempTableService:tt testvalue TEMPTABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 46 CREATE DATA-MEMBER fwebh.pas.service.example.TempTableService:tt TEMPTABLE
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 47 ACCESS DATA-MEMBER fwebh.pas.service.example.TempTableService:tt id TEMPTABLE
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 47 UPDATE DATA-MEMBER fwebh.pas.service.example.TempTableService:tt id TEMPTABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 47 ACCESS DATA-MEMBER fwebh.pas.service.example.TempTableService:tt testvalue TEMPTABLE
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 47 STRING "c2" 2 NONE TRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 47 UPDATE DATA-MEMBER fwebh.pas.service.example.TempTableService:tt testvalue TEMPTABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 49 STRING "FILLTT" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 52 STRING "text/xml" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 53 METHOD PUBLIC,,,,,GetDefaultContentType,character,
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 53 STRING "GETDEFAULTCONTENTTYPE" 21 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 55 STRING "default" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 28 INVOKE fwebh.pas.service.example.TempTableService:fillTT
+./src/fwebh/pas/service/example/TempTableService.cls ./src/fwebh/pas/service/example/TempTableService.cls 33 NEW fwebh.pas.data.ResponseData

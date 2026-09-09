@@ -1,0 +1,13 @@
+OpenEdge.Net.HTTP.Trace
+OpenEdge.Net.HTTP.Trace.Formatter	P	f4f26741d562bd70404c8d870fa88dec
+OpenEdge.Net.HTTP.Trace.Rule	P	dae70023056a40f0262221ca6af49f4b
+OpenEdge.Net.HTTP.Trace.Writer	P	69a230cd21c06f5d4e2116b2cfa7e588
+OpenEdge.Net.HTTP.Trace.ExchangeData	C	e948e98a8bf76f6e3b7927aaedeb5079
+OpenEdge.Net.HTTP.Trace.IOutputConfig	C	1c0a08c415e1ce4eb5c00e0aed5a1d2f
+OpenEdge.Net.HTTP.Trace.LocalOutputConfig	C	32ede0d5df2e43bfb123f388e8001cf0
+OpenEdge.Net.HTTP.Trace.MessageTypeEnum	C	ea7968e6b191765bec747c5c36f81a77
+OpenEdge.Net.HTTP.Trace.OutputTypeEnum	C	1edf1d428301bf490e306f302097f323
+OpenEdge.Net.HTTP.Trace.PolicyTypeEnum	C	9c2f45240cd23aaf3be18e3275b9df34
+OpenEdge.Net.HTTP.Trace.TraceConfig	C	3d1645267543906577d0ef5177344480
+OpenEdge.Net.HTTP.Trace.TraceConfigLoader	C	ebc42279c1f8960db3cd1b8446c1ed27
+OpenEdge.Net.HTTP.Trace.TracePolicyEnum	C	8bfbb27af635c41f45cad858b8889d2c

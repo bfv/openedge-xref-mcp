@@ -1,0 +1,7 @@
+./src/fwebh/pas/data/IDefaultContentType.cls ./src/fwebh/pas/data/IDefaultContentType.cls 1 COMPILE fwebh/pas/data/IDefaultContentType.cls
+./src/fwebh/pas/data/IDefaultContentType.cls ./src/fwebh/pas/data/IDefaultContentType.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/IDefaultContentType.cls ./src/fwebh/pas/data/IDefaultContentType.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/IDefaultContentType.cls ./src/fwebh/pas/data/IDefaultContentType.cls 12 INTERFACE fwebh.pas.data.IDefaultContentType,,,,
+./src/fwebh/pas/data/IDefaultContentType.cls ./src/fwebh/pas/data/IDefaultContentType.cls 12 STRING "fwebh.pas.data.IDefaultContentType" 34 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IDefaultContentType.cls ./src/fwebh/pas/data/IDefaultContentType.cls 14 METHOD PUBLIC,,,,,GetDefaultContentType,character,
+./src/fwebh/pas/data/IDefaultContentType.cls ./src/fwebh/pas/data/IDefaultContentType.cls 14 STRING "GETDEFAULTCONTENTTYPE" 21 NONE UNTRANSLATABLE 

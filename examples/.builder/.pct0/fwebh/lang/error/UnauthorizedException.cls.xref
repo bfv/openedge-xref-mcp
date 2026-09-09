@@ -1,0 +1,13 @@
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 1 COMPILE fwebh/lang/error/UnauthorizedException.cls
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 1 CPINTERNAL utf-8
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 1 CPSTREAM UTF-8
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 13 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 17 CLASS fwebh.lang.error.UnauthorizedException,,,,,,
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 17 STRING "fwebh.lang.error.UnauthorizedException" 38 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 17 STRING "Progress.Lang.ProError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 17 STRING "Progress.Lang.AppError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 19 STRING "errorMessage" 12 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 20 STRING "UnauthorizedException: &1" 25 NONE TRANSLATABLE 
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 21 CONSTRUCTOR PUBLIC,,,,UnauthorizedException,void,INPUT errorMessage CHARACTER
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 21 STRING "UNAUTHORIZEDEXCEPTION" 21 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/UnauthorizedException.cls ./src/fwebh/lang/error/UnauthorizedException.cls 20 INVOKE Progress.Lang.AppError:AppError,INPUT character,INPUT integer

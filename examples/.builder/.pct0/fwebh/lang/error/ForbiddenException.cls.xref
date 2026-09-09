@@ -1,0 +1,13 @@
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 1 COMPILE fwebh/lang/error/ForbiddenException.cls
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 1 CPINTERNAL utf-8
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 1 CPSTREAM UTF-8
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 16 CLASS fwebh.lang.error.ForbiddenException,,,,,,
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 16 STRING "fwebh.lang.error.ForbiddenException" 35 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 16 STRING "Progress.Lang.ProError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 16 STRING "Progress.Lang.AppError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 18 STRING "errorMessage" 12 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 19 STRING "ForbiddenException: &1" 22 NONE TRANSLATABLE 
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 20 CONSTRUCTOR PUBLIC,,,,ForbiddenException,void,INPUT errorMessage CHARACTER
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 20 STRING "FORBIDDENEXCEPTION" 18 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ForbiddenException.cls ./src/fwebh/lang/error/ForbiddenException.cls 19 INVOKE Progress.Lang.AppError:AppError,INPUT character,INPUT integer

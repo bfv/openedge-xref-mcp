@@ -1,0 +1,23 @@
+OpenEdge.Net.HTTP.Filter.Payload
+OpenEdge.Net.HTTP.Filter.Payload.BinaryBodyWriter	C	9493cefb7f3060ec63d67be8afd0e3fe
+OpenEdge.Net.HTTP.Filter.Payload.BinaryEntityWriter	C	b71327a85a05ed80cbfd474380d27762
+OpenEdge.Net.HTTP.Filter.Payload.ClientSocketResponseWriter	C	b2286a766a7f7020699e8b38bac1d5ee
+OpenEdge.Net.HTTP.Filter.Payload.ConnectRequestFilter	C	a3e856aece76e60a949ae33d3a648b5e
+OpenEdge.Net.HTTP.Filter.Payload.DefaultRequestFilter	C	e2730ab496e0b80ec7cf79adbc2bf817
+OpenEdge.Net.HTTP.Filter.Payload.FormDataBodyWriter	C	ce2a04bd31833f695923e569649ba7b0
+OpenEdge.Net.HTTP.Filter.Payload.FormDataEntityWriter	C	0db70b6b7a4cddd40bab9b8421a33f98
+OpenEdge.Net.HTTP.Filter.Payload.HtmlBodyWriter	C	41e8665fe8f70c876ff0b615f11f9e61
+OpenEdge.Net.HTTP.Filter.Payload.JsonBodyWriter	C	54a9ea839c7806083a343928b856bb3d
+OpenEdge.Net.HTTP.Filter.Payload.JsonEntityWriter	C	b18de6b058c85eddb6741a1c49fe5010
+OpenEdge.Net.HTTP.Filter.Payload.MessageWriter	C	2ec85367c313510b62b14fabf006a2cc
+OpenEdge.Net.HTTP.Filter.Payload.MessageWriterErrorEventArgs	C	f8b71501e377a28d974e619c0aeb718e
+OpenEdge.Net.HTTP.Filter.Payload.MultipartBodyWriter	C	dd23f5ccaf0380ded6c265f96ccc86d5
+OpenEdge.Net.HTTP.Filter.Payload.MultipartEntityWriter	C	a8391b1832343b69f19c1ffdfed0fc41
+OpenEdge.Net.HTTP.Filter.Payload.MultipartFormBodyWriter	C	8e0b98bcbcd88dea9c5c5406adb1bf21
+OpenEdge.Net.HTTP.Filter.Payload.MultipartFormEntityWriter	C	c999ebe46bffd1ce67889dbb50728068
+OpenEdge.Net.HTTP.Filter.Payload.MultipartFormSimpleEntityWriter	C	97ac93499cf3d7c3797b101ac40d1ab2
+OpenEdge.Net.HTTP.Filter.Payload.RawMessage	C	71e74c7b2ea9e148ba3cad6485f3c646
+OpenEdge.Net.HTTP.Filter.Payload.StringBodyWriter	C	62f2bf8ae1c4a8c010f5bec31b675a6b
+OpenEdge.Net.HTTP.Filter.Payload.StringEntityWriter	C	07b28e92578baa1cf87a19cfe222b4ef
+OpenEdge.Net.HTTP.Filter.Payload.XmlBodyWriter	C	d3a903b6c76b426af046d05235354edb
+OpenEdge.Net.HTTP.Filter.Payload.XmlEntityWriter	C	bd176d6221e1f41267a4b2554b80aada

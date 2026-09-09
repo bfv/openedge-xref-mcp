@@ -1,0 +1,3 @@
+OpenEdge.Net.HTTP.Filter.Header
+OpenEdge.Net.HTTP.Filter.Header.SetCookieSetHeaderFilter	C	e793367647145e0fe38ec37027b640ac
+OpenEdge.Net.HTTP.Filter.Header.TransferEncodingSetHeaderFilter	C	948e2427c945a14916a757ac2fdb777a

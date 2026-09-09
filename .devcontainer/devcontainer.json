@@ -1,0 +1,18 @@
+{
+  "name": "OpenEdge XREF MCP",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "uv sync --directory openedge-xref-mcp --extra dev",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/openedge-xref-mcp/.venv/bin/python"
+      },
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Ccs.ServiceManager
+Ccs.ServiceManager.IContainerScope	C	9e7c05616eff86084e959c86beb22039
+Ccs.ServiceManager.ILifecycleScope	C	e9f9107aaed2580d868d96081ee39cc4
+Ccs.ServiceManager.IRequestScope	C	9564410ad23acaf462a87ea1b352eccb
+Ccs.ServiceManager.ISessionScope	C	f1dca40806e8d1ddafa2f3af567a3fdd
+Ccs.ServiceManager.ITransientScope	C	469424f3415e4c025585e410343a9f4b

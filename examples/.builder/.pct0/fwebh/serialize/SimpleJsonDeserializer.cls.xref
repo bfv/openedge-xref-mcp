@@ -1,0 +1,300 @@
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 1 COMPILE fwebh/serialize/SimpleJsonDeserializer.cls
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 1 CPINTERNAL utf-8
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 1 CPSTREAM UTF-8
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 34 CLASS fwebh.serialize.SimpleJsonDeserializer,,IMPLEMENTS fwebh.serialize.IDeserializable,,,,
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 34 STRING "fwebh.serialize.SimpleJsonDeserializer" 38 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 34 STRING "fwebh.serialize.IDeserializable" 31 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 36 STRING "serializeThese" 14 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 39 STRING "character,date,datetime,datetimetz,decimal,integer,int64,logical,longchar,memptr" 80 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 40 CONSTRUCTOR PUBLIC,,,,SimpleJsonDeserializer,void,
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 40 STRING "SIMPLEJSONDESERIALIZER" 22 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 43 STRING "jsonFilename" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 43 STRING "className" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 45 STRING "parser" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 46 STRING "jsonObj" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 49 CAST FROM Progress.Json.ObjectModel.ObjectModelParser TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 53 METHOD PUBLIC,,,,,DeserializeFile,Progress.Lang.Object,INPUT jsonFilename CHARACTER,INPUT className CHARACTER
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 53 STRING "DESERIALIZEFILE" 15 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 56 STRING "jsonFilename" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 56 STRING "targetObj" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 58 STRING "parser" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 59 STRING "jsonObj" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 62 CAST FROM Progress.Json.ObjectModel.ObjectModelParser TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 66 METHOD PUBLIC,,,,,DeserializeFile,Progress.Lang.Object,INPUT jsonFilename CHARACTER,INPUT targetObj PROGRESS.LANG.OBJECT
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 66 STRING "DESERIALIZEFILE" 15 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 70 STRING "jsonIn" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 70 STRING "className" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 72 STRING "properties" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 73 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 74 STRING "jsonObj" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 81 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 82 STRING "error:" 6 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 83 STRING "'&1' is not a class" 19 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 89 METHOD PUBLIC,,,,,Deserialize,Progress.Lang.Object,INPUT jsonIn PROGRESS.JSON.OBJECTMODEL.JSONOBJECT,INPUT className CHARACTER
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 89 STRING "DESERIALIZE" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 92 STRING "jsonString" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 92 STRING "className" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 94 STRING "parser" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 95 STRING "jsonObj" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 98 CAST FROM Progress.Json.ObjectModel.ObjectModelParser TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 102 METHOD PUBLIC,,,,,DeserializeString,Progress.Lang.Object,INPUT jsonString LONGCHAR,INPUT className CHARACTER
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 102 STRING "DESERIALIZESTRING" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 105 STRING "jsonString" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 105 STRING "targetObject" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 107 STRING "parser" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 108 STRING "jsonObj" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 111 CAST FROM Progress.Json.ObjectModel.ObjectModelParser TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 115 METHOD PUBLIC,,,,,DeserializeString,void,INPUT jsonString LONGCHAR,INPUT targetObject PROGRESS.LANG.OBJECT
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 115 STRING "DESERIALIZESTRING" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 118 STRING "jsonIn" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 118 STRING "targetObj" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 120 STRING "cls" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 121 STRING "props" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 122 STRING "prop" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 123 STRING "jsonOut" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 124 STRING "resultList" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 125 STRING "resultObj" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 125 STRING "valueObject" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 126 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 127 STRING "getter" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 129 STRING "dataMap" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 143 ACCESS PUBLIC-PROPERTY Progress.Reflect.Property:CanWrite
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 143 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 143 STRING "next-sibling" 12 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 143 STRING "prev-sibling" 12 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 148 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataType
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 148 STRING "Get" 3 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 148 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataType
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 149 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataType
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 151 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Extent
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 152 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 154 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 157 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 162 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 162 STRING "Progress.Collections.List" 25 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 163 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 165 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 165 STRING "OpenEdge.Core.Collections.List" 30 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 165 STRING "fwebh.serialize.IListInfo" 25 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 167 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 167 CAST FROM Progress.Lang.Object TO fwebh.serialize.IListInfo
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 168 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 170 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 170 STRING "OpenEdge.Core.Collections.StringStringMap" 41 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 171 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 172 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 174 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 174 STRING "Progress." 9 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 174 STRING "OpenEdge." 9 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 176 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 176 STRING "Progress.Json.ObjectModel.JsonArray" 35 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 177 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 181 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 182 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 183 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 187 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 195 STRING "fwebh.serialize.ISerializableDataStructure" 42 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 196 CAST FROM Progress.Lang.Object TO fwebh.serialize.ISerializableDataStructure
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 201 METHOD PUBLIC,,,,,Deserialize,Progress.Lang.Object,INPUT jsonIn PROGRESS.JSON.OBJECTMODEL.JSONOBJECT,INPUT targetObj PROGRESS.LANG.OBJECT
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 201 STRING "DESERIALIZE" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 203 STRING "targetObj" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 203 STRING "prop" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 203 STRING "array" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 205 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 206 STRING "charExt" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 207 STRING "intExt" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 211 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Extent
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 211 ACCESS PUBLIC-PROPERTY Progress.Json.ObjectModel.JsonArray:Length
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 212 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataType
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 213 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:Character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 214 ACCESS PUBLIC-PROPERTY Progress.Json.ObjectModel.JsonArray:Length
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 217 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:Integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 218 ACCESS PUBLIC-PROPERTY Progress.Json.ObjectModel.JsonArray:Length
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 224 ACCESS PUBLIC-PROPERTY Progress.Json.ObjectModel.JsonArray:Length
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 225 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataType
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 226 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:Character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 226 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 227 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:Decimal
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 227 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 228 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:Date
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 228 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 229 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:DateTime
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 229 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 230 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:DateTimeTZ
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 230 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 231 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:Integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 231 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 232 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:Int64
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 232 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 233 ACCESS PUBLIC-PROPERTY Progress.Reflect.DataType:Logical
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 233 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 238 STRING "DESERIALIZEEXTENT" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 240 STRING "targetObj" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 240 STRING "prop" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 240 STRING "array" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 242 STRING "listObject" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 242 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 243 STRING "listType" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 243 STRING "typeT" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 244 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 244 STRING "pos1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 244 STRING "pos2" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 246 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:DataTypeName
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 248 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 252 ACCESS PUBLIC-PROPERTY Progress.Json.ObjectModel.JsonArray:Length
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 255 STRING "Add" 3 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 258 STRING "DESERIALIZEGENERICLIST" 22 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 260 STRING "listType" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 261 STRING "pos1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 261 STRING "pos2" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 262 STRING "<" 1 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 265 STRING "GETTYPET" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 267 STRING "targetObject" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 267 STRING "prop" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 267 STRING "array" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 269 STRING "listType" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 270 STRING "newList" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 271 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 272 STRING "jsonObj" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 273 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 276 ACCESS PUBLIC-PROPERTY Progress.Reflect.Variable:Name
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 281 ACCESS PUBLIC-PROPERTY Progress.Json.ObjectModel.JsonArray:Length
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 283 STRING "OpenEdge.Core" 13 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 287 STRING "OpenEdge.Core.String" 20 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 290 STRING "OpenEdge.Core.Integer" 21 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 293 STRING "OpenEdge.Core.Decimal" 21 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 296 STRING "not handled" 11 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 316 STRING "DESERIALIZELIST" 15 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 318 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 320 STRING "dataMap" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 321 STRING "names" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 322 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 330 METHOD PUBLIC,,,,,deserializeStringStringMap,OpenEdge.Core.Collections.StringStringMap,INPUT obj PROGRESS.JSON.OBJECTMODEL.JSONOBJECT
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 330 STRING "DESERIALIZESTRINGSTRINGMAP" 26 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 332 ANNOTATION todo(what=deserialize temp-table)
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 333 STRING "jsonIn" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 333 STRING "targetObj" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 335 STRING "dataStructs" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 336 STRING "structure" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 337 STRING "keyset" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 338 STRING "iterator" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 339 STRING "keyObject" 9 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 339 STRING "valueObject" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 340 STRING "keyname" 7 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 341 STRING "dataObject" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 342 STRING "array" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 345 ACCESS PUBLIC-PROPERTY OpenEdge.Core.Collections.IMap:KeySet
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 350 ACCESS PUBLIC-PROPERTY OpenEdge.Core.String:Value
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 350 CAST FROM Progress.Lang.Object TO OpenEdge.Core.String
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 350 STRING "?" 1 LEFT TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 353 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 353 STRING "OpenEdge.Core.WidgetHandle" 26 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 356 CAST FROM Progress.Lang.Object TO OpenEdge.Core.WidgetHandle
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 359 ACCESS PUBLIC-PROPERTY OpenEdge.Core.WidgetHandle:Value
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 362 STRING "DESERIALIZEDATASTRUCTURES" 25 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 365 STRING "array" 5 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 365 STRING "tthandle" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 365 STRING "dataStructs" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 366 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 366 STRING "j" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 367 STRING "bufferHandle" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 367 STRING "bufferField" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 368 STRING "jsonRecord" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 369 STRING "getter" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 369 STRING "targetClass" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 369 STRING "mapExpression" 13 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 373 ACCESS PUBLIC-PROPERTY Progress.Json.ObjectModel.JsonArray:Length
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 379 STRING "Progress.Lang.Object" 20 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 380 STRING "." 1 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 381 ACCESS PUBLIC-PROPERTY OpenEdge.Core.String:Value
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 381 CAST FROM OpenEdge.Core.Collections.IMap TO OpenEdge.Core.String
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 383 STRING "mapping error: '&1' not found (GetDataStructures)" 49 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 384 STRING "GetJsonObject" 13 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 387 STRING "Get" 3 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 394 STRING "JSONARRAYTOTEMPTABLE" 20 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 396 STRING "json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 396 STRING "tthandle" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 398 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 398 STRING "j" 1 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 399 STRING "bufferHandle" 12 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 399 STRING "bufferField" 11 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 400 STRING "jsonRecord" 10 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 401 STRING "getter" 6 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 409 STRING "Get" 3 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 409 STRING "datetime-tz" 11 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 409 STRING "DatetimeTz" 10 NONE TRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 416 METHOD PUBLIC,,,,,JsonObjectToTempTable,void,INPUT json PROGRESS.JSON.OBJECTMODEL.JSONOBJECT,INPUT tthandle HANDLE
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 416 STRING "JSONOBJECTTOTEMPTABLE" 21 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 48 NEW Progress.Json.ObjectModel.ObjectModelParser
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 49 INVOKE Progress.Json.ObjectModel.ObjectModelParser:ParseFile,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 51 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 61 NEW Progress.Json.ObjectModel.ObjectModelParser
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 62 INVOKE Progress.Json.ObjectModel.ObjectModelParser:ParseFile,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 64 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 79 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 82 INVOKE Progress.Lang.Error:GetMessage,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 83 NEW Progress.Lang.AppError,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 97 NEW Progress.Json.ObjectModel.ObjectModelParser
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 98 INVOKE Progress.Json.ObjectModel.ObjectModelParser:Parse,INPUT longchar
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 100 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 110 NEW Progress.Json.ObjectModel.ObjectModelParser
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 111 INVOKE Progress.Json.ObjectModel.ObjectModelParser:Parse,INPUT longchar
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 113 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 137 INVOKE Progress.Lang.Object:GetClass
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 138 INVOKE Progress.Lang.Class:GetProperties
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 148 INVOKE Progress.Lang.Enum:ToString
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 149 INVOKE Progress.Lang.Enum:ToString
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 157 INVOKE fwebh.serialize.SimpleJsonDeserializer:deserializeExtent,INPUT Progress.Lang.Object,INPUT Progress.Reflect.Property,INPUT Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 157 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonArray,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 163 INVOKE fwebh.serialize.SimpleJsonDeserializer:deserializeGenericList,INPUT Progress.Lang.Object,INPUT Progress.Reflect.Property,INPUT Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 163 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonArray,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 165 INVOKE Progress.Lang.Object:GetClass
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 165 INVOKE Progress.Lang.Class:IsA,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 167 INVOKE fwebh.serialize.SimpleJsonDeserializer:deserializeList,INPUT fwebh.serialize.IListInfo,INPUT Progress.Reflect.Property,INPUT Progress.Json.ObjectModel.JsonArray
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 167 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonArray,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 171 INVOKE fwebh.serialize.SimpleJsonDeserializer:deserializeStringStringMap,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 171 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonObject,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 177 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonArray,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 182 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 182 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonObject,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 188 INVOKE Progress.Lang.Error:GetMessage,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 195 INVOKE Progress.Lang.Object:GetClass
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 195 INVOKE Progress.Lang.Class:IsA,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 196 INVOKE fwebh.serialize.SimpleJsonDeserializer:deserializeDataStructures,INPUT Progress.Json.ObjectModel.JsonObject,INPUT fwebh.serialize.ISerializableDataStructure
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 215 INVOKE Progress.Reflect.Property:Set,INPUT Progress.Lang.Object,INPUT 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 219 INVOKE Progress.Reflect.Property:Set,INPUT Progress.Lang.Object,INPUT 
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 226 INVOKE Progress.Json.ObjectModel.JsonArray:GetCharacter,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 227 INVOKE Progress.Json.ObjectModel.JsonArray:GetDecimal,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 228 INVOKE Progress.Json.ObjectModel.JsonArray:GetDate,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 229 INVOKE Progress.Json.ObjectModel.JsonArray:GetDatetime,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 230 INVOKE Progress.Json.ObjectModel.JsonArray:GetDatetimeTZ,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 231 INVOKE Progress.Json.ObjectModel.JsonArray:GetInteger,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 232 INVOKE Progress.Json.ObjectModel.JsonArray:GetInt64,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 233 INVOKE Progress.Json.ObjectModel.JsonArray:GetLogical,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 250 INVOKE fwebh.serialize.SimpleJsonDeserializer:getTypeT,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 254 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 254 INVOKE Progress.Json.ObjectModel.JsonArray:GetJsonObject,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 275 NEW OpenEdge.Core.Collections.List
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 276 INVOKE fwebh.serialize.IListInfo:GetListType,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 287 INVOKE Progress.Json.ObjectModel.JsonArray:GetLongchar,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 290 INVOKE Progress.Json.ObjectModel.JsonArray:GetInteger,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 293 INVOKE Progress.Json.ObjectModel.JsonArray:GetDecimal,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 304 INVOKE Progress.Json.ObjectModel.JsonArray:GetJsonObject,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 305 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 308 INVOKE OpenEdge.Core.Collections.List:Add,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 320 NEW OpenEdge.Core.Collections.StringStringMap
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 321 INVOKE Progress.Json.ObjectModel.JsonObject:GetNames
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 325 INVOKE OpenEdge.Core.Collections.StringStringMap:Put,INPUT character,INPUT longchar
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 325 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 344 INVOKE fwebh.serialize.ISerializableDataStructure:GetDataStructures
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 346 INVOKE OpenEdge.Core.Collections.IIterable:Iterator
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 348 INVOKE OpenEdge.Core.Collections.IIterator:HasNext
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 349 INVOKE OpenEdge.Core.Collections.IIterator:Next
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 352 INVOKE OpenEdge.Core.Collections.IMap:Get,INPUT Progress.Lang.Object
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 358 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonArray,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 359 INVOKE fwebh.serialize.SimpleJsonDeserializer:jsonArrayToTempTable,INPUT Progress.Json.ObjectModel.JsonArray,INPUT widget-handle,INPUT OpenEdge.Core.Collections.IMap
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 374 INVOKE Progress.Json.ObjectModel.JsonArray:GetJsonObject,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 383 NEW Progress.Lang.AppError,INPUT character,INPUT integer
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 384 INVOKE fwebh.serialize.SimpleJsonDeserializer:Deserialize,INPUT Progress.Json.ObjectModel.JsonObject,INPUT character
+./src/fwebh/serialize/SimpleJsonDeserializer.cls ./src/fwebh/serialize/SimpleJsonDeserializer.cls 410 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character

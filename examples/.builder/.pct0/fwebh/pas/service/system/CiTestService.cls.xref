@@ -1,0 +1,116 @@
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 1 COMPILE fwebh/pas/service/system/CiTestService.cls
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 33 CLASS fwebh.pas.service.system.CiTestService,,IMPLEMENTS fwebh.pas.service.IDeleteDataService fwebh.pas.service.IGetDataService fwebh.pas.service.IPostDataService,,,,
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 33 STRING "fwebh.pas.service.system.CiTestService" 38 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 33 STRING "fwebh.pas.service.IDeleteDataService" 36 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 33 STRING "fwebh.pas.service.IGetDataService" 33 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 33 STRING "fwebh.pas.service.IPostDataService" 34 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 35 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 37 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 38 STRING "errorCode" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 38 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Parameters
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 38 STRING "error" 5 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 39 STRING "jsonError" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 39 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Parameters
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 39 STRING "jsonError" 9 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 39 STRING "true" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 40 STRING "json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 44 STRING "400" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 44 STRING "bad request" 11 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 45 STRING "401" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 45 STRING "unauthorized" 12 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 46 STRING "403" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 46 STRING "forbidden" 9 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 47 STRING "404" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 47 STRING "not found" 9 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 48 STRING "405" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 48 STRING "not allowed" 11 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 49 STRING "406" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 49 STRING "not acceptable" 14 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 50 STRING "409" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 50 STRING "test-resource" 13 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 51 STRING "500" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 51 STRING "requested 500 error" 19 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 52 STRING "unforseen error" 15 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 55 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Accept
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 55 STRING "application/json" 16 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 55 STRING "*/*" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 59 STRING "code" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 59 STRING "400" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 60 STRING "message" 7 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 60 STRING "custom JSON error, check!" 25 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 61 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Error
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 61 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Error 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 64 STRING "test" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 64 STRING "ok" 2 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 66 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 66 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 66 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 68 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Accept
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 68 STRING "text/plain" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 69 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 69 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:PlainText
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 69 STRING "?" 1 LEFT TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 69 STRING "text test OK" 12 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 69 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:PlainText 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 74 METHOD PUBLIC,,,,,GetData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 74 STRING "GETDATA" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 76 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 78 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 79 STRING "jsonIn" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 79 STRING "jsonOut" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 80 STRING "id" 2 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 84 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Resource
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 84 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Id
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 92 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Data
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 92 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:JSON
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 92 CAST FROM Progress.Json.ObjectModel.JsonConstruct TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 93 STRING "deleted" 7 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 93 STRING "id" 2 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 95 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 95 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 95 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 98 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 106 METHOD PUBLIC,,,,,DeleteData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 106 STRING "DELETEDATA" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 109 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 111 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 113 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:ContentType
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 113 STRING "text/plain" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 114 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 114 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:PlainText
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 114 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Data
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 114 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:PlainText
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 114 STRING "request body: &1" 16 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 114 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:PlainText 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 119 METHOD PUBLIC,,,,,PostData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 119 STRING "POSTDATA" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 121 CONSTRUCTOR PUBLIC,,,,CiTestService,void,
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 121 STRING "CITESTSERVICE" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 37 NEW fwebh.pas.data.ResponseData
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 38 INVOKE OpenEdge.Core.Collections.IStringStringMap:Get,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 39 INVOKE OpenEdge.Core.Collections.IStringStringMap:Get,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 44 NEW fwebh.lang.error.BadRequestException,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 45 NEW fwebh.lang.error.UnauthorizedException,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 46 NEW fwebh.lang.error.ForbiddenException,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 47 NEW fwebh.lang.error.NotFoundException,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 48 NEW fwebh.lang.error.NotAllowedException,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 49 NEW fwebh.lang.error.NotAcceptableException,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 50 NEW fwebh.lang.error.ConcurrencyException,INPUT character,INPUT int64
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 51 NEW Progress.Lang.AppError,INPUT character,INPUT integer
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 52 NEW Progress.Lang.AppError,INPUT character,INPUT integer
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 56 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 59 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 60 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 61 NEW fwebh.lang.error.BadRequestException,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 64 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 78 NEW fwebh.pas.data.ResponseData
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 89 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 90 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 93 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 93 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 99 INVOKE Progress.Lang.Error:GetMessage,INPUT integer
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 99 NEW fwebh.lang.error.InvalidDataException,INPUT character
+./src/fwebh/pas/service/system/CiTestService.cls ./src/fwebh/pas/service/system/CiTestService.cls 111 NEW fwebh.pas.data.ResponseData

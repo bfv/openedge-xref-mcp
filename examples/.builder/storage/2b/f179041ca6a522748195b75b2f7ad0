@@ -1,0 +1,22 @@
+Progress.Lang
+Progress.Lang.AppError	C	4f01dd0d666f53d5a70aae3c1c69bbaa
+Progress.Lang.Class	C	b67fb618515f07c873bd1512b9af658c
+Progress.Lang.Enum	C	30437251049732f75ada04ea180c5281
+Progress.Lang.Error	C	8c41aa508b7b314a84841fa228ef97f2
+Progress.Lang.FlagsEnum	C	e9d3d0d8e92d99be9f2b8ccb79dbf2d7
+Progress.Lang.LockConflict	C	f9f82a80f388a89c570c3a4a9303b88f
+Progress.Lang.MessagingError	C	dc5d739656f20d458a07849f3348373b
+Progress.Lang.MessagingErrorAbort	C	e1b46c2a04e6935f7f565cb74b7dfaf7
+Progress.Lang.MessagingErrorFatal	C	0d91f99665b39c88c89fe2f24e67d2ba
+Progress.Lang.MessagingErrorRetriable	C	d8e5c8e4f595edc4b71ee7dba9c1b219
+Progress.Lang.OERequestInfo	C	49cb1181a4f5c2f62004455148ccbefc
+Progress.Lang.OEVersionInfo	C	f5bd42bee13366c0f98478ee9dadfbe9
+Progress.Lang.Object	C	7a93b3fe4d892811606ae518f4ed2836
+Progress.Lang.ParameterList	C	c5973f910949296a23ca12055478df31
+Progress.Lang.ProError	C	107812a146ee1819200773837de5d605
+Progress.Lang.SoapFaultError	C	14f9c6bbaf6d6fc6ce523d770b5d8151
+Progress.Lang.Stop	C	cb9330b47f17140ad9d591c2a45e69f0
+Progress.Lang.StopAfter	C	034692f646bdcf10c6047d504d072089
+Progress.Lang.StopError	C	90b38087f62faa6fa16952e369e89820
+Progress.Lang.SysError	C	c0d2e5f0dac2ad51dcd146ba6db8ee27
+Progress.Lang.UserInterrupt	C	a9f8f7ddd81b4540311f39ca92d9bfb9

@@ -1,0 +1,5 @@
+OpenEdge.Core.Json
+OpenEdge.Core.Json.IJsonSerializer	C	9a8ef758de100fc6505d00767bc1829f
+OpenEdge.Core.Json.JsonConverter	C	1753638d8985504c5ab2e73524a27d73
+OpenEdge.Core.Json.JsonPropertyHelper	C	77cb57317df051538b8a4219361160e0
+OpenEdge.Core.Json.JsonSerializer	C	7ab58aae675958a32b83027f7a26c3bf

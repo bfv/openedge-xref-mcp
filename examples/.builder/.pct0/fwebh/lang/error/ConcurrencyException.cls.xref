@@ -1,0 +1,14 @@
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 1 COMPILE fwebh/lang/error/ConcurrencyException.cls
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 1 CPINTERNAL utf-8
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 1 CPSTREAM UTF-8
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 17 CLASS fwebh.lang.error.ConcurrencyException,,,,,,
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 17 STRING "fwebh.lang.error.ConcurrencyException" 37 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 17 STRING "Progress.Lang.ProError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 17 STRING "Progress.Lang.AppError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 19 STRING "resource" 8 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 19 STRING "id" 2 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 20 STRING "resource '&1' (id: &2) was changed by another user" 50 NONE TRANSLATABLE 
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 21 CONSTRUCTOR PUBLIC,,,,ConcurrencyException,void,INPUT resource CHARACTER,INPUT id INT64
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 21 STRING "CONCURRENCYEXCEPTION" 20 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/ConcurrencyException.cls ./src/fwebh/lang/error/ConcurrencyException.cls 20 INVOKE Progress.Lang.AppError:AppError,INPUT character,INPUT integer

@@ -1,0 +1,9 @@
+OpenEdge.Core.System
+OpenEdge.Core.System.ApplicationError	C	d6c8dd73d05fe5d61973839583615587
+OpenEdge.Core.System.ArgumentError	C	fc9099d5a3b3843cc9f808aa7a5b23ca
+OpenEdge.Core.System.ErrorSeverityEnum	C	5e3bb20595c253ad05a20b637ba8a163
+OpenEdge.Core.System.InvalidCallError	C	0924e101b372c1e1943706e920a1cfbe
+OpenEdge.Core.System.InvalidValueSpecifiedError	C	5fcbc273a17ef50999724bafd6502fe0
+OpenEdge.Core.System.InvocationError	C	3a2867eff47dbbd933357e4a084d5d1f
+OpenEdge.Core.System.NotFoundError	C	da5acdbd8835b68612ae6b91376a8800
+OpenEdge.Core.System.UnsupportedOperationError	C	d8df1690af07aa1aeddcd313d4d4b915

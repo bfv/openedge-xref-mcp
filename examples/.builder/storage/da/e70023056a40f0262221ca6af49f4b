@@ -1,0 +1,14 @@
+OpenEdge.Net.HTTP.Trace.Rule
+OpenEdge.Net.HTTP.Trace.Rule.BodyDataRule	C	f8738eadd61b2968e7d456dfac52132f
+OpenEdge.Net.HTTP.Trace.Rule.BodyFilterRule	C	21369bb2f7eb47a5b35ee41ca57c8b3e
+OpenEdge.Net.HTTP.Trace.Rule.BodyRule	C	79c66c60936ab8b353ca2c4832d13979
+OpenEdge.Net.HTTP.Trace.Rule.CookieRule	C	608cbc16e08655340f8efc6e9ec31f04
+OpenEdge.Net.HTTP.Trace.Rule.HeaderRule	C	2e6a7dfc6f34b1d9ccff75e2a5760a53
+OpenEdge.Net.HTTP.Trace.Rule.ITraceDataRule	C	3dbde719c369d7ef401c93004fd61cb3
+OpenEdge.Net.HTTP.Trace.Rule.ITraceFilterRule	C	edd375a21dd22fab53383a3066ca9d45
+OpenEdge.Net.HTTP.Trace.Rule.ITraceRule	C	ecad7e9f6efb12b7fe54a4d096ed877f
+OpenEdge.Net.HTTP.Trace.Rule.QueryStringDataRule	C	8b0dc17deabf215e0d4af48c12f208ce
+OpenEdge.Net.HTTP.Trace.Rule.QueryStringFilterRule	C	e2a327307d42e8309b612054e07412f7
+OpenEdge.Net.HTTP.Trace.Rule.StatusCodeRule	C	1d84a9d8baaf3355d2604470332307f8
+OpenEdge.Net.HTTP.Trace.Rule.TraceRule	C	019831ff607fb25234249bbb50ac8f1e
+OpenEdge.Net.HTTP.Trace.Rule.UrlRule	C	046439a52bde92b5573214d02eddb704

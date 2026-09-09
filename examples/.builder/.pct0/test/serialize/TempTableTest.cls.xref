@@ -1,0 +1,34 @@
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 1 COMPILE test/serialize/TempTableTest.cls
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 1 CPINTERNAL utf-8
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 1 CPSTREAM UTF-8
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 13 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 21 CLASS test.serialize.TempTableTest,,IMPLEMENTS fwebh.serialize.ISerializableDataStructure,,,,
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 21 STRING "test.serialize.TempTableTest" 28 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 21 STRING "fwebh.serialize.ISerializableDataStructure" 42 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 23 STRING "tt" 2 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 23 STRING "firstname" 9 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 23 STRING "lastname" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 28 STRING "firstname" 9 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 28 STRING "lastname" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 32 METHOD PUBLIC,,,,,AddEntry,void,INPUT firstname CHARACTER,INPUT lastname CHARACTER
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 32 STRING "ADDENTRY" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 36 STRING "dataStructs" 11 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 39 STRING "temptable" 9 NONE TRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 43 METHOD PUBLIC,,,,,GetDataStructures,OpenEdge.Core.Collections.IMap,
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 43 STRING "GETDATASTRUCTURES" 17 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 45 STRING "firstname" 9 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 46 STRING "lastname" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 47 SEARCH DATA-MEMBER test.serialize.TempTableTest:tt default TEMPTABLE WHOLE-INDEX
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 51 METHOD PUBLIC,,,,,GetLastName,character,INPUT firstname CHARACTER
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 51 STRING "GETLASTNAME" 11 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 54 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 55 SEARCH DATA-MEMBER test.serialize.TempTableTest:tt default TEMPTABLE WHOLE-INDEX
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 59 METHOD PUBLIC,,,,,CountRecords,integer,
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 59 STRING "COUNTRECORDS" 12 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 61 CONSTRUCTOR PUBLIC,,,,TempTableTest,void,
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 61 STRING "TEMPTABLETEST" 13 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 61 STRING "default" 7 NONE UNTRANSLATABLE 
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 38 NEW OpenEdge.Core.Collections.Map
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 39 INVOKE OpenEdge.Core.Collections.IMap:Put,INPUT Progress.Lang.Object,INPUT Progress.Lang.Object
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 39 NEW OpenEdge.Core.String,INPUT character
+./src/test/serialize/TempTableTest.cls ./src/test/serialize/TempTableTest.cls 39 NEW OpenEdge.Core.WidgetHandle,INPUT widget-handle

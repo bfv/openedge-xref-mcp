@@ -1,0 +1,13 @@
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 1 COMPILE fwebh/lang/error/InvalidFormatException.cls
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 1 CPINTERNAL utf-8
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 1 CPSTREAM UTF-8
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 16 CLASS fwebh.lang.error.InvalidFormatException,,,,,,
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 16 STRING "fwebh.lang.error.InvalidFormatException" 39 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 16 STRING "Progress.Lang.ProError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 16 STRING "Progress.Lang.AppError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 18 STRING "formattedValue" 14 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 19 STRING "InvalidFormatException: &1" 26 NONE TRANSLATABLE 
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 20 CONSTRUCTOR PUBLIC,,,,InvalidFormatException,void,INPUT formattedValue CHARACTER
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 20 STRING "INVALIDFORMATEXCEPTION" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidFormatException.cls ./src/fwebh/lang/error/InvalidFormatException.cls 19 INVOKE Progress.Lang.AppError:AppError,INPUT character,INPUT integer

@@ -1,0 +1,1 @@
+{"hideWindow":false,"propath":["./src",".","/usr/dlc/tty/OpenEdge.Core.pl","/usr/dlc/tty/netlib/OpenEdge.Net.pl"],"databases":[{"name":"sports2020","schemaFile":"./db/schema/sports2020.df","connect":"-db sports2020 -S 10000 -H db","aliases":[]}],"threadNumber":0,"hostName":"localhost","portNumber":42165,"procedures":[]}

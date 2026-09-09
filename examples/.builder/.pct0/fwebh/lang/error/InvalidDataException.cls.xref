@@ -1,0 +1,13 @@
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 1 COMPILE fwebh/lang/error/InvalidDataException.cls
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 1 CPINTERNAL utf-8
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 1 CPSTREAM UTF-8
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 16 CLASS fwebh.lang.error.InvalidDataException,,,,,,
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 16 STRING "fwebh.lang.error.InvalidDataException" 37 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 16 STRING "Progress.Lang.ProError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 16 STRING "Progress.Lang.AppError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 18 STRING "errorMessage" 12 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 19 STRING "InvalidDataException: &1" 24 NONE TRANSLATABLE 
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 20 CONSTRUCTOR PUBLIC,,,,InvalidDataException,void,INPUT errorMessage CHARACTER
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 20 STRING "INVALIDDATAEXCEPTION" 20 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/InvalidDataException.cls ./src/fwebh/lang/error/InvalidDataException.cls 19 INVOKE Progress.Lang.AppError:AppError,INPUT character,INPUT integer

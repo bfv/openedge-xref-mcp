@@ -1,0 +1,100 @@
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 1 COMPILE fwebh/pas/data/EntityWriterFactory_UT.cls
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 18 CLASS fwebh.pas.data.EntityWriterFactory_UT,,,,,,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 18 STRING "fwebh.pas.data.EntityWriterFactory_UT" 37 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 20 STRING "factory" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 22 ANNOTATION BeforeEach
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 25 METHOD PUBLIC,,,,,_BeforeEach,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 25 STRING "_BEFOREEACH" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 27 ANNOTATION Test
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 29 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 30 STRING "application/json" 16 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 31 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 31 STRING "fwebh.pas.data.JsonEntityWriter" 31 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 32 METHOD PUBLIC,,,,,application_json_returns_correct_writer,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 32 STRING "APPLICATION_JSON_RETURNS_CORRECT_WRITER" 39 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 34 ANNOTATION Test
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 36 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 37 STRING "application/*" 13 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 38 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 38 STRING "fwebh.pas.data.BinaryEntityWriter" 33 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 39 METHOD PUBLIC,,,,,application_asterisk_returns_correct_writer,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 39 STRING "APPLICATION_ASTERISK_RETURNS_CORRECT_WRITER" 43 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 41 ANNOTATION Test
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 43 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 44 STRING "text/plain" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 45 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 45 STRING "fwebh.pas.data.PlainTextEntityWriter" 36 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 46 METHOD PUBLIC,,,,,text_plain_returns_correct_writer,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 46 STRING "TEXT_PLAIN_RETURNS_CORRECT_WRITER" 33 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 48 ANNOTATION Test
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 50 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 51 STRING "text/xml" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 52 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 52 STRING "fwebh.pas.data.XmlEntityWriter" 30 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 53 METHOD PUBLIC,,,,,text_xml_returns_correct_writer,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 53 STRING "TEXT_XML_RETURNS_CORRECT_WRITER" 31 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 55 ANNOTATION Test
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 57 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 58 STRING "image/png" 9 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 59 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 59 STRING "fwebh.pas.data.BinaryEntityWriter" 33 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 60 METHOD PUBLIC,,,,,image_png_returns_correct_writer,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 60 STRING "IMAGE_PNG_RETURNS_CORRECT_WRITER" 32 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 62 ANNOTATION Test
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 64 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 65 STRING "image/*" 7 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 66 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 66 STRING "fwebh.pas.data.BinaryEntityWriter" 33 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 67 METHOD PUBLIC,,,,,image_asterisk_returns_correct_writer,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 67 STRING "IMAGE_ASTERISK_RETURNS_CORRECT_WRITER" 37 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 69 ANNOTATION Test
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 71 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 72 STRING "application/pdf" 15 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 73 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 73 STRING "fwebh.pas.data.BinaryEntityWriter" 33 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 74 METHOD PUBLIC,,,,,application_pdf_returns_correct_writer,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 74 STRING "APPLICATION_PDF_RETURNS_CORRECT_WRITER" 38 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 76 ANNOTATION Test(expected=fwebh.lang.error.NotAcceptableException)
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 78 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 79 STRING "dummy" 5 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 80 METHOD PUBLIC,,,,,dummy_fails,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 80 STRING "DUMMY_FAILS" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 82 ANNOTATION Test(expected=Progress.Json.JsonParserError )
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 84 STRING "factory" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 85 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 87 STRING "src/test/pas/data/corrupt" 25 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 93 METHOD PUBLIC,,,,,corrupt_json_fails_load_definitions,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 93 STRING "CORRUPT_JSON_FAILS_LOAD_DEFINITIONS" 35 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 95 ANNOTATION Test(expected=Progress.Json.JsonError )
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 97 STRING "factory" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 98 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 100 STRING "src/test/pas/data/invalid" 25 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 106 METHOD PUBLIC,,,,,invalid_json_fails_load_definitions,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 106 STRING "INVALID_JSON_FAILS_LOAD_DEFINITIONS" 35 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 108 CONSTRUCTOR PUBLIC,,,,EntityWriterFactory_UT,void,
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 108 STRING "ENTITYWRITERFACTORY_UT" 22 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 24 NEW fwebh.pas.data.EntityWriterFactory
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 30 INVOKE fwebh.pas.data.EntityWriterFactory:GetEntityWriter,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 31 INVOKE OpenEdge.Core.Assert:Equals,INPUT character,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 37 INVOKE fwebh.pas.data.EntityWriterFactory:GetEntityWriter,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 38 INVOKE OpenEdge.Core.Assert:Equals,INPUT character,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 44 INVOKE fwebh.pas.data.EntityWriterFactory:GetEntityWriter,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 45 INVOKE OpenEdge.Core.Assert:Equals,INPUT character,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 51 INVOKE fwebh.pas.data.EntityWriterFactory:GetEntityWriter,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 52 INVOKE OpenEdge.Core.Assert:Equals,INPUT character,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 58 INVOKE fwebh.pas.data.EntityWriterFactory:GetEntityWriter,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 59 INVOKE OpenEdge.Core.Assert:Equals,INPUT character,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 65 INVOKE fwebh.pas.data.EntityWriterFactory:GetEntityWriter,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 66 INVOKE OpenEdge.Core.Assert:Equals,INPUT character,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 72 INVOKE fwebh.pas.data.EntityWriterFactory:GetEntityWriter,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 73 INVOKE OpenEdge.Core.Assert:Equals,INPUT character,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 79 INVOKE fwebh.pas.data.EntityWriterFactory:GetEntityWriter,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 87 INVOKE fwebh.core.ProPathHelper:addFirstEntry,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 88 NEW fwebh.pas.data.EntityWriterFactory
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 91 INVOKE fwebh.core.ProPathHelper:removeFirstEntry
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 100 INVOKE fwebh.core.ProPathHelper:addFirstEntry,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 101 NEW fwebh.pas.data.EntityWriterFactory
+./src/fwebh/pas/data/EntityWriterFactory_UT.cls ./src/fwebh/pas/data/EntityWriterFactory_UT.cls 104 INVOKE fwebh.core.ProPathHelper:removeFirstEntry

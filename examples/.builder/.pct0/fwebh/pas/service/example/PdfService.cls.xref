@@ -1,0 +1,22 @@
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 1 COMPILE fwebh/pas/service/example/PdfService.cls
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 19 CLASS fwebh.pas.service.example.PdfService,,IMPLEMENTS fwebh.pas.service.IGetDataService,,,,
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 19 STRING "fwebh.pas.service.example.PdfService" 36 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 19 STRING "fwebh.pas.service.IGetDataService" 33 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 21 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 23 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 24 STRING "pdfData" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 26 STRING "fwebh/pas/service/example/example.pdf" 37 NONE TRANSLATABLE 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 28 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 28 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 28 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:ContentType
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 29 STRING "application/pdf" 15 NONE TRANSLATABLE 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 29 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IResponseData:ContentType 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 37 METHOD PUBLIC,,,,,GetData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 37 STRING "GETDATA" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 39 CONSTRUCTOR PUBLIC,,,,PdfService,void,
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 39 STRING "PDFSERVICE" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/example/PdfService.cls ./src/fwebh/pas/service/example/PdfService.cls 23 NEW fwebh.pas.data.ResponseData

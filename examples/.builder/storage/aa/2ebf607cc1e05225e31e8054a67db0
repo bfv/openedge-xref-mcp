@@ -1,0 +1,13 @@
+OpenEdge.Web
+OpenEdge.Web.DataObject	P	788bd451e938c18b64f5d473fc4c5248
+OpenEdge.Web.Dynamic	P	a5cee1f587631b95f39c51447f410aa2
+OpenEdge.Web.Logging	P	9c81f70b3444fcfcbfe0a34789178087
+OpenEdge.Web.CompatibilityHandler	C	3d3a7223b841473c594e41cc40bfe2d5
+OpenEdge.Web.DefaultWebHandler	C	5ce4a59abb37b1ae8f40de4041eb9eb0
+OpenEdge.Web.IWebRequest	C	7d5fddcc9a096ff01a686ff184cdccde
+OpenEdge.Web.InternalWebRouter	C	0c0b8a5e0318542d4362a15608fc621c
+OpenEdge.Web.SendExceptionError	C	0182ebc9f91006c2e94250b6cfcd9055
+OpenEdge.Web.WebHandler	C	8f7e02cc285530b2c732cf42af70875e
+OpenEdge.Web.WebRequest	C	0cc734d688a5ab63e1aef294261036d8
+OpenEdge.Web.WebResponse	C	787a009613c00575a78ea8fff60859f5
+OpenEdge.Web.WebResponseWriter	C	d5578ec54eeb325ad26864ef01f7d03d

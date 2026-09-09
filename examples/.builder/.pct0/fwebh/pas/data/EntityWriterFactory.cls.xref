@@ -1,0 +1,37 @@
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 1 COMPILE fwebh/pas/data/EntityWriterFactory.cls
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 20 CLASS fwebh.pas.data.EntityWriterFactory,,,,,,
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 20 STRING "fwebh.pas.data.EntityWriterFactory" 34 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 22 STRING "factory" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 25 STRING "fwebh.core.Factory" 18 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 26 STRING "entitywriter.json" 17 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 27 CONSTRUCTOR PUBLIC,,,,EntityWriterFactory,void,
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 27 STRING "ENTITYWRITERFACTORY" 19 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 29 STRING "mimeType" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 31 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 32 STRING "tmp" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 35 CAST FROM fwebh.core.IFactory TO fwebh.pas.data.IEntityWriter
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 37 STRING "/" 1 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 37 STRING "/*" 2 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 38 CAST FROM fwebh.core.IFactory TO fwebh.pas.data.IEntityWriter
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 43 STRING "err" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 47 METHOD PUBLIC,,,,,GetEntityWriter,fwebh.pas.data.IEntityWriter,INPUT mimeType CHARACTER
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 47 STRING "GETENTITYWRITER" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 49 STRING "filename" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 51 STRING "defs" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 52 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 53 STRING "names" 5 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 59 STRING "Could not find file (&1) for EntityWriterFactory" 48 NONE TRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 68 STRING "LOADDEFINITIONS" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 26 INVOKE fwebh.pas.data.EntityWriterFactory:loadDefinitions,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 34 INVOKE fwebh.core.IFactory:Has,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 35 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 38 INVOKE fwebh.core.IFactory:GetInstance,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 44 NEW fwebh.lang.error.NotAcceptableException,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 59 NEW Progress.Lang.AppError,INPUT character,INPUT integer
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 61 INVOKE fwebh.core.JSON:ParseFileToObject,INPUT character
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 63 INVOKE Progress.Json.ObjectModel.JsonObject:GetNames
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 65 INVOKE fwebh.core.IFactory:AddDefinition,INPUT character,INPUT character,INPUT logical,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/data/EntityWriterFactory.cls ./src/fwebh/pas/data/EntityWriterFactory.cls 65 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character

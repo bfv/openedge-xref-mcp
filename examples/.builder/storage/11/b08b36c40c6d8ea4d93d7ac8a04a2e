@@ -1,0 +1,11 @@
+fwebh.lang.error
+fwebh.lang.error.BadRequestException	C	2796164cd81d34fa5aa67764d86efa23
+fwebh.lang.error.ConcurrencyException	C	975da5a8be59edb2584c91e8d74969de
+fwebh.lang.error.ForbiddenException	C	9529cfd79ffe5f8eba2aabddb69261a7
+fwebh.lang.error.InvalidDataException	C	8bacea5b7bddf2b3e5d4c883851b65d6
+fwebh.lang.error.InvalidFormatException	C	e68e36b0516c6a14dd3e5270546f6176
+fwebh.lang.error.NotAcceptableException	C	3d00309211b2e5a6e6de72f9ccd3c3fd
+fwebh.lang.error.NotAllowedException	C	a23d2efae30546a759e37049ad0488af
+fwebh.lang.error.NotFoundException	C	febb96d0352ee38e7893712bf1d7d189
+fwebh.lang.error.NotImplementedException	C	32d210754a14a1f686c23f3e7815a504
+fwebh.lang.error.UnauthorizedException	C	55b5030ccb38c7137f32a6fb88478656

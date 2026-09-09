@@ -1,0 +1,8 @@
+./src/fwebh/serialize/ISerializable.cls ./src/fwebh/serialize/ISerializable.cls 1 COMPILE fwebh/serialize/ISerializable.cls
+./src/fwebh/serialize/ISerializable.cls ./src/fwebh/serialize/ISerializable.cls 1 CPINTERNAL utf-8
+./src/fwebh/serialize/ISerializable.cls ./src/fwebh/serialize/ISerializable.cls 1 CPSTREAM UTF-8
+./src/fwebh/serialize/ISerializable.cls ./src/fwebh/serialize/ISerializable.cls 14 INTERFACE fwebh.serialize.ISerializable,,,,
+./src/fwebh/serialize/ISerializable.cls ./src/fwebh/serialize/ISerializable.cls 14 STRING "fwebh.serialize.ISerializable" 29 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/ISerializable.cls ./src/fwebh/serialize/ISerializable.cls 15 STRING "objectToSerialize" 17 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/ISerializable.cls ./src/fwebh/serialize/ISerializable.cls 15 METHOD PUBLIC,,,,,Serialize,Progress.Json.ObjectModel.JsonObject,INPUT objectToSerialize PROGRESS.LANG.OBJECT
+./src/fwebh/serialize/ISerializable.cls ./src/fwebh/serialize/ISerializable.cls 15 STRING "SERIALIZE" 9 NONE UNTRANSLATABLE 

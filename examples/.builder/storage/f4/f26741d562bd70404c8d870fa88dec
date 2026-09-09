@@ -1,0 +1,4 @@
+OpenEdge.Net.HTTP.Trace.Formatter
+OpenEdge.Net.HTTP.Trace.Formatter.HarFormatter	C	fd62be7aa53f1298ca386d45896edfe6
+OpenEdge.Net.HTTP.Trace.Formatter.ITraceFormatter	C	cb575699a89c5b640da0c99551bc0e2a
+OpenEdge.Net.HTTP.Trace.Formatter.JsonFormatter	C	293a565f60fbcbb348d6993b58828de2

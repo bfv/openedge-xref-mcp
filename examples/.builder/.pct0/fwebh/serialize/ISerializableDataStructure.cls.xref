@@ -1,0 +1,7 @@
+./src/fwebh/serialize/ISerializableDataStructure.cls ./src/fwebh/serialize/ISerializableDataStructure.cls 1 COMPILE fwebh/serialize/ISerializableDataStructure.cls
+./src/fwebh/serialize/ISerializableDataStructure.cls ./src/fwebh/serialize/ISerializableDataStructure.cls 1 CPINTERNAL utf-8
+./src/fwebh/serialize/ISerializableDataStructure.cls ./src/fwebh/serialize/ISerializableDataStructure.cls 1 CPSTREAM UTF-8
+./src/fwebh/serialize/ISerializableDataStructure.cls ./src/fwebh/serialize/ISerializableDataStructure.cls 14 INTERFACE fwebh.serialize.ISerializableDataStructure,,,,
+./src/fwebh/serialize/ISerializableDataStructure.cls ./src/fwebh/serialize/ISerializableDataStructure.cls 14 STRING "fwebh.serialize.ISerializableDataStructure" 42 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/ISerializableDataStructure.cls ./src/fwebh/serialize/ISerializableDataStructure.cls 16 METHOD PUBLIC,,,,,GetDataStructures,OpenEdge.Core.Collections.IMap,
+./src/fwebh/serialize/ISerializableDataStructure.cls ./src/fwebh/serialize/ISerializableDataStructure.cls 16 STRING "GETDATASTRUCTURES" 17 NONE UNTRANSLATABLE 

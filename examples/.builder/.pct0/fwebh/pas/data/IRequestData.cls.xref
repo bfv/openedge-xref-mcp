@@ -1,0 +1,22 @@
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 1 COMPILE fwebh/pas/data/IRequestData.cls
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 17 ANNOTATION DefaultImplementation(class=fwebh.pas.data.RequestData)
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 18 INTERFACE fwebh.pas.data.IRequestData,,,,
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 18 STRING "fwebh.pas.data.IRequestData" 27 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 20 STRING "Resource" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 20 PROPERTY PUBLIC,,,,,Resource
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 21 STRING "ContentType" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 21 PROPERTY PUBLIC,,,,,ContentType
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 22 STRING "Accept" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 22 PROPERTY PUBLIC,,,,,Accept
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 23 STRING "Verb" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 23 PROPERTY PUBLIC,,,,,Verb
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 24 STRING "Version" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 24 PROPERTY PUBLIC,,,,,Version
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 25 STRING "Parameters" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 25 PROPERTY PUBLIC,,,,,Parameters
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 26 STRING "Headers" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 26 PROPERTY PUBLIC,,,,,Headers
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 27 STRING "Data" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/IRequestData.cls ./src/fwebh/pas/data/IRequestData.cls 27 PROPERTY PUBLIC,,,,,Data

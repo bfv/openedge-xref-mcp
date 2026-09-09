@@ -1,0 +1,8 @@
+./src/fwebh/pas/service/IPutDataService.cls ./src/fwebh/pas/service/IPutDataService.cls 1 COMPILE fwebh/pas/service/IPutDataService.cls
+./src/fwebh/pas/service/IPutDataService.cls ./src/fwebh/pas/service/IPutDataService.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/IPutDataService.cls ./src/fwebh/pas/service/IPutDataService.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/IPutDataService.cls ./src/fwebh/pas/service/IPutDataService.cls 15 INTERFACE fwebh.pas.service.IPutDataService,,,,
+./src/fwebh/pas/service/IPutDataService.cls ./src/fwebh/pas/service/IPutDataService.cls 15 STRING "fwebh.pas.service.IPutDataService" 33 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/IPutDataService.cls ./src/fwebh/pas/service/IPutDataService.cls 17 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/IPutDataService.cls ./src/fwebh/pas/service/IPutDataService.cls 17 METHOD PUBLIC,,,,,PutData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/IPutDataService.cls ./src/fwebh/pas/service/IPutDataService.cls 17 STRING "PUTDATA" 7 NONE UNTRANSLATABLE 

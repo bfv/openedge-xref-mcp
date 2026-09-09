@@ -1,0 +1,7 @@
+OpenEdge.Net.HTTP.Filter
+OpenEdge.Net.HTTP.Filter.Auth	P	c9f5477dafc9bca114be94b1c069c419
+OpenEdge.Net.HTTP.Filter.Header	P	eb04c67545b62bc4b909a2abf2d42a10
+OpenEdge.Net.HTTP.Filter.Payload	P	d527a5f7f0157db9ce2fe5a396aed297
+OpenEdge.Net.HTTP.Filter.Status	P	4dd5df86b85195fa98b5dc6b5825d659
+OpenEdge.Net.HTTP.Filter.Writer	P	e4c98c0b90d20a2f3ce255a30aa6ea50
+OpenEdge.Net.HTTP.Filter.IFilterEvents	C	1108dfc9bb98470dfcc9bc7507e57a87

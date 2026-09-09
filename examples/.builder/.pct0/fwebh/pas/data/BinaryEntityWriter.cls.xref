@@ -1,0 +1,23 @@
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 1 COMPILE fwebh/pas/data/BinaryEntityWriter.cls
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 20 CLASS fwebh.pas.data.BinaryEntityWriter,,IMPLEMENTS fwebh.pas.data.IEntityWriter,,,,
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 20 STRING "fwebh.pas.data.BinaryEntityWriter" 33 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 20 STRING "fwebh.pas.data.IEntityWriter" 28 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 22 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 24 STRING "entityData" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 26 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 26 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 27 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:MEMPTR
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 27 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 27 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Memptr
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 28 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 28 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 28 STRING "BinaryEntityWriter cannot process EntityDataType '&1'" 53 NONE TRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 33 METHOD PUBLIC,,,,,Write,Progress.Lang.Object,INPUT responseData FWEBH.PAS.DATA.IRESPONSEDATA
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 33 STRING "WRITE" 5 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 35 CONSTRUCTOR PUBLIC,,,,BinaryEntityWriter,void,
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 35 STRING "BINARYENTITYWRITER" 18 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 27 NEW OpenEdge.Core.Memptr,INPUT memptr
+./src/fwebh/pas/data/BinaryEntityWriter.cls ./src/fwebh/pas/data/BinaryEntityWriter.cls 28 NEW fwebh.lang.error.NotAcceptableException,INPUT character

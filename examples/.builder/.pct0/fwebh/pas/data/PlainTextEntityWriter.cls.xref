@@ -1,0 +1,24 @@
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 1 COMPILE fwebh/pas/data/PlainTextEntityWriter.cls
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 20 CLASS fwebh.pas.data.PlainTextEntityWriter,,IMPLEMENTS fwebh.pas.data.IEntityWriter,,,,
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 20 STRING "fwebh.pas.data.PlainTextEntityWriter" 36 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 20 STRING "fwebh.pas.data.IEntityWriter" 28 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 22 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 24 STRING "entityData" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 26 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 26 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 27 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:LONGCHAR
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 27 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 27 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:PlainText
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 27 STRING "?" 1 LEFT TRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 28 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 28 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 28 STRING "PlainTextWriter cannot process EntityDataType '&1'" 50 NONE TRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 33 METHOD PUBLIC,,,,,Write,Progress.Lang.Object,INPUT responseData FWEBH.PAS.DATA.IRESPONSEDATA
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 33 STRING "WRITE" 5 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 35 CONSTRUCTOR PUBLIC,,,,PlainTextEntityWriter,void,
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 35 STRING "PLAINTEXTENTITYWRITER" 21 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 27 NEW OpenEdge.Core.String,INPUT longchar
+./src/fwebh/pas/data/PlainTextEntityWriter.cls ./src/fwebh/pas/data/PlainTextEntityWriter.cls 28 NEW fwebh.lang.error.NotAcceptableException,INPUT character

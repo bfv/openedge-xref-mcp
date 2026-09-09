@@ -1,0 +1,14 @@
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 1 COMPILE test/serialize/ArrayObject.cls
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 1 CPINTERNAL utf-8
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 1 CPSTREAM UTF-8
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 13 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 15 CLASS test.serialize.ArrayObject,,,,,,
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 15 STRING "test.serialize.ArrayObject" 26 NONE UNTRANSLATABLE 
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 17 STRING "id" 2 NONE UNTRANSLATABLE 
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 17 PROPERTY PUBLIC,,,,,id
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 18 STRING "ids" 3 NONE UNTRANSLATABLE 
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 18 PROPERTY PUBLIC,,,,,ids
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 19 STRING "names" 5 NONE UNTRANSLATABLE 
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 19 PROPERTY PUBLIC,,,,,names
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 21 CONSTRUCTOR PUBLIC,,,,ArrayObject,void,
+./src/test/serialize/ArrayObject.cls ./src/test/serialize/ArrayObject.cls 21 STRING "ARRAYOBJECT" 11 NONE UNTRANSLATABLE 

@@ -1,0 +1,54 @@
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 1 COMPILE fwebh/core/JSON.cls
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 1 CPINTERNAL utf-8
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 1 CPSTREAM UTF-8
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 19 CLASS fwebh.core.JSON,,,,,,
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 19 STRING "fwebh.core.JSON" 15 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 21 STRING "filename" 8 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 23 STRING "parser" 6 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 24 STRING "json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 31 METHOD PUBLIC,STATIC,,,,ParseFile,Progress.Json.ObjectModel.JsonConstruct,INPUT filename CHARACTER
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 31 STRING "PARSEFILE" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 34 STRING "filename" 8 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 35 CAST TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 36 METHOD PUBLIC,STATIC,,,,ParseFileToObject,Progress.Json.ObjectModel.JsonObject,INPUT filename CHARACTER
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 36 STRING "PARSEFILETOOBJECT" 17 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 39 STRING "filename" 8 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 40 CAST TO Progress.Json.ObjectModel.JsonArray
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 41 METHOD PUBLIC,STATIC,,,,ParseFileToArray,Progress.Json.ObjectModel.JsonArray,INPUT filename CHARACTER
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 41 STRING "PARSEFILETOARRAY" 16 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 44 STRING "jsonString" 10 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 46 STRING "parser" 6 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 47 STRING "json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 52 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 59 METHOD PUBLIC,STATIC,,,,ParseString,Progress.Json.ObjectModel.JsonConstruct,INPUT jsonString LONGCHAR
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 59 STRING "PARSESTRING" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 62 STRING "json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 64 METHOD PUBLIC,STATIC,,,,Stringify,longchar,INPUT json PROGRESS.JSON.OBJECTMODEL.JSONCONSTRUCT
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 64 STRING "STRINGIFY" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 67 STRING "json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 67 STRING "formatJson" 10 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 68 STRING "resultString" 12 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 71 METHOD PUBLIC,STATIC,,,,Stringify,longchar,INPUT json PROGRESS.JSON.OBJECTMODEL.JSONCONSTRUCT,INPUT formatJson LOGICAL
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 71 STRING "STRINGIFY" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 74 STRING "h" 1 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 75 STRING "dataString" 10 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 76 STRING "longchar" 8 NONE TRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 78 METHOD PUBLIC,STATIC,,,,Stringify,longchar,INPUT h HANDLE
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 78 STRING "STRINGIFY" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 81 STRING "tempTableHandle" 15 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 82 STRING "array" 5 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 84 STRING "JsonArray" 9 NONE TRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 86 METHOD PUBLIC,STATIC,,,,GetArrayFromTemptable,Progress.Json.ObjectModel.JsonArray,INPUT tempTableHandle HANDLE
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 86 STRING "GETARRAYFROMTEMPTABLE" 21 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 88 CONSTRUCTOR PUBLIC,,,,JSON,void,
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 88 STRING "JSON" 4 NONE UNTRANSLATABLE 
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 26 NEW Progress.Json.ObjectModel.ObjectModelParser
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 27 INVOKE Progress.Json.ObjectModel.ObjectModelParser:ParseFile,INPUT character
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 35 INVOKE fwebh.core.JSON:ParseFile,INPUT character
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 40 INVOKE fwebh.core.JSON:ParseFile,INPUT character
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 49 NEW Progress.Json.ObjectModel.ObjectModelParser
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 51 INVOKE Progress.Json.ObjectModel.ObjectModelParser:Parse,INPUT longchar
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 63 INVOKE fwebh.core.JSON:Stringify,INPUT Progress.Json.ObjectModel.JsonConstruct,INPUT logical
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 69 INVOKE Progress.Json.ObjectModel.JsonConstruct:Write,INPUT-OUTPUT longchar,INPUT logical
+./src/fwebh/core/JSON.cls ./src/fwebh/core/JSON.cls 83 NEW Progress.Json.ObjectModel.JsonArray

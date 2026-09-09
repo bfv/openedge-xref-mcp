@@ -1,0 +1,29 @@
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 1 COMPILE fwebh/pas/service/system/SystemInfoService.cls
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 19 CLASS fwebh.pas.service.system.SystemInfoService,,IMPLEMENTS fwebh.pas.service.IGetDataService,,,,
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 19 STRING "fwebh.pas.service.system.SystemInfoService" 42 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 19 STRING "fwebh.pas.service.IGetDataService" 33 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 23 CONSTRUCTOR PUBLIC,,,,SystemInfoService,void,
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 23 STRING "SYSTEMINFOSERVICE" 17 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 25 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 26 STRING "json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 27 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Accept
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 29 STRING "..." 3 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 30 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:ContentType
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 30 STRING "application/json" 16 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 30 UPDATE PUBLIC-PROPERTY fwebh.pas.data.ResponseData:ContentType 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 32 STRING "status" 6 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 32 STRING "ok" 2 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 33 STRING "time" 4 NONE TRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 35 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseData:Data
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 35 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 35 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:Json 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 39 METHOD PUBLIC,,,,,GetData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 39 STRING "GETDATA" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 26 NEW Progress.Json.ObjectModel.JsonObject
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 27 NEW fwebh.pas.data.ResponseData
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 32 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character
+./src/fwebh/pas/service/system/SystemInfoService.cls ./src/fwebh/pas/service/system/SystemInfoService.cls 33 INVOKE Progress.Json.ObjectModel.JsonObject:Add,INPUT character,INPUT character

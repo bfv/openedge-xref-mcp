@@ -1,0 +1,29 @@
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 1 COMPILE test/serialize/Address.cls
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 1 CPINTERNAL utf-8
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 1 CPSTREAM UTF-8
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 16 CLASS test.serialize.Address,,,,,,SERIALIZABLE
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 16 STRING "test.serialize.Address" 22 NONE UNTRANSLATABLE 
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 18 STRING "Street" 6 NONE UNTRANSLATABLE 
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 18 PROPERTY PUBLIC,,,,,Street
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 19 STRING "HouseNumber" 11 NONE UNTRANSLATABLE 
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 19 PROPERTY PUBLIC,,,,,HouseNumber
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 20 STRING "Municipale" 10 NONE UNTRANSLATABLE 
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 20 PROPERTY PUBLIC,,,,,Municipale
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 21 STRING "Postcode" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 21 PROPERTY PUBLIC,,,,,Postcode
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 23 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 24 STRING "addr" 4 NONE UNTRANSLATABLE 
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 26 CAST FROM Progress.Lang.Object TO test.serialize.Address
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 28 ACCESS PUBLIC-PROPERTY test.serialize.Address:Street
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 28 ACCESS INHERITED-PROPERTY test.serialize.Address:Street
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 28 ACCESS PUBLIC-PROPERTY test.serialize.Address:HouseNumber
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 28 ACCESS INHERITED-PROPERTY test.serialize.Address:HouseNumber
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 28 ACCESS PUBLIC-PROPERTY test.serialize.Address:Municipale
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 28 ACCESS INHERITED-PROPERTY test.serialize.Address:Municipale
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 28 ACCESS PUBLIC-PROPERTY test.serialize.Address:Postcode
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 28 ACCESS INHERITED-PROPERTY test.serialize.Address:Postcode
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 35 METHOD PUBLIC,,OVERRIDE,,,Equals,logical,INPUT obj PROGRESS.LANG.OBJECT
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 35 STRING "EQUALS" 6 NONE UNTRANSLATABLE 
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 37 CONSTRUCTOR PUBLIC,,,,Address,void,
+./src/test/serialize/Address.cls ./src/test/serialize/Address.cls 37 STRING "ADDRESS" 7 NONE UNTRANSLATABLE 

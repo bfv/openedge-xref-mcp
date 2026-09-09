@@ -1,0 +1,43 @@
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 1 COMPILE fwebh/pas/webhandlers/WebHandlerCommon.cls
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 23 CLASS fwebh.pas.webhandlers.WebHandlerCommon,INHERITS OpenEdge.Web.WebHandler,,,,,
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 23 STRING "fwebh.pas.webhandlers.WebHandlerCommon" 38 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 23 STRING "OpenEdge.Web.WebHandler" 23 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 25 STRING "QueryParameters" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 25 PROPERTY PROTECTED,,,,,QueryParameters
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 28 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 29 STRING "writer" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 33 METHOD PROTECTED,,,,,WriteResponse,void,INPUT response OPENEDGE.NET.HTTP.IHTTPRESPONSE
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 33 STRING "WRITERESPONSE" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 35 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 37 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 39 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpResponse:StatusCode
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 39 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpResponse:StatusCode 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 40 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 40 STRING "not allowed" 11 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 40 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 45 METHOD PROTECTED,,OVERRIDE,,,HandleNotAllowedMethod,integer,INPUT request OPENEDGE.WEB.IWEBREQUEST
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 45 STRING "HANDLENOTALLOWEDMETHOD" 22 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 48 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 50 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 52 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpResponse:StatusCode
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 52 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpResponse:StatusCode 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 53 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 53 STRING "not implemented" 15 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 53 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 58 METHOD PROTECTED,,OVERRIDE,,,HandleNotImplemented,integer,INPUT request OPENEDGE.WEB.IWEBREQUEST
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 58 STRING "HANDLENOTIMPLEMENTED" 20 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 60 CONSTRUCTOR PUBLIC,,,,WebHandlerCommon,void,
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 60 STRING "WEBHANDLERCOMMON" 16 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 30 NEW OpenEdge.Web.WebResponseWriter,INPUT OpenEdge.Net.HTTP.IHttpResponse
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 31 INVOKE OpenEdge.Web.WebResponseWriter:Open
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 32 INVOKE OpenEdge.Web.WebResponseWriter:Close
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 37 NEW OpenEdge.Web.WebResponse
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 40 NEW OpenEdge.Core.String,INPUT character
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 41 INVOKE fwebh.pas.webhandlers.WebHandlerCommon:writeResponse,INPUT OpenEdge.Net.HTTP.IHttpResponse
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 50 NEW OpenEdge.Web.WebResponse
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 53 NEW OpenEdge.Core.String,INPUT character
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls 54 INVOKE fwebh.pas.webhandlers.WebHandlerCommon:writeResponse,INPUT OpenEdge.Net.HTTP.IHttpResponse
+./src/fwebh/pas/webhandlers/WebHandlerCommon.cls ./src/fwebh/pas/webhandlers/WebHandlerCommon.cls IMPLICIT INVOKE OpenEdge.Web.WebHandler:WebHandler

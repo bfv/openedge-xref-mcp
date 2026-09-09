@@ -1,0 +1,8 @@
+./src/fwebh/serialize/IListInfo.cls ./src/fwebh/serialize/IListInfo.cls 1 COMPILE fwebh/serialize/IListInfo.cls
+./src/fwebh/serialize/IListInfo.cls ./src/fwebh/serialize/IListInfo.cls 1 CPINTERNAL utf-8
+./src/fwebh/serialize/IListInfo.cls ./src/fwebh/serialize/IListInfo.cls 1 CPSTREAM UTF-8
+./src/fwebh/serialize/IListInfo.cls ./src/fwebh/serialize/IListInfo.cls 13 INTERFACE fwebh.serialize.IListInfo,,,,
+./src/fwebh/serialize/IListInfo.cls ./src/fwebh/serialize/IListInfo.cls 13 STRING "fwebh.serialize.IListInfo" 25 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/IListInfo.cls ./src/fwebh/serialize/IListInfo.cls 15 STRING "listName" 8 NONE UNTRANSLATABLE 
+./src/fwebh/serialize/IListInfo.cls ./src/fwebh/serialize/IListInfo.cls 15 METHOD PUBLIC,,,,,GetListType,character,INPUT listName CHARACTER
+./src/fwebh/serialize/IListInfo.cls ./src/fwebh/serialize/IListInfo.cls 15 STRING "GETLISTTYPE" 11 NONE UNTRANSLATABLE 

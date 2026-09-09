@@ -1,0 +1,77 @@
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 1 COMPILE fwebh/pas/data/DataHolder.cls
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 17 CLASS fwebh.pas.data.DataHolder,,IMPLEMENTS fwebh.pas.data.IDataHolder,,,,
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 17 STRING "fwebh.pas.data.DataHolder" 25 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 17 STRING "fwebh.pas.data.IDataHolder" 26 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 19 STRING "DatasetHandle" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 19 PROPERTY PUBLIC,,,,,DatasetHandle
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 21 STRING "h" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 22 ACCESS PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DatasetHandle
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 22 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DatasetHandle 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 23 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 23 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:DATASET
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 23 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DataType 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 26 STRING "TempTableHandle" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 26 PROPERTY PUBLIC,,,,,TempTableHandle
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 28 STRING "h" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 29 ACCESS PUBLIC-PROPERTY fwebh.pas.data.DataHolder:TempTableHandle
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 29 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:TempTableHandle 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 30 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 30 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:TEMP-TABLE
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 30 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DataType 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 33 STRING "BufferHandle" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 33 PROPERTY PUBLIC,,,,,BufferHandle
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 35 STRING "h" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 36 ACCESS PUBLIC-PROPERTY fwebh.pas.data.DataHolder:BufferHandle
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 36 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:BufferHandle 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 37 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 37 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:BUFFER
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 37 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DataType 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 40 STRING "GenericHandle" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 40 PROPERTY PUBLIC,,,,,GenericHandle
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 42 STRING "h" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 43 ACCESS PUBLIC-PROPERTY fwebh.pas.data.DataHolder:GenericHandle
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 43 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:GenericHandle 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 44 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 44 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:WIDGET-HANDLE
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 44 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DataType 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 47 STRING "Json" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 47 PROPERTY PUBLIC,,,,,Json
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 49 STRING "jsonIn" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 50 ACCESS PUBLIC-PROPERTY fwebh.pas.data.DataHolder:Json
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 50 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:Json 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 51 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 51 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:JSON
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 51 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DataType 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 54 STRING "Memptr" 6 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 54 PROPERTY PUBLIC,,,,,Memptr
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 56 STRING "p" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 57 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:Memptr
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 57 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:Memptr 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 58 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 58 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:MEMPTR
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 58 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DataType 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 61 STRING "PlainText" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 61 PROPERTY PUBLIC,,,,,PlainText
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 63 STRING "c" 1 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 64 ACCESS PUBLIC-PROPERTY fwebh.pas.data.DataHolder:PlainText
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 64 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:PlainText 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 65 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 65 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:LONGCHAR
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 65 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DataType 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 68 STRING "DataType" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 68 PROPERTY PUBLIC,,,,,DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 71 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 71 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:NONE
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 71 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DataType 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 72 CONSTRUCTOR PUBLIC,,,,DataHolder,void,
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 72 STRING "DATAHOLDER" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 79 ACCESS PUBLIC-PROPERTY fwebh.pas.data.DataHolder:DataType
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 80 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:MEMPTR
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 81 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:Memptr
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 82 ACCESS INHERITED-PROPERTY fwebh.pas.data.DataHolder:Memptr
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 82 UPDATE PUBLIC-PROPERTY fwebh.pas.data.DataHolder:Memptr 
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 86 DESTRUCTOR PUBLIC,,,,DataHolder,void,
+./src/fwebh/pas/data/DataHolder.cls ./src/fwebh/pas/data/DataHolder.cls 86 STRING "DATAHOLDER" 10 NONE UNTRANSLATABLE 

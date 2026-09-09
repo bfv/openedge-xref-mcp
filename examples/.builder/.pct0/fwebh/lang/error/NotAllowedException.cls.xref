@@ -1,0 +1,13 @@
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 1 COMPILE fwebh/lang/error/NotAllowedException.cls
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 1 CPINTERNAL utf-8
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 1 CPSTREAM UTF-8
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 16 CLASS fwebh.lang.error.NotAllowedException,,,,,,
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 16 STRING "fwebh.lang.error.NotAllowedException" 36 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 16 STRING "Progress.Lang.ProError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 16 STRING "Progress.Lang.AppError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 18 STRING "errorMessage" 12 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 19 STRING "NotAllowedException: &1" 23 NONE TRANSLATABLE 
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 20 CONSTRUCTOR PUBLIC,,,,NotAllowedException,void,INPUT errorMessage CHARACTER
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 20 STRING "NOTALLOWEDEXCEPTION" 19 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotAllowedException.cls ./src/fwebh/lang/error/NotAllowedException.cls 19 INVOKE Progress.Lang.AppError:AppError,INPUT character,INPUT integer

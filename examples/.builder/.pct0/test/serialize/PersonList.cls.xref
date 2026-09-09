@@ -1,0 +1,45 @@
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 1 COMPILE test/serialize/PersonList.cls
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 1 CPINTERNAL utf-8
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 1 CPSTREAM UTF-8
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 11 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 20 CLASS test.serialize.PersonList,,IMPLEMENTS fwebh.serialize.ISerializableDataStructure,,,,
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 20 STRING "test.serialize.PersonList" 25 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 20 STRING "fwebh.serialize.ISerializableDataStructure" 42 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 22 INCLUDE test/serialize/tt-with-object.i
+./src/test/serialize/PersonList.cls ./src/test/serialize/tt-with-object.i 2 STRING "tt" 2 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/tt-with-object.i 2 STRING "id" 2 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/tt-with-object.i 2 STRING "name" 4 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/tt-with-object.i 2 STRING "lang" 4 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/tt-with-object.i 2 STRING "persons" 7 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 27 STRING "Enzo" 4 NONE TRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 28 STRING "Italiaans" 9 NONE TRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 31 STRING "Günther" 8 NONE TRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 32 STRING "Duits" 5 NONE TRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 33 METHOD PUBLIC,,,,,Fill,void,
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 33 STRING "FILL" 4 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 36 STRING "dataStructs" 11 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 37 STRING "persons" 7 NONE TRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 38 STRING "persons.taal" 12 NONE TRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 38 STRING "test.serialize.Language" 23 NONE TRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 40 METHOD PUBLIC,,,,,GetDataStructures,OpenEdge.Core.Collections.IMap,
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 40 STRING "GETDATASTRUCTURES" 17 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 43 STRING "result" 6 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 44 SEARCH DATA-MEMBER test.serialize.PersonList:tt default TEMPTABLE WHOLE-INDEX
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 45 ACCESS PUBLIC-PROPERTY test.serialize.Language:id
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 45 CAST FROM Progress.Lang.Object TO test.serialize.Language
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 45 ACCESS PUBLIC-PROPERTY test.serialize.Language:name
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 45 CAST FROM Progress.Lang.Object TO test.serialize.Language
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 45 STRING "&1: &2 (&3) " 12 NONE TRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 48 METHOD PUBLIC,,OVERRIDE,,,ToString,character,
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 48 STRING "TOSTRING" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 50 CONSTRUCTOR PUBLIC,,,,PersonList,void,
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 50 STRING "PERSONLIST" 10 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 50 STRING "default" 7 NONE UNTRANSLATABLE 
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 28 NEW test.serialize.Language,INPUT integer,INPUT character
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 32 NEW test.serialize.Language,INPUT integer,INPUT character
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 36 NEW OpenEdge.Core.Collections.Map
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 37 INVOKE OpenEdge.Core.Collections.IMap:Put,INPUT Progress.Lang.Object,INPUT Progress.Lang.Object
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 37 NEW OpenEdge.Core.String,INPUT character
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 37 NEW OpenEdge.Core.WidgetHandle,INPUT widget-handle
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 38 INVOKE OpenEdge.Core.Collections.IMap:Put,INPUT Progress.Lang.Object,INPUT Progress.Lang.Object
+./src/test/serialize/PersonList.cls ./src/test/serialize/PersonList.cls 38 NEW OpenEdge.Core.String,INPUT character

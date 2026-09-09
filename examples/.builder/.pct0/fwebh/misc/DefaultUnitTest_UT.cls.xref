@@ -1,0 +1,12 @@
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 1 COMPILE fwebh/misc/DefaultUnitTest_UT.cls
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 1 CPINTERNAL utf-8
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 1 CPSTREAM UTF-8
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 13 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 17 CLASS fwebh.misc.DefaultUnitTest_UT,,,,,,
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 17 STRING "fwebh.misc.DefaultUnitTest_UT" 29 NONE UNTRANSLATABLE 
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 19 ANNOTATION Test
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 22 METHOD PUBLIC,,,,,needed_as_only_unittest,void,
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 22 STRING "NEEDED_AS_ONLY_UNITTEST" 23 NONE UNTRANSLATABLE 
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 24 CONSTRUCTOR PUBLIC,,,,DefaultUnitTest_UT,void,
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 24 STRING "DEFAULTUNITTEST_UT" 18 NONE UNTRANSLATABLE 
+./src/fwebh/misc/DefaultUnitTest_UT.cls ./src/fwebh/misc/DefaultUnitTest_UT.cls 21 INVOKE OpenEdge.Core.Assert:Equals,INPUT logical,INPUT logical

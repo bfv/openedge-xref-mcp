@@ -1,0 +1,95 @@
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 1 COMPILE fwebh/pas/service/ServiceFactory_UT.cls
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 18 CLASS fwebh.pas.service.ServiceFactory_UT,,,,,,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 18 STRING "fwebh.pas.service.ServiceFactory_UT" 35 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 20 STRING "factory" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 22 ANNOTATION BeforeEach
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 25 METHOD PUBLIC,,,,,_BeforeEach,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 25 STRING "_BEFOREEACH" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 27 ANNOTATION AfterEach
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 29 STRING "*faulty*" 8 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 32 METHOD PUBLIC,,,,,_AfterEach,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 32 STRING "_AFTEREACH" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 34 ANNOTATION BeforeAll
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 36 STRING "./src/test/pas/service" 22 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 37 METHOD PUBLIC,,,,,_BeforeAll,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 37 STRING "_BEFOREALL" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 39 ANNOTATION AfterAll
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 42 METHOD PUBLIC,,,,,_AfterAll,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 42 STRING "_AFTERALL" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 44 ANNOTATION Test
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 46 STRING "sysinfo" 7 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 47 METHOD PUBLIC,,,,,get_instance,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 47 STRING "GET_INSTANCE" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 49 ANNOTATION Test
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 51 STRING "obj1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 51 STRING "obj2" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 53 STRING "non-single" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 54 STRING "non-single" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 57 METHOD PUBLIC,,,,,non_singleton_return_new_instances,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 57 STRING "NON_SINGLETON_RETURN_NEW_INSTANCES" 34 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 59 ANNOTATION Test
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 61 STRING "obj1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 61 STRING "obj2" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 63 STRING "single" 6 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 64 STRING "single" 6 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 67 METHOD PUBLIC,,,,,singleton_return_same_instances,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 67 STRING "SINGLETON_RETURN_SAME_INSTANCES" 31 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 69 ANNOTATION Test(expected=fwebh.lang.error.NotFoundException)
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 71 STRING "./src/test/pas/service/faulty" 29 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 73 METHOD PUBLIC,,,,,non_existent_classname_should_throw_error,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 73 STRING "NON_EXISTENT_CLASSNAME_SHOULD_THROW_ERROR" 41 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 75 ANNOTATION Test(expected=fwebh.lang.error.NotFoundException)
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 77 STRING "i-do-not-exist" 14 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 78 METHOD PUBLIC,,,,,non_existent_indentifier_should_throw_error,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 78 STRING "NON_EXISTENT_INDENTIFIER_SHOULD_THROW_ERROR" 43 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 80 ANNOTATION Test(expected=fwebh.lang.error.NotAllowedException)
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 82 STRING "empty" 5 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 83 METHOD PUBLIC,,,,,service_with_DELETE_not_implemented_should_throw,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 83 STRING "SERVICE_WITH_DELETE_NOT_IMPLEMENTED_SHOULD_THROW" 48 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 85 ANNOTATION Test(expected=fwebh.lang.error.NotAllowedException)
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 87 STRING "empty" 5 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 88 METHOD PUBLIC,,,,,service_with_GET_not_implemented_should_throw,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 88 STRING "SERVICE_WITH_GET_NOT_IMPLEMENTED_SHOULD_THROW" 45 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 90 ANNOTATION Test(expected=fwebh.lang.error.NotAllowedException)
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 92 STRING "empty" 5 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 93 METHOD PUBLIC,,,,,service_with_PATCH_not_implemented_should_throw,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 93 STRING "SERVICE_WITH_PATCH_NOT_IMPLEMENTED_SHOULD_THROW" 47 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 95 ANNOTATION Test(expected=fwebh.lang.error.NotAllowedException)
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 97 STRING "empty" 5 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 98 METHOD PUBLIC,,,,,service_with_POST_not_implemented_should_throw,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 98 STRING "SERVICE_WITH_POST_NOT_IMPLEMENTED_SHOULD_THROW" 46 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 100 ANNOTATION Test(expected=fwebh.lang.error.NotAllowedException)
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 102 STRING "empty" 5 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 103 METHOD PUBLIC,,,,,service_with_PUT_not_implemented_should_throw,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 103 STRING "SERVICE_WITH_PUT_NOT_IMPLEMENTED_SHOULD_THROW" 45 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 105 STRING "dir" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 106 STRING "," 1 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 107 STRING "ADDPROPATHENTRY" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 110 STRING "," 1 NONE TRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 111 STRING "REMOVEFIRSTPROPATHENTRY" 23 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 113 CONSTRUCTOR PUBLIC,,,,ServiceFactory_UT,void,
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 113 STRING "SERVICEFACTORY_UT" 17 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 24 NEW fwebh.pas.service.ServiceFactory
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 30 INVOKE fwebh.pas.service.ServiceFactory_UT:removeFirstPropathEntry
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 31 DELETE-INSTANCE fwebh.pas.service.ServiceFactory
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 36 INVOKE fwebh.pas.service.ServiceFactory_UT:addPropathEntry,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 41 INVOKE fwebh.pas.service.ServiceFactory_UT:removeFirstPropathEntry
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 46 INVOKE OpenEdge.Core.Assert:NotNull,INPUT Progress.Lang.Object
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 46 INVOKE fwebh.pas.service.ServiceFactory:GetGetDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 53 INVOKE fwebh.pas.service.ServiceFactory:GetGetDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 54 INVOKE fwebh.pas.service.ServiceFactory:GetGetDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 56 INVOKE OpenEdge.Core.Assert:NotEqual,INPUT Progress.Lang.Object,INPUT Progress.Lang.Object
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 63 INVOKE fwebh.pas.service.ServiceFactory:GetGetDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 64 INVOKE fwebh.pas.service.ServiceFactory:GetGetDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 66 INVOKE OpenEdge.Core.Assert:Equals,INPUT Progress.Lang.Object,INPUT Progress.Lang.Object
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 71 INVOKE fwebh.pas.service.ServiceFactory_UT:addPropathEntry,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 72 NEW fwebh.pas.service.ServiceFactory
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 77 INVOKE fwebh.pas.service.ServiceFactory:GetGetDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 82 INVOKE fwebh.pas.service.ServiceFactory:GetDeleteDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 87 INVOKE fwebh.pas.service.ServiceFactory:GetGetDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 92 INVOKE fwebh.pas.service.ServiceFactory:GetPatchDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 97 INVOKE fwebh.pas.service.ServiceFactory:GetPostDataService,INPUT character
+./src/fwebh/pas/service/ServiceFactory_UT.cls ./src/fwebh/pas/service/ServiceFactory_UT.cls 102 INVOKE fwebh.pas.service.ServiceFactory:GetPutDataService,INPUT character

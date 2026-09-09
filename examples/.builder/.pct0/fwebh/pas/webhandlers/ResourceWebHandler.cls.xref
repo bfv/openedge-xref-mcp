@@ -1,0 +1,173 @@
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 1 COMPILE fwebh/pas/webhandlers/ResourceWebHandler.cls
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 35 CLASS fwebh.pas.webhandlers.ResourceWebHandler,INHERITS fwebh.pas.webhandlers.WebHandlerCommon OpenEdge.Web.WebHandler,,,,,
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 35 STRING "fwebh.pas.webhandlers.ResourceWebHandler" 40 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 35 STRING "OpenEdge.Web.WebHandler" 23 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 35 STRING "fwebh.pas.webhandlers.WebHandlerCommon" 38 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 37 STRING "serviceFactory" 14 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 38 STRING "writerFactory" 13 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 43 CONSTRUCTOR PUBLIC,,,,ResourceWebHandler,void,
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 43 STRING "RESOURCEWEBHANDLER" 18 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 45 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 47 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 48 STRING "requestData" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 49 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 50 STRING "service" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 59 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Resource
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 59 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Name
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 64 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 74 METHOD PROTECTED,,OVERRIDE,,,HandleGet,integer,INPUT request OPENEDGE.WEB.IWEBREQUEST
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 74 STRING "HANDLEGET" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 77 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 79 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 80 STRING "requestData" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 81 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 82 STRING "service" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 91 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Resource
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 91 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Name
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 96 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 106 METHOD PROTECTED,,OVERRIDE,,,HandlePost,integer,INPUT request OPENEDGE.WEB.IWEBREQUEST
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 106 STRING "HANDLEPOST" 10 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 109 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 111 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 112 STRING "requestData" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 113 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 114 STRING "service" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 123 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Resource
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 123 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Name
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 128 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 138 METHOD PROTECTED,,OVERRIDE,,,HandlePut,integer,INPUT request OPENEDGE.WEB.IWEBREQUEST
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 138 STRING "HANDLEPUT" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 141 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 143 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 144 STRING "requestData" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 145 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 146 STRING "service" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 153 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Resource
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 153 ACCESS PUBLIC-PROPERTY fwebh.pas.resource.ResourceDescriptor:Name
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 158 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 168 METHOD PROTECTED,,OVERRIDE,,,HandleDelete,integer,INPUT request OPENEDGE.WEB.IWEBREQUEST
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 168 STRING "HANDLEDELETE" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 171 STRING "service" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 171 STRING "requestData" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 171 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 173 STRING "entityWriter" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 174 STRING "responseObj" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 175 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 177 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:ContentType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 177 UPDATE PUBLIC-PROPERTY fwebh.pas.data.IResponseData:ContentType 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 179 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Data
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 179 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IDataHolder:DataType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 179 ACCESS PUBLIC-PROPERTY fwebh.pas.data.ResponseDataType:NONE
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 185 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 185 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:Entity 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 186 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:ContentType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 186 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:ContentType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 186 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpMessage:ContentType 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 188 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Error
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 189 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpResponse:StatusCode
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 189 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:Error
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 189 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpResponse:StatusCode 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 193 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpResponse:StatusCode
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 193 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.IHttpResponse:StatusCode 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 198 STRING "HANDLERESPONSE" 14 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 201 STRING "err" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 203 STRING "response" 8 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 205 STRING "errorMessage" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 205 STRING "contentType" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 206 STRING "errorCode" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 208 STRING "text/plain" 10 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 214 STRING "******************** start 500 error ********************" 57 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 216 ACCESS PUBLIC-PROPERTY Progress.Lang.Error:CallStack
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 216 STRING "   " 3 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 216 STRING "," 1 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 217 STRING "******************** end 500 error ********************" 55 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 220 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 220 STRING "fwebh.lang.error." 17 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 221 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 221 STRING ": " 2 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 224 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.HttpMessage:Entity
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 224 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.HttpMessage:Entity 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 225 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.HttpResponse:StatusCode
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 225 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.HttpResponse:StatusCode 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 226 ACCESS PUBLIC-PROPERTY OpenEdge.Net.HTTP.HttpMessage:ContentType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 226 UPDATE PUBLIC-PROPERTY OpenEdge.Net.HTTP.HttpMessage:ContentType 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 230 STRING "HANDLEERRORS" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 233 STRING "err" 3 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 235 STRING "errorCode" 9 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 237 ACCESS PUBLIC-PROPERTY Progress.Lang.Class:TypeName
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 238 STRING "fwebh.lang.error.BadRequestException" 36 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 241 STRING "fwebh.lang.error.UnauthorizedException" 38 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 244 STRING "fwebh.lang.error.ForbiddenException" 35 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 247 STRING "fwebh.lang.error.NotFoundException" 34 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 250 STRING "fwebh.lang.error.NotAllowedException" 36 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 253 STRING "fwebh.lang.error.NotAcceptableException" 39 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 256 STRING "fwebh.lang.error.ConcurrencyException" 37 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 266 STRING "GETHTTPERRORCODE" 16 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 269 STRING "service" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 269 STRING "requestData" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 269 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 271 STRING "contentType" 11 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 273 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:ContentType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 274 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:ContentType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 275 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Accept
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 275 STRING "*/*" 3 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 276 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IRequestData:Accept
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 277 STRING "fwebh.pas.data.IDefaultContentType" 34 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 278 CAST FROM Progress.Lang.Object TO fwebh.pas.data.IDefaultContentType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 281 STRING "application/json" 16 NONE TRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 285 STRING "HANDLECONTENTTYPE" 17 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 288 STRING "responseData" 12 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 290 ACCESS PUBLIC-PROPERTY fwebh.pas.data.IResponseData:ContentType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 292 STRING "GETENTITYWRITER" 15 NONE UNTRANSLATABLE 
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls IMPLICIT INVOKE fwebh.pas.webhandlers.WebHandlerCommon:WebHandlerCommon
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 41 NEW fwebh.pas.service.ServiceFactory
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 42 NEW fwebh.pas.data.EntityWriterFactory
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 54 NEW OpenEdge.Web.WebResponse
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 56 INVOKE fwebh.pas.data.RequestDataProcessor:ProcessRequestInfo,INPUT OpenEdge.Web.IWebRequest
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 56 NEW fwebh.pas.data.RequestDataProcessor
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 59 INVOKE fwebh.pas.service.ServiceFactory:GetGetDataService,INPUT character
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 60 INVOKE fwebh.pas.service.IGetDataService:GetData,INPUT fwebh.pas.data.IRequestData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 62 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:handleResponse,INPUT Progress.Lang.Object,INPUT fwebh.pas.data.IRequestData,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 65 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:handleErrors,INPUT Progress.Lang.Error
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 70 INVOKE fwebh.pas.webhandlers.WebHandlerCommon:WriteResponse,INPUT OpenEdge.Net.HTTP.IHttpResponse
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 86 NEW OpenEdge.Web.WebResponse
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 88 INVOKE fwebh.pas.data.RequestDataProcessor:ProcessRequestInfo,INPUT OpenEdge.Web.IWebRequest
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 88 NEW fwebh.pas.data.RequestDataProcessor
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 91 INVOKE fwebh.pas.service.ServiceFactory:GetPostDataService,INPUT character
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 92 INVOKE fwebh.pas.service.IPostDataService:PostData,INPUT fwebh.pas.data.IRequestData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 94 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:handleResponse,INPUT Progress.Lang.Object,INPUT fwebh.pas.data.IRequestData,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 97 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:handleErrors,INPUT Progress.Lang.Error
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 102 INVOKE fwebh.pas.webhandlers.WebHandlerCommon:WriteResponse,INPUT OpenEdge.Net.HTTP.IHttpResponse
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 118 NEW OpenEdge.Web.WebResponse
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 120 INVOKE fwebh.pas.data.RequestDataProcessor:ProcessRequestInfo,INPUT OpenEdge.Web.IWebRequest
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 120 NEW fwebh.pas.data.RequestDataProcessor
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 123 INVOKE fwebh.pas.service.ServiceFactory:GetPutDataService,INPUT character
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 124 INVOKE fwebh.pas.service.IPutDataService:PutData,INPUT fwebh.pas.data.IRequestData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 126 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:handleResponse,INPUT Progress.Lang.Object,INPUT fwebh.pas.data.IRequestData,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 129 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:handleErrors,INPUT Progress.Lang.Error
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 134 INVOKE fwebh.pas.webhandlers.WebHandlerCommon:WriteResponse,INPUT OpenEdge.Net.HTTP.IHttpResponse
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 150 INVOKE fwebh.pas.data.RequestDataProcessor:ProcessRequestInfo,INPUT OpenEdge.Web.IWebRequest
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 150 NEW fwebh.pas.data.RequestDataProcessor
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 153 INVOKE fwebh.pas.service.ServiceFactory:GetDeleteDataService,INPUT character
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 154 INVOKE fwebh.pas.service.IDeleteDataService:DeleteData,INPUT fwebh.pas.data.IRequestData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 156 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:handleResponse,INPUT Progress.Lang.Object,INPUT fwebh.pas.data.IRequestData,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 159 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:handleErrors,INPUT Progress.Lang.Error
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 164 INVOKE fwebh.pas.webhandlers.WebHandlerCommon:WriteResponse,INPUT OpenEdge.Net.HTTP.IHttpResponse
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 175 NEW OpenEdge.Web.WebResponse
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 177 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:handleContentType,INPUT Progress.Lang.Object,INPUT fwebh.pas.data.IRequestData,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 182 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:getEntityWriter,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 183 INVOKE fwebh.pas.data.IEntityWriter:Write,INPUT fwebh.pas.data.IResponseData
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 189 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:getHttpErrorCode,INPUT Progress.Lang.Error
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 210 INVOKE Progress.Lang.Error:GetMessage,INPUT integer
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 211 INVOKE fwebh.pas.webhandlers.ResourceWebHandler:getHttpErrorCode,INPUT Progress.Lang.Error
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 215 INVOKE Progress.Lang.Error:GetMessage,INPUT integer
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 221 INVOKE Progress.Lang.Error:GetMessage,INPUT integer
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 223 NEW OpenEdge.Web.WebResponse
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 224 NEW OpenEdge.Core.String,INPUT character
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 277 INVOKE Progress.Lang.Object:GetClass
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 277 INVOKE Progress.Lang.Class:IsA,INPUT character
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 278 INVOKE fwebh.pas.data.IDefaultContentType:GetDefaultContentType
+./src/fwebh/pas/webhandlers/ResourceWebHandler.cls ./src/fwebh/pas/webhandlers/ResourceWebHandler.cls 290 INVOKE fwebh.pas.data.EntityWriterFactory:GetEntityWriter,INPUT character

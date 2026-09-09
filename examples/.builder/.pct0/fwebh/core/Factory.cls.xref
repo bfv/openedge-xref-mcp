@@ -1,0 +1,110 @@
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 1 COMPILE fwebh/core/Factory.cls
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 1 CPINTERNAL utf-8
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 1 CPSTREAM UTF-8
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 25 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 39 CLASS fwebh.core.Factory,,IMPLEMENTS fwebh.core.IFactory,,,,
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 39 STRING "fwebh.core.Factory" 18 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 39 STRING "fwebh.core.IFactory" 19 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 41 INCLUDE "fwebh/core/ttfactorydef.i &accessor=private"
+./src/fwebh/core/Factory.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "ttdefintion" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "indentifier" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "classname" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "singleton" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/ttfactorydef.i 1 STRING "config" 6 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 43 STRING "ttinstance" 10 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 43 STRING "objtype" 7 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 43 STRING "obj" 3 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 48 STRING "Instance" 8 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 48 PROPERTY PUBLIC,STATIC,,,,Instance
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 52 CONSTRUCTOR PUBLIC,,,,Factory,void,
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 52 STRING "FACTORY" 7 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 56 ACCESS INHERITED-PROPERTY fwebh.core.Factory:Instance
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 56 UPDATE PUBLIC-PROPERTY fwebh.core.Factory:Instance 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 57 CONSTRUCTOR ,STATIC,,,Factory,void,
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 57 STRING "FACTORY" 7 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 60 STRING "jsonDefinitionFile" 18 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 62 STRING "jsonDefinitions" 15 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 63 STRING "parser" 6 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 69 STRING "factory definition file ""&1"" not found" 38 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 73 CAST FROM Progress.Json.ObjectModel.ObjectModelParser TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 77 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 83 METHOD PUBLIC,,,,,LoadDefinitions,void,INPUT jsonDefinitionFile CHARACTER
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 83 STRING "LOADDEFINITIONS" 15 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 86 STRING "identifier" 10 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 86 STRING "classname" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 86 STRING "singleton" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 86 STRING "config" 6 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 88 SEARCH DATA-MEMBER fwebh.core.Factory:ttdefintion default TEMPTABLE WHOLE-INDEX
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 89 REFERENCE ttdefintion TEMPTABLE
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 98 METHOD PUBLIC,,,,,AddDefinition,void,INPUT identifier CHARACTER,INPUT classname CHARACTER,INPUT singleton LOGICAL,INPUT config PROGRESS.JSON.OBJECTMODEL.JSONOBJECT
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 98 STRING "ADDDEFINITION" 13 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 101 STRING "jsonDefintions" 14 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 103 STRING "i" 1 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 103 STRING "propertyType" 12 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 104 STRING "names" 5 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 105 STRING "defintionObject" 15 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 106 STRING "config" 6 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 108 STRING "identifier" 10 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 108 STRING "classname" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 109 STRING "singleton" 9 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 122 ACCESS PUBLIC-PROPERTY OpenEdge.Core.JsonDataTypeEnum:String
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 127 ACCESS PUBLIC-PROPERTY OpenEdge.Core.JsonDataTypeEnum:Object
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 129 STRING "class" 5 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 130 STRING "singleton" 9 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 131 STRING "config" 6 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 132 STRING "config" 6 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 136 STRING "invalid factory definition '&1': expected a string or object, got JSON type &2" 78 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 145 STRING "PROCESSDEFINITIONS" 18 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 151 STRING "instanceName" 12 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 153 STRING "instanceRef" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 154 STRING "singleInstanceFound" 19 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 156 SEARCH DATA-MEMBER fwebh.core.Factory:ttdefintion default TEMPTABLE WHOLE-INDEX
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 157 REFERENCE ttdefintion TEMPTABLE
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 158 STRING "no definition found for '&1'" 28 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 162 SEARCH DATA-MEMBER fwebh.core.Factory:ttinstance default TEMPTABLE WHOLE-INDEX
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 171 STRING "fwebh.core.IConfigurable" 24 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 172 CAST FROM Progress.Lang.Object TO fwebh.core.IConfigurable
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 172 CAST FROM Progress.Lang.Object TO Progress.Json.ObjectModel.JsonObject
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 174 STRING "err1" 4 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 175 STRING "error creating instance of '&1': &2" 35 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 181 STRING "class not found: &1" 19 NONE TRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 193 METHOD PUBLIC,,,,,GetInstance,Progress.Lang.Object,INPUT instanceName CHARACTER
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 193 STRING "GETINSTANCE" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 196 STRING "instanceName" 12 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 197 SEARCH DATA-MEMBER fwebh.core.Factory:ttinstance default TEMPTABLE WHOLE-INDEX
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 202 METHOD PUBLIC,,,,,DeleteInstance,Progress.Lang.Object,INPUT instanceName CHARACTER
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 202 STRING "DELETEINSTANCE" 14 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 205 STRING "instanceName" 12 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 206 STRING "ttdefintion" 11 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 206 SEARCH DATA-MEMBER fwebh.core.Factory:ttdefintion default TEMPTABLE WHOLE-INDEX
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 207 METHOD PUBLIC,,,,,Has,logical,INPUT instanceName CHARACTER
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 207 STRING "HAS" 3 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 209 STRING "default" 7 NONE UNTRANSLATABLE 
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 56 NEW fwebh.core.Factory
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 69 NEW Progress.Lang.AppError,INPUT character,INPUT integer
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 71 NEW Progress.Json.ObjectModel.ObjectModelParser
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 73 INVOKE Progress.Json.ObjectModel.ObjectModelParser:ParseFile,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 75 INVOKE fwebh.core.Factory:ProcessDefinitions,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 78 INVOKE Progress.Lang.Error:GetMessage,INPUT integer
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 78 NEW fwebh.lang.error.InvalidDataException,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 111 INVOKE Progress.Json.ObjectModel.JsonObject:GetNames
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 118 INVOKE Progress.Json.ObjectModel.JsonObject:GetType,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 122 INVOKE Progress.Lang.Enum:GetValue
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 123 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 127 INVOKE Progress.Lang.Enum:GetValue
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 128 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonObject,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 129 INVOKE Progress.Json.ObjectModel.JsonObject:GetCharacter,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 130 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 130 INVOKE Progress.Json.ObjectModel.JsonObject:GetLogical,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 131 INVOKE Progress.Json.ObjectModel.JsonObject:Has,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 132 INVOKE Progress.Json.ObjectModel.JsonObject:GetJsonObject,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 136 NEW Progress.Lang.AppError,INPUT character,INPUT integer
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 141 INVOKE fwebh.core.Factory:AddDefinition,INPUT character,INPUT character,INPUT logical,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 158 NEW fwebh.lang.error.NotFoundException,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 171 INVOKE Progress.Lang.Object:GetClass
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 171 INVOKE Progress.Lang.Class:IsA,INPUT character
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 172 INVOKE fwebh.core.IConfigurable:Configure,INPUT Progress.Json.ObjectModel.JsonObject
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 175 INVOKE Progress.Lang.Error:GetMessage,INPUT integer
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 175 NEW Progress.Lang.AppError,INPUT character,INPUT integer
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 181 NEW Progress.Lang.AppError,INPUT character,INPUT integer
+./src/fwebh/core/Factory.cls ./src/fwebh/core/Factory.cls 199 DELETE-INSTANCE Progress.Lang.Object

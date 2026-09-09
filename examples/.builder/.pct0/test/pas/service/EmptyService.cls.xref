@@ -1,0 +1,8 @@
+./src/test/pas/service/EmptyService.cls ./src/test/pas/service/EmptyService.cls 1 COMPILE test/pas/service/EmptyService.cls
+./src/test/pas/service/EmptyService.cls ./src/test/pas/service/EmptyService.cls 1 CPINTERNAL utf-8
+./src/test/pas/service/EmptyService.cls ./src/test/pas/service/EmptyService.cls 1 CPSTREAM UTF-8
+./src/test/pas/service/EmptyService.cls ./src/test/pas/service/EmptyService.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/pas/service/EmptyService.cls ./src/test/pas/service/EmptyService.cls 14 CLASS test.pas.service.EmptyService,,,,,,
+./src/test/pas/service/EmptyService.cls ./src/test/pas/service/EmptyService.cls 14 STRING "test.pas.service.EmptyService" 29 NONE UNTRANSLATABLE 
+./src/test/pas/service/EmptyService.cls ./src/test/pas/service/EmptyService.cls 16 CONSTRUCTOR PUBLIC,,,,EmptyService,void,
+./src/test/pas/service/EmptyService.cls ./src/test/pas/service/EmptyService.cls 16 STRING "EMPTYSERVICE" 12 NONE UNTRANSLATABLE 

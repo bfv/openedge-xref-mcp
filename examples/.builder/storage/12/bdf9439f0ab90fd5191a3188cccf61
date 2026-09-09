@@ -1,0 +1,9 @@
+fwebh.serialize
+fwebh.serialize.IDeserializable	C	f0088c4f9826e4ea329c3acb000a7191
+fwebh.serialize.IListInfo	C	7ce99966822840d14bd045335c31d36b
+fwebh.serialize.ISerializable	C	c16d24c36dce08bfae9b9a7096728759
+fwebh.serialize.ISerializableDataStructure	C	fc00a3fa8ce8b23305bb2f883097204f
+fwebh.serialize.SimpleJsonDeserializer	C	ee7f11cd2b57d51fbee298f11f891f68
+fwebh.serialize.SimpleJsonDeserializer_UT	C	bf5a38cd10df052c5d65ce59728cbe5d
+fwebh.serialize.SimpleJsonSerializer	C	de6e39f29423ca26209c1cbff103bb3e
+fwebh.serialize.SimpleJsonSerializer_UT	C	b7e3e2fe845a486243b385f29dff79e1

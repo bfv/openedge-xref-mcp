@@ -1,0 +1,8 @@
+./src/fwebh/pas/service/IDeleteDataService.cls ./src/fwebh/pas/service/IDeleteDataService.cls 1 COMPILE fwebh/pas/service/IDeleteDataService.cls
+./src/fwebh/pas/service/IDeleteDataService.cls ./src/fwebh/pas/service/IDeleteDataService.cls 1 CPINTERNAL utf-8
+./src/fwebh/pas/service/IDeleteDataService.cls ./src/fwebh/pas/service/IDeleteDataService.cls 1 CPSTREAM UTF-8
+./src/fwebh/pas/service/IDeleteDataService.cls ./src/fwebh/pas/service/IDeleteDataService.cls 15 INTERFACE fwebh.pas.service.IDeleteDataService,,,,
+./src/fwebh/pas/service/IDeleteDataService.cls ./src/fwebh/pas/service/IDeleteDataService.cls 15 STRING "fwebh.pas.service.IDeleteDataService" 36 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/IDeleteDataService.cls ./src/fwebh/pas/service/IDeleteDataService.cls 17 STRING "request" 7 NONE UNTRANSLATABLE 
+./src/fwebh/pas/service/IDeleteDataService.cls ./src/fwebh/pas/service/IDeleteDataService.cls 17 METHOD PUBLIC,,,,,DeleteData,fwebh.pas.data.IResponseData,INPUT request FWEBH.PAS.DATA.IREQUESTDATA
+./src/fwebh/pas/service/IDeleteDataService.cls ./src/fwebh/pas/service/IDeleteDataService.cls 17 STRING "DELETEDATA" 10 NONE UNTRANSLATABLE 

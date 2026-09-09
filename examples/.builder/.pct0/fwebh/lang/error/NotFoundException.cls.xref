@@ -1,0 +1,13 @@
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 1 COMPILE fwebh/lang/error/NotFoundException.cls
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 1 CPINTERNAL utf-8
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 1 CPSTREAM UTF-8
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 16 CLASS fwebh.lang.error.NotFoundException,,,,,,
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 16 STRING "fwebh.lang.error.NotFoundException" 34 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 16 STRING "Progress.Lang.ProError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 16 STRING "Progress.Lang.AppError" 22 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 18 STRING "errorMessage" 12 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 19 STRING "Not found" 9 NONE TRANSLATABLE 
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 20 CONSTRUCTOR PUBLIC,,,,NotFoundException,void,INPUT errorMessage CHARACTER
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 20 STRING "NOTFOUNDEXCEPTION" 17 NONE UNTRANSLATABLE 
+./src/fwebh/lang/error/NotFoundException.cls ./src/fwebh/lang/error/NotFoundException.cls 19 INVOKE Progress.Lang.AppError:AppError,INPUT character,INPUT integer

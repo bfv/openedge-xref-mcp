@@ -1,0 +1,7 @@
+OpenEdge.Net.HTTP.Filter.Auth
+OpenEdge.Net.HTTP.Filter.Auth.AuthFilterEventHandlerWrapper	C	e8d347184a7bbcc0fdb932fa708c6c5f
+OpenEdge.Net.HTTP.Filter.Auth.AuthenticationRequestFilter	C	c09f406608fe3adc20dddadb6cafa168
+OpenEdge.Net.HTTP.Filter.Auth.BasicAuthenticationFilter	C	1614b124d17d78a23815b7136e155122
+OpenEdge.Net.HTTP.Filter.Auth.DigestAuthenticationFilter	C	843f243cac3d9d59adab36532cf3d3a1
+OpenEdge.Net.HTTP.Filter.Auth.IAuthFilterEventHandler	C	5c591b3e5c3a8d05e11b3fec078c44dc
+OpenEdge.Net.HTTP.Filter.Auth.NoAuthenticationFilter	C	87d387ec77d82fcdaf2b390a9f0408bf

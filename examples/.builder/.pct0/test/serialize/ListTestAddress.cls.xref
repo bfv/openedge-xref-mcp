@@ -1,0 +1,25 @@
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 1 COMPILE test/serialize/ListTestAddress.cls
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 1 CPINTERNAL utf-8
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 1 CPSTREAM UTF-8
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 19 CLASS test.serialize.ListTestAddress,,IMPLEMENTS fwebh.serialize.IListInfo,,,,
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 19 STRING "test.serialize.ListTestAddress" 30 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 19 STRING "fwebh.serialize.IListInfo" 25 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 21 STRING "addresses" 9 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 21 PROPERTY PUBLIC,,,,,addresses
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 24 ACCESS INHERITED-PROPERTY test.serialize.ListTestAddress:addresses
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 24 UPDATE PUBLIC-PROPERTY test.serialize.ListTestAddress:addresses 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 25 CONSTRUCTOR PUBLIC,,,,ListTestAddress,void,
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 25 STRING "LISTTESTADDRESS" 15 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 27 STRING "addr" 4 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 28 ACCESS INHERITED-PROPERTY test.serialize.ListTestAddress:addresses
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 29 METHOD PUBLIC,,,,,Add,void,INPUT addr TEST.SERIALIZE.ADDRESS
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 29 STRING "ADD" 3 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 32 STRING "listName" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 33 STRING "listType" 8 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 36 STRING "addresses" 9 NONE TRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 36 STRING "test.serialize.Address" 22 NONE TRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 41 METHOD PUBLIC,,,,,GetListType,character,INPUT listName CHARACTER
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 41 STRING "GETLISTTYPE" 11 NONE UNTRANSLATABLE 
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 24 NEW OpenEdge.Core.Collections.List
+./src/test/serialize/ListTestAddress.cls ./src/test/serialize/ListTestAddress.cls 28 INVOKE OpenEdge.Core.Collections.List:Add,INPUT Progress.Lang.Object

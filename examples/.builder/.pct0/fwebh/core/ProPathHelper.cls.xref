@@ -1,0 +1,15 @@
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 1 COMPILE fwebh/core/ProPathHelper.cls
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 1 CPINTERNAL utf-8
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 1 CPSTREAM UTF-8
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 12 BLOCK-LEVEL ON ERROR UNDO, THROW
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 14 CLASS fwebh.core.ProPathHelper,,,,,,
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 14 STRING "fwebh.core.ProPathHelper" 24 NONE UNTRANSLATABLE 
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 16 STRING "dir" 3 NONE UNTRANSLATABLE 
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 17 STRING "," 1 NONE TRANSLATABLE 
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 18 METHOD PUBLIC,STATIC,,,,AddFirstEntry,void,INPUT dir CHARACTER
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 18 STRING "ADDFIRSTENTRY" 13 NONE UNTRANSLATABLE 
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 21 STRING "," 1 NONE TRANSLATABLE 
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 22 METHOD PUBLIC,STATIC,,,,RemoveFirstEntry,void,
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 22 STRING "REMOVEFIRSTENTRY" 16 NONE UNTRANSLATABLE 
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 24 CONSTRUCTOR PUBLIC,,,,ProPathHelper,void,
+./src/fwebh/core/ProPathHelper.cls ./src/fwebh/core/ProPathHelper.cls 24 STRING "PROPATHHELPER" 13 NONE UNTRANSLATABLE 
