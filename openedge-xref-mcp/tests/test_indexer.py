@@ -23,6 +23,14 @@ def test_find_table_usage():
     assert len(field_usages) == 1
 
 
+def test_find_table_usage_without_database_qualifier():
+    index = XrefIndex.build(FIXTURES_DIR)
+
+    usages = index.find_table_usage("Order")
+
+    assert len(usages) == 3
+
+
 def test_calls_and_callers():
     index = XrefIndex.build(FIXTURES_DIR)
     callees = index.find_callees("./src/app/service/OrderService.cls")

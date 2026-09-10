@@ -107,6 +107,9 @@ class XrefIndex:
             table, _field = extract_table_field(entry)
             if table:
                 self.by_table[table.lower()].append(entry)
+                table_name = table.rsplit(".", 1)[-1].lower()
+                if table_name != table.lower():
+                    self.by_table[table_name].append(entry)
 
         if entry.is_include:
             include_name = entry.detail.strip()
