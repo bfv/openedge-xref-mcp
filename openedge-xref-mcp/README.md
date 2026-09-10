@@ -32,14 +32,16 @@ uv run openedge-xref-mcp --root /path/to/project/xref-output
 
 The server communicates over stdio, as expected by MCP clients. The root directory
 is scanned recursively for `*.xref` files at startup. It can also be set via the
-`OPENEDGE_XREF_ROOT` environment variable.
+`OPENEDGE_XREF_ROOT` environment variable. By default, the server watches that
+directory and incrementally reindexes new, updated, or deleted `.xref` files.
+Use `--no-watch` (or `OPENEDGE_XREF_WATCH=false`) to disable the watcher.
 
 ## Tools
 
 | Tool | Description |
 | --- | --- |
 | `set_xref_root` | Change the scanned root directory and rebuild the index |
-| `refresh_index` | Re-scan the current root directory |
+| `refresh_index` | Incrementally re-scan the current root directory |
 | `get_index_status` | Report root directory and index size |
 | `list_programs` | List all indexed source programs/classes |
 | `get_program_xref` | Return all XREF entries for a program, optionally filtered by type |
